@@ -1,0 +1,7 @@
+﻿nr_faktury;dostawca;nip;data_wystawienia;termin_platnosci;netto;vat;brutto;plik_pdf;uwagi
+FV/01/10/2026;Palarnia Ziarno i Ogień Sp. z o.o.;999-001-01-01;2026-10-12;2026-10-26;8360.0;1922.8;10282.8;faktura_01_palarnia.pdf;
+FV/02/10/2026;EkoPak Opakowania S.A.;999-002-02-02;2026-10-01;2026-10-22;3430.0;788.9;4218.9;faktura_02_ekopak.pdf;
+FV/03/10/2026;KurierExpress Polska Sp. z o.o.;999-003-03-03;2026-10-11;2026-10-25;7853.2;1806.24;9659.44;faktura_03_kurierexpress.pdf;
+FV/04/10/2026;HostNet Sp. z o.o.;999-004-04-04;2026-10-05;2026-10-12;1478.0;339.94;1817.94;faktura_04_hostnet.pdf;
+FV/05/10/2026;DrukArt Studio Graficzne;999-005-05-05;2026-10-11;2026-10-25;830.0;190.9;1020.9;faktura_05_drukart.pdf;
+FV/06/10/2026;Młynki Pro Hurt Sp. j.;999-006-06-06;2026-10-05;2026-11-04;3542.0;814.66;4356.66;faktura_06_mlynki.pdf;Na zamówieniu było 20 szt. drippera V60, na fakturze 24 szt. – faktura do wyjaśnienia.

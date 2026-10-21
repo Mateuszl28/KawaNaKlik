@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Sprawozdanie CMS 1 – motyw KawaNaKlik</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 10pt; line-height: 1.45; color: #1d1d1f; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4mm; }
+  h2 { font-size: 15pt; margin: 8mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 2px solid #6b3e26; color: #4a2a19; }
+  h3 { font-size: 11.5pt; margin: 5mm 0 2mm; color: #4a2a19; }
+  p { margin: 0 0 2.5mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+  li { margin-bottom: 1mm; }
+  code { font-family: Consolas, monospace; font-size: 8.8pt; background: #f3eee9; padding: 0 1mm; border-radius: 2px; }
+  pre { font-family: Consolas, monospace; font-size: 8.3pt; background: #f6f3f0; border: 1px solid #e2d9d0; padding: 3mm; white-space: pre-wrap; margin: 0 0 3mm; page-break-inside: avoid; }
+  table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm; font-size: 9pt; }
+  tr { page-break-inside: avoid; }
+  th, td { border: 1px solid #d6cbc0; padding: 1.3mm 2mm; text-align: left; vertical-align: top; }
+  th { background: #f3eee9; }
+  figure { margin: 3mm 0 5mm; page-break-inside: avoid; }
+  figure img { width: 100%; border: 1px solid #cfc6bd; display: block; }
+  figcaption { font-size: 8.8pt; color: #555; margin-top: 1.5mm; text-align: center; }
+  .cover { height: 255mm; display: flex; flex-direction: column; justify-content: center; page-break-after: always; }
+  .cover .sub { font-size: 13pt; color: #555; margin-bottom: 12mm; }
+  .cover table { width: 75%; font-size: 10.5pt; }
+  .note { background: #fff7e6; border-left: 4px solid #e0a030; padding: 2.5mm 3mm; margin: 3mm 0; font-size: 9.3pt; }
+  .ok { color: #1f6b2c; font-weight: 700; }
+  .pb { page-break-before: always; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .two figure { margin: 0 0 4mm; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <h1>Sprawozdanie – CMS, laboratorium 1</h1>
+  <div class="sub">Architektura WordPressa i motyw od zera<br>Motyw <b>KawaNaKlik</b> dla sklepu internetowego z kawą</div>
+  <table>
+    <tr><th>Przedmiot</th><td>CMS – WordPress</td></tr>
+    <tr><th>Zespół (2 os.)</th><td>1. ……………………………<br>2. ……………………………</td></tr>
+    <tr><th>Repozytorium</th><td>github.com/Mateuszl28/KawaNaKlik (folder <code>LAB02/CMS</code>, tag <code>lab1</code>)</td></tr>
+    <tr><th>Środowisko</th><td>Local 10.2 · WordPress 7.1.3 · PHP 8.2.29 · MySQL 8.4 · nginx · Query Monitor 4.0.7 · WooCommerce 11.2.1</td></tr>
+    <tr><th>Data</th><td>21.10.2026</td></tr>
+  </table>
+</section>
+
+<h2>1. Realizacja zadań</h2>
+<table>
+  <tr><th style="width:42%">Zadanie</th><th>Realizacja</th><th style="width:9%">Status</th></tr>
+  <tr><td>Środowisko z WP_DEBUG, Query Monitor, repozytorium z poprawnym <code>.gitignore</code></td><td>Strona <code>kawanaklik.local</code> w Local. W <code>wp-config.php</code> włączone <code>WP_DEBUG</code>, <code>WP_DEBUG_LOG</code>, <code>WP_DEBUG_DISPLAY</code>, <code>SCRIPT_DEBUG</code>. Query Monitor zainstalowany przez WP-CLI. Plik <code>.gitignore</code> przygotowany dla repozytorium = <code>wp-content</code> (rozdz. 2).</td><td class=ok>✓</td></tr>
+  <tr><td>Motyw aktywny, ze <code>screenshot.png</code>, menu głównym, menu w stopce i obszarem widgetów</td><td>Motyw <code>kawanaklik</code> jest włączony. Ma miniaturę 1200×900, dwie lokalizacje menu (<code>primary</code>, <code>footer</code>) i obszar widgetów „Stopka” z dwoma widgetami (rys. 1–3).</td><td class=ok>✓</td></tr>
+  <tr><td>Strona główna wyświetla 3 ostatnie wpisy przez własne <code>WP_Query</code></td><td><code>front-page.php</code>: główna pętla wyświetla stronę „Strona główna” (hero), a dodatkowe <code>WP_Query</code> pobiera 3 ostatnie wpisy (rys. 4).</td><td class=ok>✓</td></tr>
+  <tr><td>Szablony <code>single.php</code>, <code>page.php</code>, <code>404.php</code> działają, brak ostrzeżeń PHP</td><td>Sprawdzone dla 7 typów adresów: strona główna, blog, wpis, strona, kategoria, wyszukiwanie, 404. Plik <code>debug.log</code> jest pusty, Query Monitor nie pokazuje błędów PHP.</td><td class=ok>✓</td></tr>
+  <tr><td>Wireframe 4 widoków sklepu</td><td>Strona główna, kategoria, karta produktu, koszyk. Pola edytowane przez klienta (przyszłe ACF) są oznaczone (rozdz. 5).</td><td class=ok>✓</td></tr>
+  <tr><td>Commit i tag <code>lab1</code></td><td>Commit w repozytorium zespołu, tag <code>lab1</code>.</td><td class=ok>✓</td></tr>
+</table>
+
+<h2>2. Środowisko i repozytorium</h2>
+<p>Treści testowe dodaliśmy przez WP-CLI. Wpisy z <code>wp post generate</code> mają pusty tytuł, treść i autora, więc nadaliśmy im tytuły, kategorie (Poradniki, Nowości, Z palarni), treść, autora i różne daty publikacji. Bez różnych dat kolejność „3 ostatnich” była przypadkowa.</p>
+<pre>wp config set WP_DEBUG true --raw
+wp config set WP_DEBUG_LOG true --raw
+wp config set WP_DEBUG_DISPLAY true --raw
+wp plugin install query-monitor --activate
+wp theme activate kawanaklik
+wp post generate --count=10
+wp option update show_on_front page          # statyczna strona główna
+wp menu location assign menu-glowne primary
+wp menu location assign menu-w-stopce footer</pre>
+<p><b>Repozytorium zespołu = katalog <code>wp-content</code>.</b> Każda osoba klonuje je do <code>wp-content</code> swojej strony w Local. <code>.gitignore</code> działa jak „biała lista”: wszystko jest domyślnie ignorowane, a do repozytorium trafia tylko nasz motyw i przyszłe własne wtyczki z prefiksem <code>kawanaklik-</code>. Nie wersjonujemy rdzenia WordPressa, wtyczek z katalogu, mediów (<code>uploads/</code>), cache ani logów.</p>
+<pre>/*
+!.gitignore
+!/themes/
+/themes/*
+!/themes/kawanaklik/
+!/plugins/
+/plugins/*
+!/plugins/kawanaklik-*/
+/uploads/
+debug.log</pre>
+
+<h3>Struktura motywu</h3>
+<pre>kawanaklik/
+├── style.css               # nagłówek motywu („dowód osobisty”)
+├── functions.php           # tylko dołącza pliki z inc/
+├── index.php               # szablon awaryjny (blog, archiwa, wyszukiwanie, WooCommerce)
+├── header.php, footer.php  # wp_head(), wp_body_open(), wp_footer()
+├── front-page.php          # strona główna + WP_Query (3 wpisy)
+├── single.php              # pełna treść, data, autor, kategorie, nawigacja
+├── page.php                # strona statyczna
+├── 404.php                 # komunikat + get_search_form()
+├── screenshot.png          # 1200×900
+├── inc/  setup.php · assets.php · widgets.php · filters.php · template-tags.php
+├── template-parts/content.php   # karta wpisu
+└── assets/ css/main.css · js/main.js (menu mobilne)</pre>
+<p>Wszystkie funkcje mają prefiks <code>kawanaklik_</code>, a każdy plik PHP zaczyna się od blokady <code>if ( ! defined( 'ABSPATH' ) ) exit;</code>. Dane wyjściowe są escapowane (<code>esc_html</code>, <code>esc_url</code>, <code>esc_attr</code>).</p>
+
+<div class="two">
+  <figure><img src="screeny/01_motyw_aktywny.jpg"><figcaption>Rys. 1. Wygląd → Motywy: KawaNaKlik włączony, z miniaturą screenshot.png.</figcaption></figure>
+  <figure><img src="screeny/02_menu_lokalizacje.jpg"><figcaption>Rys. 2. Dwie lokalizacje menu zarejestrowane przez register_nav_menus().</figcaption></figure>
+</div>
+<div class="two">
+  <figure><img src="screeny/03_widgety_stopka.jpg"><figcaption>Rys. 3. Obszar widgetów „Stopka” (register_sidebar).</figcaption></figure>
+  <figure><img src="screeny/05_strona_glowna_dol.jpg"><figcaption>Rys. 3a. Stopka na stronie: widgety, menu w stopce, ©.</figcaption></figure>
+</div>
+<figure><img src="screeny/04_strona_glowna.jpg"><figcaption>Rys. 4. Strona główna (front-page.php): hero z treści strony + 3 ostatnie wpisy z WP_Query; zajawki skrócone filtrem do 20 słów.</figcaption></figure>
+<div class="two">
+  <figure><img src="screeny/06_wpis.jpg"><figcaption>Rys. 5. single.php – tytuł, data, autor, kategorie, pełna treść.</figcaption></figure>
+  <figure><img src="screeny/07_404.jpg"><figcaption>Rys. 6. 404.php – komunikat i formularz wyszukiwania.</figcaption></figure>
+</div>
+
+<h2 class="pb">3. Odpowiedzi na pytania</h2>
+
+<h3>3.1. Który plik szablonu wybrał WordPress dla strony głównej, wpisu i nieistniejącego adresu?</h3>
+<p>Query Monitor (zakładka <i>Template</i>) pokazuje, który plik został użyty (<i>Template File</i>) i jakie pliki WordPress próbował znaleźć po kolei (<i>Template Hierarchy</i>). WordPress przechodzi listę od góry i bierze pierwszy plik, który istnieje w motywie.</p>
+<table>
+  <tr><th>Adres</th><th>Hierarchia sprawdzona przez WP</th><th>Użyty plik</th><th>Dlaczego</th></tr>
+  <tr><td>Strona główna <code>/</code></td><td>front-page.php → page-strona-glowna.php → page-60.php → page.php → singular.php → index.php</td><td><b>front-page.php</b></td><td>Strona główna ma ustawioną stałą stronę („Strona główna”, ID 60). <code>front-page.php</code> jest pierwszy w hierarchii i istnieje.</td></tr>
+  <tr><td>Wpis <code>/?p=50</code></td><td>single-post-post-2.php → single-post.php → single.php → singular.php → index.php</td><td><b>single.php</b></td><td>Nie mamy szablonów dla konkretnego wpisu (slug) ani dla typu <code>post</code>, więc pierwszym istniejącym plikiem jest <code>single.php</code>.</td></tr>
+  <tr><td>Strona <code>/o-nas/</code></td><td>page-o-nas.php → page-62.php → page.php → singular.php → index.php</td><td><b>page.php</b></td><td>Brak szablonu dla sluga i ID tej strony, więc użyty jest ogólny <code>page.php</code>.</td></tr>
+  <tr><td>Nieistniejący <code>/nie-istnieje-xyz/</code></td><td>404.php → index.php</td><td><b>404.php</b></td><td>Zapytanie nie znalazło treści (<code>is_404()</code>), więc hierarchia ma tylko 404.php i index.php. Plik 404.php istnieje.</td></tr>
+  <tr><td>Blog <code>/blog/</code></td><td>home.php → index.php</td><td><b>index.php</b></td><td>Strona wpisów to widok <code>is_home()</code>. Nie mamy <code>home.php</code>, więc WordPress używa szablonu awaryjnego.</td></tr>
+</table>
+<div class="two">
+  <figure><img src="screeny/10_qm_front_page.jpg"><figcaption>Rys. 7. Strona główna → front-page.php.</figcaption></figure>
+  <figure><img src="screeny/11_qm_single.jpg"><figcaption>Rys. 8. Wpis → single.php.</figcaption></figure>
+  <figure><img src="screeny/13_qm_404.jpg"><figcaption>Rys. 9. Nieistniejący adres → 404.php.</figcaption></figure>
+  <figure><img src="screeny/12_qm_page.jpg"><figcaption>Rys. 10. Strona „O nas” → page.php.</figcaption></figure>
+</div>
+<figure style="width:50%;margin:0 auto 5mm"><img src="screeny/14_qm_blog_index.jpg"><figcaption>Rys. 11. Blog → index.php (brak home.php). Szablon części content.php użyty 10 razy.</figcaption></figure>
+
+<h3>3.2. Czym różni się akcja od filtra? Przykłady z naszego kodu</h3>
+<p><b>Akcja</b> (<code>add_action</code>) oznacza: „zrób coś w tym momencie”. Funkcja wykonuje operację (rejestruje, wypisuje, dołącza plik) i <b>nic nie zwraca</b>. <b>Filtr</b> (<code>add_filter</code>) oznacza: „dostajesz wartość, zmień ją i oddaj”. Funkcja <b>musi zwrócić</b> wartość, bo inaczej WordPress dostanie <code>null</code> i np. zajawka zniknie.</p>
+<div class="two">
+<pre>// inc/assets.php – AKCJA
+function kawanaklik_assets(): void {
+    $ver = wp_get_theme()->get( 'Version' );
+    wp_enqueue_style( 'kawanaklik-main',
+        get_theme_file_uri( 'assets/css/main.css' ),
+        array(), $ver );
+    wp_enqueue_script( 'kawanaklik-main',
+        get_theme_file_uri( 'assets/js/main.js' ),
+        array(), $ver, array( 'strategy' => 'defer' ) );
+}
+add_action( 'wp_enqueue_scripts', 'kawanaklik_assets' );</pre>
+<pre>// inc/filters.php – FILTR
+function kawanaklik_excerpt_length( int $length ): int {
+    return 20;   // zamiast domyślnych 55 słów
+}
+add_filter( 'excerpt_length', 'kawanaklik_excerpt_length' );
+
+function kawanaklik_excerpt_more( string $more ): string {
+    return '…';  // zamiast „[…]”
+}
+add_filter( 'excerpt_more', 'kawanaklik_excerpt_more' );</pre>
+</div>
+<p>Inne akcje w motywie: <code>after_setup_theme</code> (wsparcie funkcji i menu w <code>inc/setup.php</code>) i <code>widgets_init</code> (obszar „Stopka” w <code>inc/widgets.php</code>). Efekt filtra widać na rys. 4: zajawki mają 20 słów i kończą się wielokropkiem.</p>
+
+<h3>3.3. Co się stanie, jeśli w motywie zabraknie <code>wp_head()</code> lub <code>wp_footer()</code>?</h3>
+<p>Sprawdziliśmy to na kopii motywu na stronie: kolejno zakomentowaliśmy każde wywołanie, a potem przywróciliśmy oryginał.</p>
+<div class="two">
+  <figure><img src="screeny/20_bez_wp_head.jpg"><figcaption>Rys. 12. Bez wp_head(): strona bez CSS i pusty &lt;title&gt;.</figcaption></figure>
+  <figure><img src="screeny/21_bez_wp_footer.jpg"><figcaption>Rys. 13. Bez wp_footer(): wygląd OK, ale Query Monitor nie ma danych, a skrypty ze stopki się nie ładują.</figcaption></figure>
+</div>
+<p><b>Bez <code>wp_head()</code>:</b></p>
+<ul>
+  <li>Znika wszystko, co WordPress i wtyczki dodają w <code>&lt;head&gt;</code>. Nie ładuje się <code>main.css</code>, więc strona wraca do surowego HTML. Element <code>&lt;title&gt;</code> jest pusty, bo <code>title-tag</code> generuje go właśnie w <code>wp_head</code>.</li>
+  <li>Brakuje też meta (np. robots), styli WooCommerce i stylu przesunięcia pod pasek admina. Pasek admina co prawda się wyświetla (WordPress dokleja jego style później, w stopce), ale zasłania początek strony.</li>
+  <li>Pomiar w konsoli: <code>main.css</code> = brak, <code>document.title</code> = "".</li>
+</ul>
+<p><b>Bez <code>wp_footer()</code>:</b></p>
+<ul>
+  <li>Wygląd strony się nie zmienia, bo CSS i nasz skrypt z <code>defer</code> są w <code>&lt;head&gt;</code>. Nie ładują się jednak skrypty kolejkowane do stopki. Liczba skryptów na stronie spadła z <b>22 do 10</b>.</li>
+  <li>Zniknęły: <code>admin-bar.js</code> i <code>hoverintent</code> (obsługa pasków admina), emoji, skrypty WooCommerce <code>sourcebuster</code> i <code>order-attribution</code> oraz cały Query Monitor. W pasku widać tylko napis „Query Monitor” bez statystyk, a panelu nie da się otworzyć.</li>
+  <li>W nowszych wersjach WordPressa sam pasek admina jest wypisywany już w <code>wp_body_open()</code>, więc nie znika całkowicie. Traci jednak skrypty, a wtyczki zależne od stopki (formularze, statystyki, koszyk WooCommerce) mogą przestać działać.</li>
+</ul>
+<p><b>Wniosek:</b> oba wywołania są obowiązkowe. To punkty zaczepienia, przez które rdzeń i każda wtyczka dokładają swoje zasoby do strony.</p>
+
+<h3>3.4. Po co jest <code>wp_reset_postdata()</code>? Co się dzieje bez tego wywołania?</h3>
+<p>Metoda <code>the_post()</code> własnego <code>WP_Query</code> nadpisuje globalną zmienną <code>$post</code> i dane bieżącego wpisu. Po pętli <code>$post</code> wskazuje więc na <i>ostatni wpis z pętli</i>, a nie na stronę, którą wyświetlamy. <code>wp_reset_postdata()</code> przywraca <code>$post</code> z głównego zapytania. Dzięki temu funkcje wywołane później (<code>the_title()</code>, <code>get_the_ID()</code>, warunki, pola ACF, widgety) dotyczą właściwej strony.</p>
+<p>W <code>front-page.php</code> pod listą wpisów wyświetlamy dopisek <code>get_the_title()</code>:</p>
+<ul>
+  <li><b>z</b> <code>wp_reset_postdata()</code>: „Jesteś na stronie: <b>Strona główna</b>” – poprawnie,</li>
+  <li><b>bez</b> <code>wp_reset_postdata()</code>: „Jesteś na stronie: <b>Co oznacza data palenia na opakowaniu</b>”, czyli tytuł trzeciego, ostatniego wpisu z pętli.</li>
+</ul>
+<p>Na zajęciach z ACF taki błąd oznaczałby, że <code>get_field()</code> czyta pola niewłaściwego wpisu.</p>
+<div class="two">
+  <figure><img src="screeny/23_z_wp_reset_postdata.jpg"><figcaption>Rys. 14. Z wp_reset_postdata() – poprawny tytuł strony.</figcaption></figure>
+  <figure><img src="screeny/22_bez_wp_reset_postdata.jpg"><figcaption>Rys. 15. Bez wp_reset_postdata() – tytuł ostatniego wpisu z pętli.</figcaption></figure>
+</div>
+
+<h2 class="pb">4. Problemy i rozwiązania</h2>
+<table>
+  <tr><th style="width:38%">Problem</th><th>Rozwiązanie</th></tr>
+  <tr><td>Przy WP_DEBUG na każdej stronie pojawiał się <code>Notice</code> z rdzenia: styl <code>block-style-variation-styles</code> zależy od niezarejestrowanego <code>global-styles</code>.</td><td>Okazało się, że niezalogowani goście widzieli blokową stronę „Wkrótce” WooCommerce, a nie nasz motyw. Notice pochodził z tego szablonu blokowego. Po wyłączeniu trybu „Wkrótce” (<code>woocommerce_coming_soon = no</code>) <code>debug.log</code> jest pusty.</td></tr>
+  <tr><td><code>comments_template()</code> w <code>single.php</code> bez pliku <code>comments.php</code> wywołuje przy WP_DEBUG ostrzeżenie o przestarzałym pliku zastępczym.</td><td>Usunęliśmy wywołanie z tego laboratorium. Komentarze dodamy razem z własnym <code>comments.php</code>.</td></tr>
+  <tr><td>Wpisy z <code>wp post generate</code> nie miały treści ani autora („autor:” był pusty) i miały identyczną datę.</td><td>Uzupełniliśmy treść, autora i różne daty przez WP-CLI. Zajawki i kolejność „3 ostatnich” są teraz poprawne.</td></tr>
+</table>
+
+<h2>5. Projekt sklepu – wireframe'y</h2>
+<p>Wireframe'y lo-fi (pliki SVG/PNG w <code>wireframes/</code>, generowane skryptem <code>wireframes.py</code>). <b>Szare bloki</b> to treść generowana automatycznie (WordPress/WooCommerce). <b>Pomarańczowa przerywana ramka z etykietą „ACF”</b> to element, który będzie edytował klient – pola ACF na zajęciach 2.</p>
+<table>
+  <tr><th>Widok</th><th>Elementy edytowane przez klienta (ACF)</th></tr>
+  <tr><td>Strona główna</td><td>Hero: nagłówek, opis, tekst i link przycisku, obraz tła · 4 korzyści (ikona, tytuł, opis) · wybór bestsellerów (pole relacji do produktów) · opinie klientów (CPT + pola). Ostatnie wpisy z bloga są automatyczne (WP_Query).</td></tr>
+  <tr><td>Kategoria produktów</td><td>Baner i opis kategorii · tekst SEO pod listą produktów</td></tr>
+  <tr><td>Karta produktu</td><td>Nuty smakowe · parametry kawy (data palenia, kraj, wysokość upraw, odmiana)</td></tr>
+  <tr><td>Koszyk</td><td>Próg i komunikat darmowej dostawy</td></tr>
+</table>
+<div class="two">
+  <figure><img src="wireframes/wireframe_1_strona_glowna.png"><figcaption>Rys. 16. Strona główna.</figcaption></figure>
+  <figure><img src="wireframes/wireframe_2_kategoria.png"><figcaption>Rys. 17. Kategoria produktów.</figcaption></figure>
+</div>
+<div class="two">
+  <figure><img src="wireframes/wireframe_3_produkt.png"><figcaption>Rys. 18. Karta produktu.</figcaption></figure>
+  <figure><img src="wireframes/wireframe_4_koszyk.png"><figcaption>Rys. 19. Koszyk.</figcaption></figure>
+</div>
+
+<h2>6. Wnioski</h2>
+<ul>
+  <li>Hierarchia szablonów pozwala zacząć od samego <code>index.php</code> i dodawać bardziej szczegółowe pliki tylko tam, gdzie widok ma wyglądać inaczej. Query Monitor pokazuje dokładnie, który plik wygrał.</li>
+  <li>Motyw komunikuje się z rdzeniem i wtyczkami wyłącznie przez hooki. Wywołania <code>wp_head()</code>, <code>wp_body_open()</code> i <code>wp_footer()</code> to obowiązkowe „gniazda” dla cudzego kodu.</li>
+  <li>Każde własne <code>WP_Query</code> trzeba zamknąć <code>wp_reset_postdata()</code>. Inaczej dalsza część szablonu działa na niewłaściwym wpisie.</li>
+  <li>WP_DEBUG pomaga wykryć nie tylko błędy motywu, ale też ostrzeżenia z innych komponentów, jak strona „Wkrótce” WooCommerce. Warto sprawdzać stronę także jako niezalogowany gość.</li>
+</ul>
+
+</body>
+</html>

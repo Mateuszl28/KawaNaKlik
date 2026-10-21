@@ -1,0 +1,2615 @@
+﻿nr_zamowienia;sku;produkt;ilosc;cena_jedn;wartosc
+KNK-10001;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10002;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10002;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10002;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10002;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10003;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10003;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10004;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10004;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10005;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10005;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10006;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10006;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-10007;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10008;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10008;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10008;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10009;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10010;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10010;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10011;KNK-MLY-EL;Młynek elektryczny żarnowy;3;449.0;1347.0
+KNK-10011;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10012;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10012;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10013;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10013;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10014;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10015;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10016;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10017;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10018;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10018;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10018;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10019;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10019;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10020;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10020;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10021;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10021;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10021;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10021;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10022;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10023;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10024;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10025;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10025;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10026;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10027;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10027;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10027;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10028;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10029;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10030;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10031;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10031;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10031;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10032;KNK-BRA-500;Brazylia Santos 500 g;3;64.5;193.5
+KNK-10032;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10033;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10034;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10034;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10034;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10035;KNK-ETI-250;Etiopia Yirgacheffe 250 g;3;49.9;149.7
+KNK-10036;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10036;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10036;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10037;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10038;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10039;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10040;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10041;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10042;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10042;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10043;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10043;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10043;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10044;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10044;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10045;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10045;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10045;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10045;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10046;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10046;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10047;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10048;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10049;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10049;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10050;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10051;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10052;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10052;KNK-MLY;Młynek ręczny stalowy;3;159.0;477.0
+KNK-10053;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10054;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10054;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10055;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10055;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10055;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10056;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10056;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-10056;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10057;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-10057;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10057;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10058;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10058;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10059;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10059;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10059;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10060;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10061;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10061;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10062;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10063;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10064;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10064;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10065;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10065;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10066;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10066;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10067;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10068;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10068;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10068;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10068;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10069;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10069;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10070;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10071;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10072;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10072;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10073;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10074;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10075;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10075;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10076;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10076;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-10077;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10077;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10078;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10079;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10079;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10080;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10081;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10081;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10082;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10082;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10083;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10084;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10085;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10086;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10086;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10087;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10087;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10088;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10089;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10089;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10090;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10090;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10091;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10091;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10092;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10092;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10092;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10093;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10094;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-10095;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10096;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10096;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10097;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10097;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-10098;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10099;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10099;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10100;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10101;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10101;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10101;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10101;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10102;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10103;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10103;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10103;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10103;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10104;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10104;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10104;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10104;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10105;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10105;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10106;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10107;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10108;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10108;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;3;79.0;237.0
+KNK-10108;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10109;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10109;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10110;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10111;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10111;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10112;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;3;45.0;135.0
+KNK-10112;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10113;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10113;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10113;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10114;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10114;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10115;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10115;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10115;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;3;169.0;507.0
+KNK-10116;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10116;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10117;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10117;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10118;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10118;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10119;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10120;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10121;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10122;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10122;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10122;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10123;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10124;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10124;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10125;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10126;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10127;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10127;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10127;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10128;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10129;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10130;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10130;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10131;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10131;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10131;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10131;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10132;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10133;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10134;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10134;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10135;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10135;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10135;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10135;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10136;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10137;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10137;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10138;KNK-GWA-250;Gwatemala Antigua 250 g;3;46.9;140.7
+KNK-10138;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10139;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10139;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10139;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10140;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10141;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10141;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10141;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10141;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10142;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10143;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10143;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10144;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10145;KNK-BRA-500;Brazylia Santos 500 g;3;64.5;193.5
+KNK-10146;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10147;KNK-KUB;Kubek ceramiczny KawaNaKlik;3;39.0;117.0
+KNK-10147;KNK-KOL-1000;Kolumbia Supremo 1 kg;3;129.0;387.0
+KNK-10148;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10148;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10148;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10149;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10149;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10150;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-10151;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10151;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10151;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10152;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10152;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10153;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10154;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10154;KNK-KUB;Kubek ceramiczny KawaNaKlik;3;39.0;117.0
+KNK-10155;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10156;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10156;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10157;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10158;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10158;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10158;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10159;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10160;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10161;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10162;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10163;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10163;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10163;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10163;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10164;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10164;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10164;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10164;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10165;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10165;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10165;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10166;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10166;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10167;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10168;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10168;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10169;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10169;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10170;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10170;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10170;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10171;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10172;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10172;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;2;49.0;98.0
+KNK-10173;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10173;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10174;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10175;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10175;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10175;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10175;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10176;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10176;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10177;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10178;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10179;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10179;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10180;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10181;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10182;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10182;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10182;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10183;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10184;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10185;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10186;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10186;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;3;44.9;134.7
+KNK-10186;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10187;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10187;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10188;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10188;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10188;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10188;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10189;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10190;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10190;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10191;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10192;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10192;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10192;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10193;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10194;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10195;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10196;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10196;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10196;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10197;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10197;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10198;KNK-V60;Drip V60 ceramiczny;3;89.0;267.0
+KNK-10198;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10199;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10200;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10201;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10202;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10202;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10203;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10203;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10203;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10204;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10204;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10205;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10205;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10206;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10207;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10207;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10208;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10208;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10209;KNK-BRA-1000;Brazylia Santos 1 kg;3;115.0;345.0
+KNK-10209;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10210;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10211;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10212;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10213;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10214;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10215;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10215;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10216;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10217;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10217;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10218;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10218;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10218;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10219;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10219;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10220;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10220;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10221;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10221;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10222;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10223;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10223;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10224;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10224;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10224;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10225;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10225;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10225;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10226;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10227;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10227;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10227;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10228;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10228;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10229;KNK-POR;Zestaw „Poranek” (kawa + kubek);3;119.0;357.0
+KNK-10230;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10230;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10231;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10231;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10232;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10232;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10232;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10233;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10234;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10235;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10235;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10236;KNK-KOL-250;Kolumbia Supremo 250 g;3;42.9;128.7
+KNK-10237;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10238;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-10238;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10239;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10239;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10240;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-10241;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10241;KNK-POR;Zestaw „Poranek” (kawa + kubek);3;119.0;357.0
+KNK-10241;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10242;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10242;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10242;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10243;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10243;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10244;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10244;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10245;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10245;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10246;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10247;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10248;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10248;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10248;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10248;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10249;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10250;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10250;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10251;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10251;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10251;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10251;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10252;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10253;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10253;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10253;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10254;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10255;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10255;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10256;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10256;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10257;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;3;46.9;140.7
+KNK-10257;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10257;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10258;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10258;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10259;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10259;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10260;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10260;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10260;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10261;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10261;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10261;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10262;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10263;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10263;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10264;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10264;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10265;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10265;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10265;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10266;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10267;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10267;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10267;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-10268;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10268;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10269;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10270;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10270;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10271;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10271;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10271;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10271;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10272;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10273;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10273;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10274;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-10274;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10275;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10275;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10276;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10277;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10277;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10277;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10277;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10278;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10278;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10279;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10280;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10280;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10281;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10281;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10282;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10282;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10282;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10283;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10283;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10284;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10284;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10284;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10284;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10285;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10285;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10286;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10286;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10286;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10286;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10287;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10288;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10288;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10288;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10289;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10289;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10290;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10291;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10292;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10293;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10294;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10294;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10294;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10294;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10295;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10296;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10296;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10296;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10296;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10297;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10298;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10299;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10300;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10301;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10301;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10302;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10303;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10303;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10304;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10305;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10305;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10306;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10306;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10307;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10307;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10308;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10309;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10309;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10309;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10309;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10310;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10311;KNK-KOL-1000;Kolumbia Supremo 1 kg;3;129.0;387.0
+KNK-10312;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10312;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10313;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10313;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10314;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10315;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10316;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10317;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10317;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10318;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10318;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10319;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10319;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10319;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10319;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10320;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10321;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10322;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10323;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10323;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10324;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10324;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10324;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10324;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10325;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10326;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10326;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10327;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10327;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10328;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10328;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10329;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10329;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10329;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10330;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10330;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10331;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10331;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10332;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10332;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10333;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10333;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10334;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10334;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10335;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10335;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10336;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10336;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10337;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10337;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10337;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10338;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10339;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;3;169.0;507.0
+KNK-10340;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10341;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10341;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10342;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10342;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10343;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10344;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10345;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10345;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10346;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10346;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10346;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10346;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10347;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10347;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10348;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10349;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10349;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10349;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10350;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10350;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10350;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10351;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10351;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10352;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10353;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10354;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10354;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10354;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10355;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10355;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10356;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-10357;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10358;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10358;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10359;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10359;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10359;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10359;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10360;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10361;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10361;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10361;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10362;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10363;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10363;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10364;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10364;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10365;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10365;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10366;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10367;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10367;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10368;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10369;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10370;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10370;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10370;KNK-BRA-1000;Brazylia Santos 1 kg;3;115.0;345.0
+KNK-10371;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10371;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10372;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10373;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10374;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10375;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10376;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10376;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10377;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10378;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10378;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10379;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10380;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10381;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10382;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10383;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10383;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10383;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10384;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10384;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10384;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10384;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10385;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10385;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10386;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10387;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10387;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10388;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10388;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10388;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10389;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10389;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10389;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10390;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10390;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10391;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10391;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10391;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10392;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10392;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10392;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10393;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10393;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10394;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10395;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10396;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10396;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10397;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10398;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10399;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10399;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10400;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10400;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10401;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10402;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10402;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10402;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-10403;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10404;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10404;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10404;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10405;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10406;KNK-ETI-250;Etiopia Yirgacheffe 250 g;3;49.9;149.7
+KNK-10407;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10408;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10408;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10409;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10410;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10410;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10410;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10410;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10411;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10412;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10412;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10413;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10413;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10414;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10414;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10414;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10415;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10415;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10416;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10417;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10417;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10418;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10418;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10419;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10420;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10420;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10420;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10421;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10421;KNK-KOL-1000;Kolumbia Supremo 1 kg;3;129.0;387.0
+KNK-10422;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10422;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10423;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10423;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10424;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10424;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10425;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10425;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10425;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10425;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10426;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10427;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10428;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10428;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10428;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10429;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10430;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10430;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10430;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10430;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-10431;KNK-V60-PL;Drip V60 plastikowy;3;39.0;117.0
+KNK-10432;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10432;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10432;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10432;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10433;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10433;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10434;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10435;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10435;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10435;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10436;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10437;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10437;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10438;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10439;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10440;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10440;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10440;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10441;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10441;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10441;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10442;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10443;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10444;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10445;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10445;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10446;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10447;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10448;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10448;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10449;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10449;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10450;KNK-BRA-500;Brazylia Santos 500 g;3;64.5;193.5
+KNK-10450;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10450;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10450;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10451;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10452;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10453;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10453;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10454;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10455;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10455;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10455;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10456;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10457;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10457;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10457;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10458;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10458;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10459;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10460;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10460;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10461;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10461;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10461;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10462;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10462;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10463;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10463;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10463;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10464;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10465;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10465;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10466;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10466;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10466;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10466;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10467;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10468;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10469;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10469;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10470;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10471;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10472;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10473;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10474;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10474;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10475;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10476;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10477;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10477;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10478;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10479;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10480;KNK-KOL-250;Kolumbia Supremo 250 g;3;42.9;128.7
+KNK-10480;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10481;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10482;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10482;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10483;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10483;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10483;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10483;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10484;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10484;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10485;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10486;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10487;KNK-ETI-250;Etiopia Yirgacheffe 250 g;3;49.9;149.7
+KNK-10488;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10489;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10489;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10490;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10491;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10491;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10491;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10491;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10492;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10492;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10493;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10494;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10495;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-10495;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10496;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10497;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10498;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10499;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10499;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10499;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10500;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-10500;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-10500;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-10500;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10501;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10501;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10501;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10502;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10502;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10503;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10503;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10504;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10504;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10505;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10505;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10506;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10506;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10507;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10507;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10507;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10508;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10509;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-10510;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10510;KNK-WAG;Waga baristyczna z timerem;3;99.0;297.0
+KNK-10511;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10512;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10512;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10512;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10513;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10514;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10514;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10514;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10514;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10515;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10515;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10516;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10517;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10517;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10517;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10518;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10519;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10519;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10520;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10521;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10521;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10522;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10522;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10523;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10523;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10524;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10524;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10524;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10524;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-10525;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10526;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10526;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10527;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10527;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10527;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10527;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10528;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10529;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10529;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10530;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10531;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10531;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10531;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10532;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10532;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10532;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10533;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-10533;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10534;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10534;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10534;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10534;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-10535;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10535;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10536;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10536;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10536;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10537;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10537;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10538;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10538;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10539;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10539;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10539;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10540;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10540;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10541;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10542;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10542;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10542;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10542;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10543;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10544;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10544;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10545;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10546;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10546;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10546;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10547;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-10547;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-10548;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10549;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10549;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10549;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10550;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10551;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10551;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10552;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10553;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;3;45.0;135.0
+KNK-10554;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10554;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10554;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10555;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10556;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10556;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10557;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10557;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10557;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10558;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10558;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10559;KNK-CHE-6;Chemex 6 filiżanek;3;219.0;657.0
+KNK-10559;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10560;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10561;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10562;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10563;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10564;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10565;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10566;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10566;KNK-V60;Drip V60 ceramiczny;3;89.0;267.0
+KNK-10566;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10567;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10568;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10569;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10569;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-10569;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10570;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10571;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10571;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10572;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10573;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10573;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10574;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10575;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10575;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10576;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10576;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10577;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10578;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10579;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10580;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10580;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10581;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10581;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10581;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10582;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10582;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10583;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10584;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10585;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10585;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10585;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10586;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10587;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10587;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10588;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10588;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10589;KNK-BRA-1000;Brazylia Santos 1 kg;3;115.0;345.0
+KNK-10589;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10589;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10590;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10591;KNK-BRA-500;Brazylia Santos 500 g;3;64.5;193.5
+KNK-10592;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10592;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10593;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10593;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10594;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10595;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10596;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10596;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10597;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10598;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10598;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10598;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10599;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-10599;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10600;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10601;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10602;KNK-V60;Drip V60 ceramiczny;3;89.0;267.0
+KNK-10603;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10604;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10605;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10605;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10606;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10606;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10606;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10607;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10607;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10608;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10609;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10609;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10610;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10610;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10611;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10612;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10613;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10613;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10613;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10614;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10614;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10614;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10615;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10616;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10616;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10617;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10617;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10617;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10618;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10619;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10620;KNK-KOL-1000;Kolumbia Supremo 1 kg;3;129.0;387.0
+KNK-10620;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10620;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10621;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10622;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10623;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-10624;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10624;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10624;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10625;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10626;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10626;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10627;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10627;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10628;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10629;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10629;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10630;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10630;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10630;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10630;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10631;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10632;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10633;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10634;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10635;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10635;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10635;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10636;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10637;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10638;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10639;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10640;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10641;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10641;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10642;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10642;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10643;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10644;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10645;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10646;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10647;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10647;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10647;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10648;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10648;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10649;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10650;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10651;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10651;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10652;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10652;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10653;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10653;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10654;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10655;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10656;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;3;45.0;135.0
+KNK-10656;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10656;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10657;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10658;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10659;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10660;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10660;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10661;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10662;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10663;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10663;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10663;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10664;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10664;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10665;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10666;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10667;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10667;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10668;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10668;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10669;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10669;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10670;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10671;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10671;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10671;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10672;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10673;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10673;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10674;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-10675;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10676;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10676;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10677;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10677;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10677;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10678;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10678;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10679;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10679;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10679;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10679;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10680;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10680;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10680;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10680;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10681;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10682;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10683;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10684;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10685;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10686;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10687;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10687;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10688;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10689;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10689;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10690;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-10691;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10691;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10691;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10691;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10692;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10692;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10692;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10692;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10693;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10694;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10695;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10695;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-10696;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10697;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10697;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-10697;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10698;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10698;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10699;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10700;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10700;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10701;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10702;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10703;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10703;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-10704;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10705;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10705;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10706;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10707;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10708;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10709;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10710;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10710;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10711;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10711;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10712;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10712;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-10713;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10713;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10713;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10714;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10715;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10716;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10716;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10716;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-10716;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10717;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10717;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10717;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10717;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10718;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10718;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10719;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10719;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10720;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10720;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10721;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10721;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10722;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10722;KNK-WAG;Waga baristyczna z timerem;2;99.0;198.0
+KNK-10723;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10723;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10724;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10724;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10725;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-10726;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10726;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10726;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10727;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10727;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10727;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10728;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10728;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10728;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10729;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10730;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10731;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10732;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10733;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10734;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10734;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10734;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10734;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10735;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10735;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10736;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10736;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10736;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10736;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10737;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10738;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10738;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10739;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10739;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10739;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10740;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10740;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;3;79.0;237.0
+KNK-10741;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10742;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10743;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10744;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10745;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10746;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10747;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10747;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10748;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-10749;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10750;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10750;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10751;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10752;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10752;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10752;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10752;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10753;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10754;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10754;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10755;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10756;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10757;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10758;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10758;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10758;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10759;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10760;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10761;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10762;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10762;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10762;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10763;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10763;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10763;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10764;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10765;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10766;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10767;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10767;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10768;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10768;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10769;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10770;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10770;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10770;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10770;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10771;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10772;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-10773;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10774;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10774;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10774;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10775;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10776;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10776;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10776;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10777;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10778;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10779;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10779;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10780;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10781;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10782;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10783;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-10783;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10783;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10784;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10784;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10785;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10785;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10785;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10786;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10786;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10787;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10788;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10788;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10789;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10789;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10790;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10791;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10792;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;3;44.9;134.7
+KNK-10792;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10792;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10793;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10793;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10794;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10795;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10796;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10797;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10797;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10798;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10798;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10799;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10799;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10800;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10800;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10800;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10801;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10802;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10803;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-10803;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10803;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10803;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10804;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10804;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10804;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10805;KNK-RWA-250;Rwanda Nyamasheke 250 g;3;52.9;158.7
+KNK-10806;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10806;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10806;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10806;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10807;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10808;KNK-ETI-250;Etiopia Yirgacheffe 250 g;3;49.9;149.7
+KNK-10809;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10810;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10810;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10810;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10810;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10811;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10811;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10812;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10812;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10813;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10814;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10814;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10815;KNK-WAG;Waga baristyczna z timerem;2;99.0;198.0
+KNK-10816;KNK-CHE-6;Chemex 6 filiżanek;2;219.0;438.0
+KNK-10816;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10816;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10817;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10817;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10818;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-10818;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10819;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10819;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10820;KNK-KUB;Kubek ceramiczny KawaNaKlik;3;39.0;117.0
+KNK-10820;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10821;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10821;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10822;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10822;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10822;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10823;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10823;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10823;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10824;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10824;KNK-ETI-250;Etiopia Yirgacheffe 250 g;3;49.9;149.7
+KNK-10825;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10826;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10827;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10828;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10828;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10829;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10830;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10830;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10831;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10832;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10832;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-10832;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10832;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10833;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10834;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10835;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10836;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10836;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10837;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10838;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;3;44.9;134.7
+KNK-10838;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10839;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10839;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10840;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10840;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10841;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10841;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-10842;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10842;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10842;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10843;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10844;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10845;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10846;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10847;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10848;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10848;KNK-RWA-250;Rwanda Nyamasheke 250 g;3;52.9;158.7
+KNK-10849;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10849;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10850;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10850;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10850;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10851;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10852;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10852;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10853;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10854;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10854;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10855;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10855;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10856;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10857;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10858;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10858;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10859;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-10860;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-10860;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10861;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10861;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10862;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10862;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10863;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10863;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10864;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10864;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10864;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10864;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10865;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10865;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10866;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;2;49.0;98.0
+KNK-10866;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10867;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10868;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10868;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10868;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10869;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10869;KNK-BRA-1000;Brazylia Santos 1 kg;3;115.0;345.0
+KNK-10869;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10870;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10870;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10871;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10871;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10872;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10872;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10873;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10873;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10873;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10874;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10875;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-10875;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-10875;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10876;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10876;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10876;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10877;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10878;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10879;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10880;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10880;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10881;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10882;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10882;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10883;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10883;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10883;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10883;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10884;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10884;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10884;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10884;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10885;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10886;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10886;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10887;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10887;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10887;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-10888;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-10889;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10889;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10890;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10891;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10891;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10892;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10892;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10893;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10894;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10895;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10895;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10896;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10896;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10896;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10897;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10898;KNK-KUB;Kubek ceramiczny KawaNaKlik;3;39.0;117.0
+KNK-10898;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10899;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10900;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10900;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10900;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10901;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10901;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10902;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10903;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10904;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10904;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10905;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-10905;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10905;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10905;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10906;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10906;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10906;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10907;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10907;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10907;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10908;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10908;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10908;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10908;KNK-KEN-250;Kenia AA 250 g;3;54.9;164.7
+KNK-10909;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10910;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10910;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10911;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10912;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10913;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10914;KNK-V60;Drip V60 ceramiczny;3;89.0;267.0
+KNK-10914;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10914;KNK-BRA-1000;Brazylia Santos 1 kg;3;115.0;345.0
+KNK-10915;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10916;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10916;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10917;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10918;KNK-PRE;Zestaw „Pour-over Start”;3;199.0;597.0
+KNK-10918;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10919;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10920;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10920;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-10921;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10921;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10922;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10922;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10922;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10923;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10924;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10925;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10926;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10926;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10927;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10928;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10929;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10930;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10931;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10931;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-10932;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10932;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10933;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10934;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10935;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10936;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10937;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10937;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10937;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10938;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10938;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-10939;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10940;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10940;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10941;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10941;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10942;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10943;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10943;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10944;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10945;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10945;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-10946;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10946;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10946;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10946;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10947;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10948;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10948;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-10949;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10950;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10950;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10951;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10951;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10952;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10952;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10952;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10952;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10953;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10954;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10954;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-10954;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10955;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10956;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10956;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-10957;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10957;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10958;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10958;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10959;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10959;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-10960;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-10960;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10961;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10961;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10961;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10962;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-10963;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-10964;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10964;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-10964;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10965;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10965;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10966;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10966;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10966;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10967;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10967;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10967;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10968;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10969;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10970;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10971;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10972;KNK-PRE;Zestaw „Pour-over Start”;2;199.0;398.0
+KNK-10973;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-10973;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10974;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10974;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10975;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-10975;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-10975;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10976;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10976;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10976;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10977;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10977;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10978;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10978;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10978;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-10979;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-10980;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10981;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10982;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10982;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-10983;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10983;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10983;KNK-MLY;Młynek ręczny stalowy;2;159.0;318.0
+KNK-10983;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10984;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-10984;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-10985;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-10985;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;2;49.0;98.0
+KNK-10986;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10987;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-10987;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-10987;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10988;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10989;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10989;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-10990;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10990;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-10990;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10991;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-10991;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10992;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10992;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10993;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-10993;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-10993;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-10994;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10994;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-10994;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10995;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10995;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-10996;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-10997;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-10997;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-10998;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-10998;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-10998;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-10999;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-10999;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-10999;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11000;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11001;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11001;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11002;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11002;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11003;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11003;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11003;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11004;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11005;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11006;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11007;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11007;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-11007;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11008;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-11008;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11009;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11010;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11010;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-11011;KNK-POR;Zestaw „Poranek” (kawa + kubek);3;119.0;357.0
+KNK-11011;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-11011;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11012;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11013;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11014;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11015;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11016;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11016;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11017;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11018;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11019;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11019;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-11020;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11020;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11020;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11021;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11022;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11022;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-11022;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-11022;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11023;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11024;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11024;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11025;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11025;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11026;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11026;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11027;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11028;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-11028;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11028;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11028;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11029;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11030;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11031;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11032;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11032;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11033;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11034;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11035;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11036;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11036;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11036;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11037;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11038;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11039;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11040;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11041;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11041;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11041;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11042;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11043;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11044;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11044;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11045;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11046;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11047;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11047;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11048;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11049;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11049;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11050;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11050;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11051;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11051;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11052;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11052;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11052;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11052;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11053;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11054;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11055;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11056;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11056;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-11056;KNK-GWA-250;Gwatemala Antigua 250 g;3;46.9;140.7
+KNK-11056;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11057;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11057;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-11057;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11058;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11059;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11059;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11059;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-11060;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11061;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11062;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11063;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11064;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11064;KNK-CHE-6;Chemex 6 filiżanek;2;219.0;438.0
+KNK-11065;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11065;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11066;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11067;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11068;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11069;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11069;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11070;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11070;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11070;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11071;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-11071;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11072;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11072;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11073;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11074;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11075;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11076;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11077;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11077;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11077;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11077;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11078;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11079;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11080;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11080;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11081;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11081;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11081;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11082;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;3;79.0;237.0
+KNK-11083;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11084;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11084;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11085;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11085;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11085;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11086;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11086;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11086;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;3;45.0;135.0
+KNK-11086;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11087;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11088;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11089;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11089;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11090;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11091;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-11092;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11093;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11094;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11095;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-11095;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11096;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11096;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11097;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11098;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11099;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11099;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11099;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11099;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11100;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11100;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11101;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11102;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11102;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11103;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11103;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11103;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11104;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11104;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11105;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11105;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11105;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-11105;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11106;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11106;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11106;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11107;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11108;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11108;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11108;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11109;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-11110;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11111;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11112;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11113;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11114;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11114;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11115;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11116;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11116;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11117;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11118;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-11119;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11119;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11120;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11120;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11121;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11122;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11122;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11122;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11123;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11124;KNK-PRE;Zestaw „Pour-over Start”;2;199.0;398.0
+KNK-11125;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11126;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11126;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11127;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11128;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11128;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11128;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11129;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11130;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11131;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11131;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11132;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11132;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11133;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11134;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-11134;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11135;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11136;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11136;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11137;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11138;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11138;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11138;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11139;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11140;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11141;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11142;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11142;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11143;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11144;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11145;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11145;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11146;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11146;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11147;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11148;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11148;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11149;KNK-PRE;Zestaw „Pour-over Start”;2;199.0;398.0
+KNK-11149;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11150;KNK-POR;Zestaw „Poranek” (kawa + kubek);3;119.0;357.0
+KNK-11150;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11151;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11152;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11152;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-11152;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11152;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11153;KNK-ESP-1000;Espresso Blend 1 kg;3;99.0;297.0
+KNK-11153;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11154;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11154;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11154;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-11155;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11155;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11156;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11156;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11157;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11157;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11158;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11158;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11159;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11159;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11160;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11161;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11161;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11162;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11163;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-11164;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11165;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11166;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11167;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11168;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11169;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11170;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11171;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11172;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11172;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11173;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-11174;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11174;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11175;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11175;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11175;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11176;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11176;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11176;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11177;KNK-V60-PL;Drip V60 plastikowy;2;39.0;78.0
+KNK-11178;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11179;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11180;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-11180;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11181;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11181;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11181;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11182;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-11182;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;3;79.0;237.0
+KNK-11183;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11183;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11184;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11184;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11184;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11185;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11186;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11186;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11187;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11187;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11187;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11188;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11188;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11189;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11189;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11189;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11189;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11190;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11191;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11192;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11192;KNK-BRA-500;Brazylia Santos 500 g;3;64.5;193.5
+KNK-11193;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-11194;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11194;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11195;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-11196;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11197;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11197;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11198;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11198;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11199;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11199;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11199;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11199;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11200;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11200;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11201;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11201;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11202;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11203;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11203;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11204;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11204;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-11205;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11206;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11207;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11207;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11208;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-11209;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11209;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11210;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11211;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11211;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11212;KNK-KUB;Kubek ceramiczny KawaNaKlik;2;39.0;78.0
+KNK-11213;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11214;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11215;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11216;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11217;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11218;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11219;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11219;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11220;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-11221;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11221;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11222;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11222;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11223;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11224;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11224;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11224;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11225;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11226;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11227;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11228;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11228;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11228;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11229;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11229;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11230;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11230;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11231;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11232;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11233;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11234;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11235;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11235;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11235;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-11236;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11236;KNK-RWA-250;Rwanda Nyamasheke 250 g;2;52.9;105.8
+KNK-11237;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11238;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11239;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11240;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11240;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11241;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11241;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11242;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11242;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11243;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11244;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11244;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11244;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11245;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11246;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11246;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-11246;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-11247;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-11247;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11248;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11248;KNK-V60;Drip V60 ceramiczny;2;89.0;178.0
+KNK-11249;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11249;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11249;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11250;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11250;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-11251;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11252;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11253;KNK-KOL-1000;Kolumbia Supremo 1 kg;3;129.0;387.0
+KNK-11253;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11254;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11254;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11255;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11256;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11256;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11257;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11258;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11258;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;3;42.9;128.7
+KNK-11258;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-11259;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11260;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11261;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11262;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-11262;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11263;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11264;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11265;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11265;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11266;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11267;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11268;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-11268;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-11268;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11269;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11270;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11271;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11271;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11272;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11273;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11273;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11274;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11274;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11274;KNK-GWA-250;Gwatemala Antigua 250 g;3;46.9;140.7
+KNK-11275;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11275;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11275;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11276;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11277;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11277;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11277;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11278;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11279;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11280;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11281;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11282;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11283;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11284;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11285;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11285;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11286;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11286;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11287;KNK-AERO;Aeropress;3;179.0;537.0
+KNK-11287;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-11288;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11289;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11289;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11289;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11289;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11290;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11290;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11291;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11291;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11292;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11293;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11294;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11295;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11295;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11295;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-11296;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11296;KNK-KOL-250;Kolumbia Supremo 250 g;2;42.9;85.8
+KNK-11297;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11297;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11298;KNK-V60;Drip V60 ceramiczny;1;89.0;89.0
+KNK-11299;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11300;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11301;KNK-WAG;Waga baristyczna z timerem;1;99.0;99.0
+KNK-11301;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11301;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11302;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11302;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11302;KNK-AERO;Aeropress;3;179.0;537.0
+KNK-11302;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11303;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11304;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11304;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11305;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11305;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11306;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11307;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11307;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11308;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11308;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11308;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11309;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-11309;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11310;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11310;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11311;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11312;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11312;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11313;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11313;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11314;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11314;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11314;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11315;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11316;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11316;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11317;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11317;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11318;KNK-KOL-250;Kolumbia Supremo 250 g;3;42.9;128.7
+KNK-11319;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11320;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11320;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11320;KNK-MLY-EL;Młynek elektryczny żarnowy;2;449.0;898.0
+KNK-11320;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11321;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11322;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11322;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11322;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11323;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11323;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11324;KNK-KEN-250;Kenia AA 250 g;2;54.9;109.8
+KNK-11324;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11324;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11324;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11325;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11326;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11327;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11327;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11328;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11328;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11329;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11330;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11330;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11331;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11331;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11331;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11332;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11333;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11334;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11334;KNK-ESP-250M;Espresso Blend mielona 250 g;3;34.9;104.7
+KNK-11335;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11336;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11336;KNK-ESP-1000;Espresso Blend 1 kg;2;99.0;198.0
+KNK-11337;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11337;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11338;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11338;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11338;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;3;46.9;140.7
+KNK-11338;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11339;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11339;KNK-SUM-250;Sumatra Mandheling 250 g;3;48.9;146.7
+KNK-11340;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11340;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11340;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11341;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11342;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11342;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11343;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11344;KNK-SUM-250;Sumatra Mandheling 250 g;2;48.9;97.8
+KNK-11344;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11344;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11344;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11345;KNK-MLY-EL;Młynek elektryczny żarnowy;3;449.0;1347.0
+KNK-11346;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11346;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;2;45.0;90.0
+KNK-11347;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11348;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11349;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11350;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11351;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11351;KNK-SUM-250;Sumatra Mandheling 250 g;3;48.9;146.7
+KNK-11352;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11353;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11353;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;2;169.0;338.0
+KNK-11354;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11354;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11354;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11355;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11356;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11356;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11356;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;3;44.9;134.7
+KNK-11357;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11357;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11358;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11358;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11359;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11360;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11360;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11360;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11360;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11361;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11361;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11361;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11361;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11362;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11363;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11363;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11364;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11365;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11366;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11366;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11367;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11368;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11368;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11369;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11369;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11370;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11370;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11370;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11370;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11371;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11371;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11371;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11372;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11372;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11372;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11373;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;2;46.9;93.8
+KNK-11374;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11374;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11375;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11375;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11376;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11376;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11377;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11377;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11378;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11378;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11378;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11378;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11379;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11379;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11379;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11380;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11380;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11381;KNK-PRE;Zestaw „Pour-over Start”;1;199.0;199.0
+KNK-11382;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11382;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11383;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11384;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11385;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11386;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11387;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11387;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11388;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;3;19.9;59.7
+KNK-11389;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11390;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11391;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11392;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11392;KNK-KOL-1000;Kolumbia Supremo 1 kg;2;129.0;258.0
+KNK-11393;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11393;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11394;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-11394;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11395;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11395;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11395;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11396;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;2;19.9;39.8
+KNK-11397;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11397;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11398;KNK-KUB;Kubek ceramiczny KawaNaKlik;1;39.0;39.0
+KNK-11398;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-11398;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11399;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11399;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11400;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11401;KNK-CHE-6;Chemex 6 filiżanek;2;219.0;438.0
+KNK-11401;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11401;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11402;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11402;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11402;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11402;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11403;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11404;KNK-MLY-EL;Młynek elektryczny żarnowy;1;449.0;449.0
+KNK-11404;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11405;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11406;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11406;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11406;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11407;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11408;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11408;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11409;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11409;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11409;KNK-KEN-250;Kenia AA 250 g;1;54.9;54.9
+KNK-11410;KNK-GWA-250;Gwatemala Antigua 250 g;1;46.9;46.9
+KNK-11410;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11411;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11411;KNK-POR;Zestaw „Poranek” (kawa + kubek);2;119.0;238.0
+KNK-11412;KNK-GWA-250;Gwatemala Antigua 250 g;2;46.9;93.8
+KNK-11413;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11413;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11414;KNK-BRA-1000;Brazylia Santos 1 kg;2;115.0;230.0
+KNK-11415;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11416;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11417;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11418;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11418;KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;1;45.0;45.0
+KNK-11418;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11419;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11419;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0
+KNK-11419;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11420;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11421;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11421;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11422;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11422;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11423;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11423;KNK-CZA;Czajnik z wąską wylewką 0,8 l;2;149.0;298.0
+KNK-11424;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11425;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11425;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11426;KNK-AERO;Aeropress;2;179.0;358.0
+KNK-11426;KNK-BRA-500;Brazylia Santos 500 g;2;64.5;129.0
+KNK-11427;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11428;KNK-RWA-250;Rwanda Nyamasheke 250 g;1;52.9;52.9
+KNK-11429;KNK-ETI-250;Etiopia Yirgacheffe 250 g;2;49.9;99.8
+KNK-11430;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11430;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11431;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11431;KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;1;46.9;46.9
+KNK-11432;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11433;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11434;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;2;42.9;85.8
+KNK-11435;KNK-CZA;Czajnik z wąską wylewką 0,8 l;1;149.0;149.0
+KNK-11436;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11436;KNK-KOL-1000;Kolumbia Supremo 1 kg;1;129.0;129.0
+KNK-11436;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;1;79.0;79.0
+KNK-11437;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11438;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11438;KNK-ETI-250;Etiopia Yirgacheffe 250 g;1;49.9;49.9
+KNK-11438;KNK-KOL-250M;Kolumbia Supremo mielona 250 g;1;42.9;42.9
+KNK-11438;KNK-POR;Zestaw „Poranek” (kawa + kubek);1;119.0;119.0
+KNK-11439;KNK-V60-PL;Drip V60 plastikowy;1;39.0;39.0
+KNK-11439;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;2;44.9;89.8
+KNK-11439;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11439;KNK-BRA-500;Brazylia Santos 500 g;1;64.5;64.5
+KNK-11440;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11440;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11441;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11441;KNK-ESP-250M;Espresso Blend mielona 250 g;2;34.9;69.8
+KNK-11441;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11442;KNK-WAG;Waga baristyczna z timerem;3;99.0;297.0
+KNK-11442;KNK-SUM-250;Sumatra Mandheling 250 g;1;48.9;48.9
+KNK-11443;KNK-FIL-100;Filtry papierowe 02 – 100 szt.;1;19.9;19.9
+KNK-11443;KNK-CHE-6;Chemex 6 filiżanek;1;219.0;219.0
+KNK-11444;KNK-BRA-1000;Brazylia Santos 1 kg;1;115.0;115.0
+KNK-11444;KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;1;49.0;49.0
+KNK-11444;KNK-MLY;Młynek ręczny stalowy;1;159.0;159.0
+KNK-11445;KNK-AERO;Aeropress;1;179.0;179.0
+KNK-11446;KNK-GWA-250M;Gwatemala Antigua mielona 250 g;1;44.9;44.9
+KNK-11447;KNK-ESP-250M;Espresso Blend mielona 250 g;1;34.9;34.9
+KNK-11448;KNK-ESP-1000;Espresso Blend 1 kg;1;99.0;99.0
+KNK-11448;KNK-KOL-250;Kolumbia Supremo 250 g;1;42.9;42.9
+KNK-11449;KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;1;169.0;169.0
+KNK-11449;KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;2;79.0;158.0

@@ -1,0 +1,31 @@
+﻿sku;nazwa;kategoria;cena_brutto;stan_magazynowy;waga_kg
+KNK-ETI-250;Etiopia Yirgacheffe 250 g;Kawa ziarnista;49.9;140;0.25
+KNK-ETI-1000;Etiopia Yirgacheffe 1 kg;Kawa ziarnista;169.0;35;1.0
+KNK-KOL-250;Kolumbia Supremo 250 g;Kawa ziarnista;42.9;160;0.25
+KNK-KOL-1000;Kolumbia Supremo 1 kg;Kawa ziarnista;129.0;60;1.0
+KNK-BRA-500;Brazylia Santos 500 g;Kawa ziarnista;64.5;90;0.5
+KNK-BRA-1000;Brazylia Santos 1 kg;Kawa ziarnista;115.0;40;1.0
+KNK-ESP-1000;Espresso Blend 1 kg;Kawa ziarnista;99.0;12;1.0
+KNK-GWA-250;Gwatemala Antigua 250 g;Kawa ziarnista;46.9;80;0.25
+KNK-KEN-250;Kenia AA 250 g;Kawa ziarnista;54.9;45;0.25
+KNK-RWA-250;Rwanda Nyamasheke 250 g;Kawa ziarnista;52.9;30;0.25
+KNK-SUM-250;Sumatra Mandheling 250 g;Kawa ziarnista;48.9;50;0.25
+KNK-GWA-250M;Gwatemala Antigua mielona 250 g;Kawa mielona;44.9;110;0.25
+KNK-KOL-250M;Kolumbia Supremo mielona 250 g;Kawa mielona;42.9;120;0.25
+KNK-MEX-250M;Bezkofeinowa Meksyk mielona 250 g;Kawa mielona;46.9;8;0.25
+KNK-ESP-250M;Espresso Blend mielona 250 g;Kawa mielona;34.9;70;0.25
+KNK-V60;Drip V60 ceramiczny;Akcesoria;89.0;25;0.4
+KNK-V60-PL;Drip V60 plastikowy;Akcesoria;39.0;40;0.15
+KNK-CHE-6;Chemex 6 filiżanek;Akcesoria;219.0;10;0.9
+KNK-AERO;Aeropress;Akcesoria;179.0;18;0.5
+KNK-MLY;Młynek ręczny stalowy;Akcesoria;159.0;15;0.7
+KNK-MLY-EL;Młynek elektryczny żarnowy;Akcesoria;449.0;6;2.5
+KNK-FIL-100;Filtry papierowe 02 – 100 szt.;Akcesoria;19.9;300;0.1
+KNK-FIL-CHE;Filtry do Chemexa – 100 szt.;Akcesoria;49.0;60;0.2
+KNK-WAG;Waga baristyczna z timerem;Akcesoria;99.0;20;0.4
+KNK-CZA;Czajnik z wąską wylewką 0,8 l;Akcesoria;149.0;14;0.8
+KNK-KUB;Kubek ceramiczny KawaNaKlik;Akcesoria;39.0;80;0.4
+KNK-DEG-4;Zestaw degustacyjny 4 × 100 g;Zestawy prezentowe;79.0;45;0.5
+KNK-POR;Zestaw „Poranek” (kawa + kubek);Zestawy prezentowe;119.0;0;0.8
+KNK-PRE;Zestaw „Pour-over Start”;Zestawy prezentowe;199.0;12;1.2
+KNK-SUB-1;Subskrypcja: 1 kawa / miesiąc;Subskrypcje;45.0;999;0.25

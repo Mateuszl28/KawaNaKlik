@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Sprawozdanie APPDB LAB02 – KawaNaKlik</title>
+<style>
+  @page { size: A4; margin: 16mm 14mm 16mm 14mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 10pt; line-height: 1.45; color: #1d1d1f; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4mm; }
+  h2 { font-size: 15pt; margin: 8mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 2px solid #6b3e26; color: #4a2a19; }
+  h3 { font-size: 11.5pt; margin: 5mm 0 2mm; color: #4a2a19; }
+  p { margin: 0 0 2.5mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+  li { margin-bottom: 1mm; }
+  code { font-family: Consolas, monospace; font-size: 8.8pt; background: #f3eee9; padding: 0 1mm; border-radius: 2px; }
+  pre { font-family: Consolas, monospace; font-size: 8.4pt; background: #f6f3f0; border: 1px solid #e2d9d0; padding: 3mm; white-space: pre-wrap; margin: 0 0 3mm; page-break-inside: avoid; }
+  table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm; font-size: 9pt; page-break-inside: auto; }
+  tr { page-break-inside: avoid; }
+  th, td { border: 1px solid #d6cbc0; padding: 1.3mm 1.8mm; text-align: left; vertical-align: top; }
+  th { background: #f3eee9; }
+  table.data { font-size: 7.8pt; }
+  td.r, th.r { text-align: right; white-space: nowrap; }
+  td.c { text-align: center; }
+  tr.hi td { background: #e9f5ea; }
+  tr.mid td { background: #fff8e1; }
+  tr.lo td { background: #fbeaea; }
+  tr.sum td { font-weight: 700; background: #f3eee9; }
+  figure { margin: 3mm 0 5mm; page-break-inside: avoid; }
+  figure img { width: 100%; border: 1px solid #cfc6bd; display: block; }
+  figcaption { font-size: 8.8pt; color: #555; margin-top: 1.5mm; text-align: center; }
+  .cover { height: 255mm; display: flex; flex-direction: column; justify-content: center; page-break-after: always; }
+  .cover .sub { font-size: 13pt; color: #555; margin-bottom: 12mm; }
+  .cover table { width: 75%; font-size: 10.5pt; }
+  .note { background: #fff7e6; border-left: 4px solid #e0a030; padding: 2.5mm 3mm; margin: 3mm 0; font-size: 9.3pt; }
+  .pb { page-break-before: always; }
+  .legend span { display: inline-block; padding: 0.5mm 2.5mm; margin-right: 3mm; border: 1px solid; border-radius: 2mm; font-size: 8.5pt; }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .kpi { display: grid; grid-template-columns: repeat(4, 1fr); gap: 3mm; margin: 3mm 0 4mm; }
+  .kpi div { border: 1px solid #d6cbc0; border-radius: 2mm; padding: 2.5mm; background: #faf7f4; }
+  .kpi b { display: block; font-size: 14pt; color: #4a2a19; }
+  .kpi small { color: #555; font-size: 8.3pt; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <h1>Sprawozdanie – APPDB, LAB02</h1>
+  <div class="sub">Etap I: Analiza procesu i przygotowanie danych<br>Sklep internetowy <b>KawaNaKlik</b></div>
+  <table>
+    <tr><th>Przedmiot</th><td>APPDB – Automatyzacja procesów biznesowych z AI</td></tr>
+    <tr><th>Zespół (2 os.)</th><td>1. ……………………………<br>2. ……………………………</td></tr>
+    <tr><th>Scenariusz</th><td>Sklep internetowy – zamówienia, reklamacje, zwroty, pytania klientów</td></tr>
+    <tr><th>Data</th><td>21.10.2026</td></tr>
+    <tr><th>Zawartość</th><td>opis firmy · diagramy AS-IS (BPMN) · ocena kandydatów do automatyzacji · dane syntetyczne z promptami · wskaźniki bazowe</td></tr>
+  </table>
+</section>
+
+<h2>1. Wprowadzenie – czym jest automatyzacja procesów</h2>
+<p>Automatyzacja procesów to przekazanie maszynie powtarzalnych kroków, które dziś wykonuje człowiek. Wyróżniamy trzy podejścia. Różnią się tym, <i>jak</i> maszyna wykonuje pracę i jak dobrze radzi sobie z nieprzewidzianymi sytuacjami.</p>
+<table>
+  <tr><th style="width:17%">Podejście</th><th>Jak działa</th><th style="width:27%">Przykład w KawaNaKlik</th><th style="width:20%">Ograniczenia</th></tr>
+  <tr><td><b>RPA</b><br>(Robotic Process Automation)</td><td>„Robot programowy” klika i wpisuje dane w interfejsie aplikacji tak jak człowiek. Przydaje się, gdy system nie ma API.</td><td>Pobieranie wyciągu ze strony banku i zaznaczanie opłaconych zamówień.</td><td>Kruche – każda zmiana wyglądu strony psuje robota.</td></tr>
+  <tr><td><b>Workflow automation</b><br>(n8n, Make, Zapier)</td><td>Przepływ zdarzeń między systemami przez API i webhooki: „gdy X, zrób Y”. Działa według stałych reguł.</td><td>Nowe zamówienie w WooCommerce → wiersz w arkuszu → etykieta u kuriera → e-mail z numerem przesyłki.</td><td>Radzi sobie tylko z danymi o przewidywalnej strukturze.</td></tr>
+  <tr><td><b>AI agents / LLM w przepływie</b></td><td>Model językowy rozumie tekst. Klasyfikuje, wyciąga dane, pisze szkice odpowiedzi, a agent sam dobiera narzędzia do celu.</td><td>Rozpoznanie, że e-mail to reklamacja o wysokim priorytecie. Odczyt pozycji z faktury PDF.</td><td>Może się mylić i zmyślać. Potrzebny nadzór i walidacja.</td></tr>
+</table>
+<div class="two">
+<div>
+<h3>Gdzie AI realnie daje wartość</h3>
+<ul>
+  <li>Tekst w swobodnej formie: e-maile, opisy reklamacji, recenzje – klasyfikacja, priorytet, ton wypowiedzi.</li>
+  <li>Wyciąganie danych z dokumentów o różnym układzie (faktury różnych dostawców).</li>
+  <li>Szkice odpowiedzi na typowe pytania, które człowiek tylko poprawia.</li>
+  <li>Streszczenie długiej historii sprawy przed decyzją kierownika.</li>
+</ul>
+</div>
+<div>
+<h3>Gdzie AI nie ma sensu</h3>
+<ul>
+  <li>Kroki deterministyczne, które da się opisać regułą: przepisanie pola z API, liczenie 14 dni na zwrot. Wystarczy zwykły workflow – taniej i bez pomyłek.</li>
+  <li>Decyzje z konsekwencją prawną lub finansową: uznanie reklamacji, przelew. AI może najwyżej przygotować rekomendację.</li>
+  <li>Praca fizyczna (kompletacja, pakowanie).</li>
+  <li>Sytuacje, w których błąd jest kosztowny, a nie da się go wykryć walidacją.</li>
+</ul>
+</div>
+</div>
+
+<h2>2. Opis firmy</h2>
+<p><b>KawaNaKlik Sp. z o.o.</b> (firma fikcyjna) to sklep internetowy ze świeżo paloną kawą speciality i akcesoriami do parzenia. Działa od 2019 roku i ma siedzibę oraz magazyn w Krakowie. Sprzedaje wyłącznie online (WooCommerce) w całej Polsce, z wysyłką do paczkomatów i kurierem. Kawę kupuje od zewnętrznej palarni, a sam ją porcjuje i pakuje.</p>
+<div class="kpi">
+  <div><b>{{ZAM_DZIEN}}</b><small>zamówień dziennie (średnio; {{ZAM_MIN}}–{{ZAM_MAX}})</small></div>
+  <div><b>~300</b><small>zamówień w szczycie (Black Friday, grudzień)</small></div>
+  <div><b>{{AOV}}</b><small>średnia wartość koszyka</small></div>
+  <div><b>{{MAIL_DZIEN}}</b><small>e-maili od klientów dziennie</small></div>
+</div>
+<p>Inne dane o skali: ok. 30 produktów w 5 kategoriach, ok. 45 faktur kosztowych miesięcznie od 6 stałych dostawców. Udział płatności zwykłym przelewem wynosi {{PRZELEW}}% – te wpłaty trzeba ręcznie sprawdzać na wyciągu.</p>
+<h3>Role pracowników (9 osób + biuro rachunkowe)</h3>
+<table>
+  <tr><th style="width:24%">Rola</th><th style="width:7%">Osób</th><th>Zakres obowiązków</th></tr>
+  <tr><td>Właściciel / prezes</td><td class=c>1</td><td>Strategia, zakupy u palarni, akceptacja kosztów, przelewy.</td></tr>
+  <tr><td>Kierownik operacyjny</td><td class=c>1</td><td>Nadzór nad realizacją zamówień, decyzje w reklamacjach, grafik magazynu.</td></tr>
+  <tr><td>Obsługa klienta</td><td class=c>2</td><td>Skrzynka e-mail, weryfikacja płatności, przepisywanie zamówień do arkusza, numery przesyłek, zwroty.</td></tr>
+  <tr><td>Magazyn i pakowanie</td><td class=c>3</td><td>Kompletacja, pakowanie, etykiety kurierskie, przyjęcie dostaw i zwrotów.</td></tr>
+  <tr><td>Administracja / finanse</td><td class=c>1</td><td>Faktury kosztowe, arkusz kosztów, kontakt z biurem rachunkowym.</td></tr>
+  <tr><td>Marketing i e-commerce</td><td class=c>1</td><td>Treści w sklepie, kampanie, newsletter.</td></tr>
+  <tr><td>Biuro rachunkowe (zewn.)</td><td class=c>—</td><td>Księgowanie, VAT, deklaracje – dostaje paczkę faktur do 5. dnia miesiąca.</td></tr>
+</table>
+<p><b>Systemy dziś:</b> sklep WordPress + WooCommerce (LAB01), skrzynka e-mail, arkusze Excel (zamówienia, zgłoszenia, koszty), panel WWW kuriera, bankowość internetowa. Systemy nie są ze sobą połączone, więc dane przenosi człowiek przez kopiuj-wklej.</p>
+<div class="note">W LAB01 sklep testowy zawierał tylko małą próbkę (11 produktów, 24 zamówienia) do sprawdzenia instalacji. Do analizy w tym etapie przyjmujemy pełny profil firmy opisany wyżej i odpowiadające mu dane syntetyczne (rozdz. 5).</div>
+
+<h2 class="pb">3. Procesy w stanie obecnym (AS-IS) – BPMN</h2>
+<p>Zamapowaliśmy trzy procesy, które pochłaniają najwięcej czasu zespołu. Diagramy są w notacji BPMN 2.0 (pula KawaNaKlik, tory ról, zdarzenia, zadania, bramki XOR). Pliki źródłowe <code>.drawio</code> można otworzyć i edytować w draw.io (<code>bpmn/</code>).</p>
+<p class="legend">
+  <span style="background:#fde3c8;border-color:#c46a1a">ręczne, powtarzalne – kandydat do workflow/RPA</span>
+  <span style="background:#e6dcf5;border-color:#6b4fa0">wymaga rozumienia tekstu – kandydat do AI</span>
+  <span style="background:#dff0e2;border-color:#3d8b4f">już automatyczne</span>
+  <span style="background:#fff;border-color:#555">decyzja / praca człowieka</span>
+</p>
+
+<h3>3.1. AS-IS 1 – Realizacja zamówienia</h3>
+<figure><img src="bpmn/AS-IS_1_realizacja_zamowienia.png"><figcaption>Rys. 1. Realizacja zamówienia – od złożenia do doręczenia.</figcaption></figure>
+<p>Sklep sam zapisuje zamówienie i wysyła potwierdzenie, ale od tego miejsca prawie wszystko robi człowiek:</p>
+<ul>
+  <li>Przy przelewie tradycyjnym obsługa szuka wpłaty na wyciągu.</li>
+  <li>Każde zamówienie jest przepisywane do arkusza Excel, z którego magazyn drukuje listę kompletacyjną.</li>
+  <li>Etykietę kurierską tworzy się ręcznie w panelu przewoźnika, przepisując adres.</li>
+  <li>Numer przesyłki trzeba skopiować do e-maila i ręcznie zmienić status zamówienia.</li>
+</ul>
+<p><b>Wąskie gardła:</b> wielokrotne przepisywanie tych samych danych – adres przepisuje się dwa razy. To z tych kroków bierze się większość błędów (rozdz. 6).</p>
+
+<h3>3.2. AS-IS 2 – Obsługa e-maili od klientów</h3>
+<figure><img src="bpmn/AS-IS_2_obsluga_emaili.png"><figcaption>Rys. 2. Obsługa wiadomości: pytania, zwroty, reklamacje.</figcaption></figure>
+<p>Obsługa przegląda skrzynkę dwa razy dziennie, czyta każdą wiadomość, sama rozpoznaje temat i pilność, a potem szuka zamówienia w panelu sklepu. Dalej proces rozgałęzia się:</p>
+<ul>
+  <li><b>pytania i status przesyłki</b> – odpowiedź pisana od zera,</li>
+  <li><b>zwroty</b> – ręczne sprawdzenie 14-dniowego terminu,</li>
+  <li><b>reklamacje</b> – prośba o zdjęcia i decyzja kierownika, a potem wysyłka zamiennika lub przyjęcie towaru przez magazyn.</li>
+</ul>
+<p>Każda sprawa kończy się ręcznym wpisem do arkusza zgłoszeń.</p>
+<p><b>Wąskie gardła:</b> pilne sprawy (uszkodzona paczka, groźba zgłoszenia do rzecznika) czekają w kolejce razem ze spamem, a klient czeka średnio kilka godzin na pierwszą odpowiedź.</p>
+
+<h3>3.3. AS-IS 3 – Obieg faktur kosztowych</h3>
+<figure><img src="bpmn/AS-IS_3_obieg_faktur.png"><figcaption>Rys. 3. Obieg faktur kosztowych od dostawcy do biura rachunkowego.</figcaption></figure>
+<p>Faktury PDF przychodzą e-mailem w różnych układach. Administracja wykonuje kolejno:</p>
+<ol>
+  <li>zapisuje plik na dysku,</li>
+  <li>przepisuje dane do arkusza kosztów,</li>
+  <li>porównuje fakturę z zamówieniem i dostawą.</li>
+</ol>
+<p>Faktura niezgodna (np. inna ilość niż w zamówieniu) wraca do dostawcy z reklamacją. Zgodną akceptuje właściciel i ręcznie zleca przelew. Raz w miesiącu administracja wysyła paczkę faktur do biura rachunkowego.</p>
+<p><b>Wąskie gardła:</b> faktury czekają na akceptację właściciela, przez co część płatności jest po terminie. Do tego dochodzą pomyłki przy przepisywaniu kwot.</p>
+
+<h2 class="pb">4. Identyfikacja kandydatów do automatyzacji</h2>
+<p>Każde zadanie z diagramów AS-IS oceniliśmy w skali 1–5 według czterech kryteriów z założeń laboratorium:</p>
+<ul>
+  <li><b>P – powtarzalność</b>: jak często i jak schematycznie wykonuje się zadanie (5 = wiele razy dziennie, zawsze tak samo),</li>
+  <li><b>C – czasochłonność</b>: ile łącznie czasu zabiera w miesiącu (5 = najwięcej),</li>
+  <li><b>R – ryzyko błędu</b>: jak łatwo o pomyłkę i jak kosztowna jest (5 = częste lub drogie błędy),</li>
+  <li><b>H – wymaga oceny człowieka</b>: potrzeba osądu, empatii, decyzji lub pracy fizycznej (5 = zdecydowanie człowiek).</li>
+</ul>
+<p><b>Wynik</b> = P + C + R + (6 − H). Maksimum to 20 pkt. Kryterium H odwracamy, bo im bardziej zadanie wymaga człowieka, tym gorzej nadaje się do automatyzacji. Progi orientacyjne:</p>
+<ul>
+  <li><b>≥ 15 pkt</b> i H ≤ 3 – automatyzować w pierwszej kolejności (zielone),</li>
+  <li><b>13–14 pkt</b> – automatyzować w pakiecie lub z weryfikacją człowieka (żółte),</li>
+  <li><b>poniżej 13 pkt</b> albo H = 5 – zostaje człowiek (czerwone).</li>
+</ul>
+<table>
+  <tr><th>Proces</th><th>Zadanie</th><th class=c>P</th><th class=c>C</th><th class=c>R</th><th class=c>H</th><th class=c>Wynik</th><th>Typ</th><th>Rekomendacja</th></tr>
+  {{OCENA}}
+</table>
+<h3>Wnioski z oceny</h3>
+<ul>
+  <li><b>Najwięcej zysku dają integracje bez AI.</b> Przepisywanie zamówień, etykiety kurierskie, numery przesyłek i weryfikację przelewów obsłuży przepływ n8n na API WooCommerce, przewoźnika i banku. To kroki deterministyczne, więc AI byłoby tu zbędnym kosztem i ryzykiem.</li>
+  <li><b>AI jest uzasadnione w trzech miejscach:</b>
+    <ul>
+      <li>klasyfikacja e-maili (temat, priorytet, ton),</li>
+      <li>szkice odpowiedzi,</li>
+      <li>odczyt faktur PDF w różnych układach.</li>
+    </ul>
+    W każdym z tych miejsc zostaje człowiek, który zatwierdza wynik, albo walidacja regułami (np. suma netto + VAT = brutto).
+  </li>
+  <li><b>Zostają u człowieka:</b>
+    <ul>
+      <li>decyzja o reklamacji,</li>
+      <li>akceptacja kosztu,</li>
+      <li>kompletacja i pakowanie.</li>
+    </ul>
+    Automatyzacja może je tylko wspierać, np. streszczeniem sprawy albo powiadomieniem z przyciskiem „akceptuj”.
+  </li>
+</ul>
+
+<h2 class="pb">5. Dane syntetyczne</h2>
+<p>Zgodnie z zasadą danych używamy wyłącznie danych wygenerowanych przez zespół z pomocą modelu językowego (LLM). Przyjęliśmy dwa sposoby generowania:</p>
+<ul>
+  <li><b>Dane tabelaryczne</b> (klienci, produkty, zamówienia, faktury) – LLM napisał na podstawie naszego promptu generator w Pythonie (<code>kod/dane_gen.py</code>). Generator ma stałe ziarno losowania, więc za każdym razem tworzy identyczne dane, a skala jest dowolna – tysiące wierszy bez ręcznego wklejania.</li>
+  <li><b>E-maile klientów</b> – LLM napisał bezpośrednio 50 wiadomości w różnym tonie (<code>kod/emaile_llm.py</code>). Liczy się tu naturalny, zróżnicowany język, którego generator losowy nie da. Generator wstawia do nich tylko numery zamówień i dane nadawców, żeby e-maile pasowały do zamówień w arkuszu.</li>
+</ul>
+
+<h3>5.1. Zawartość arkusza <code>dane/KawaNaKlik_dane_syntetyczne.xlsx</code></h3>
+<table>
+  <tr><th style="width:16%">Arkusz</th><th class=r style="width:8%">Wierszy</th><th>Kolumny / zakres</th></tr>
+  {{ARKUSZE}}
+</table>
+<p>Te same tabele są w plikach CSV (separator „;”, UTF-8) – do importu do Google Sheets i n8n w kolejnych etapach. Najważniejsze liczby:</p>
+<ul>
+  <li>{{ZAM_LICZBA}} zamówień o łącznej wartości {{OBROT}},</li>
+  <li>{{KLIENCI_AKTYWNI}} z {{KLIENCI}} klientów złożyło co najmniej jedno zamówienie,</li>
+  <li>rozkład dzienny jest realistyczny: najwięcej zamówień w poniedziałki, najmniej w weekendy.</li>
+</ul>
+
+<h3>5.2. Przykładowe rekordy</h3>
+<p><b>Klienci</b></p>{{PROBKA_KL}}
+<p><b>Produkty</b></p>{{PROBKA_PROD}}
+<p><b>Zamówienia</b> – kolumna <code>blad_reczny</code> oznacza zamówienia, w których przy ręcznej obsłudze wystąpił błąd. Ta kolumna jest źródłem wskaźnika błędów w rozdz. 6.</p>{{PROBKA_ZAM}}
+
+<h3>5.3. E-maile od klientów (50 szt.)</h3>
+<p>Każdy e-mail ma etykietę wzorcową: <code>kategoria_wzorcowa</code> i <code>priorytet_wzorcowy</code>. W etapie z AI posłużą jako „klucz odpowiedzi” do zmierzenia trafności klasyfikatora LLM. W zbiorze jest {{N_TONY}} różnych tonów wypowiedzi: {{TONY}}.</p>
+<div class="two">
+<table><tr><th>Kategoria</th><th class=r>Liczba</th></tr>{{KAT}}</table>
+<div>
+<p>Celowo dodaliśmy przypadki trudne dla klasyfikatora:</p>
+<ul>
+  <li>sarkazm („Gratuluję pakowania”),</li>
+  <li>e-mail z kilkoma sprawami naraz,</li>
+  <li>wiadomość po angielsku,</li>
+  <li>tekst bez polskich znaków i interpunkcji,</li>
+  <li>groźba zgłoszenia do rzecznika konsumentów,</li>
+  <li>spam „SEO”,</li>
+  <li>zapytanie B2B, które jest szansą sprzedażową, a nie problemem.</li>
+</ul>
+</div>
+</div>
+{{PROBKA_MAIL}}
+
+<h3>5.4. Faktury kosztowe PDF (6 szt.)</h3>
+<p>Generator tworzy sześć faktur od fikcyjnych dostawców: palarni, producenta opakowań, firmy kurierskiej, hostingu, drukarni i hurtowni akcesoriów. Faktury mają różne pozycje i terminy płatności. Na każdej jest znak wodny „DOKUMENT TESTOWY”, a NIP-y (999-…) i rachunki (PL00…) są fikcyjne. Faktura nr 6 ma celową niezgodność z zamówieniem (24 zamiast 20 szt. drippera), żeby przetestować ścieżkę „niezgodna” z procesu AS-IS 3.</p>
+{{FV}}
+<figure style="width:72%;margin-left:auto;margin-right:auto"><img src="img/faktura_podglad.png"><figcaption>Rys. 4. Fragment faktury FV/06/10/2026 (plik <code>dane/faktury/faktura_06_mlynki.pdf</code>).</figcaption></figure>
+
+<h3>5.5. Prompty użyte do generowania danych</h3>
+<p><b>Prompt 1 – generator danych tabelarycznych</b></p>
+<pre>Jesteś analitykiem danych. Napisz skrypt w Pythonie (openpyxl), który wygeneruje
+syntetyczne dane polskiego sklepu internetowego z kawą speciality „KawaNaKlik”
+i zapisze je do jednego pliku .xlsx (osobne arkusze) oraz do CSV:
+- klienci: 1200 osób, polskie imiona i nazwiska z poprawną odmianą żeńską,
+  miasta z wagami zbliżonymi do liczby ludności, ok. 8% firm, e-maile wyłącznie
+  w domenie .test, adresy „ul. Testowa N”;
+- produkty: ok. 30 pozycji (kawa ziarnista, mielona, akcesoria, zestawy,
+  subskrypcja) z realistycznymi cenami w PLN i stanami magazynowymi;
+- zamówienia: 14 dni (1–14.10.2026), średnio ok. 100 dziennie, więcej w poniedziałki,
+  mniej w weekendy, godziny z maksimum wieczorem; statusy, płatności (BLIK, karta,
+  przelew, pobranie), wysyłka (Paczkomat, kurier), darmowa dostawa od 199 zł;
+  ok. 2,5% zamówień oznacz kolumną „blad_reczny” z typem błędu przy ręcznej obsłudze;
+- pozycje zamówień powiązane z zamówieniami;
+- 6 faktur kosztowych od fikcyjnych dostawców jako HTML do wydruku do PDF,
+  ze znakiem wodnym „DOKUMENT TESTOWY”, NIP-ami zaczynającymi się od 999
+  i rachunkami PL00…; jedna faktura ma mieć ilość niezgodną z zamówieniem.
+Użyj stałego ziarna losowania. Żadnych prawdziwych danych osobowych.</pre>
+<p><b>Prompt 2 – e-maile od klientów</b></p>
+<pre>Napisz 50 realistycznych e-maili od klientów sklepu internetowego z kawą
+speciality, po polsku (1–2 po angielsku). Rozkład tematów: reklamacje (10),
+zwroty (7), status przesyłki (8), pytania o produkt (8), faktury (5), zmiana
+lub anulowanie zamówienia (4), płatności (3), pochwały (2), zapytanie B2B (1),
+spam (1), jeden e-mail z kilkoma sprawami naraz.
+Zróżnicuj ton: uprzejmy, zdenerwowany, sarkastyczny, zdezorientowany, formalny,
+zwięzły, emocjonalny, z literówkami i bez polskich znaków itd.
+Każdy e-mail: temat, treść 1–5 zdań, w miejscu numeru zamówienia znacznik {zam},
+w podpisie {imie}. Do każdego dodaj kategorię wzorcową, priorytet
+(niski/średni/wysoki) i ton. Zwróć jako listę słowników Pythona.
+Nie używaj prawdziwych nazwisk, firm, adresów ani numerów.</pre>
+<p><b>Prompt 3 – kontrola jakości</b></p>
+<pre>Sprawdź wygenerowane dane: czy rozkład zamówień na klienta jest realistyczny
+(nikt nie składa kilkudziesięciu zamówień w 2 tygodnie), czy sumy zamówień
+zgadzają się z pozycjami, czy daty e-maili są późniejsze niż daty zamówień,
+których dotyczą, i czy nigdzie nie występują prawdziwe dane osobowe.</pre>
+<p><b>Poprawki po kontroli:</b></p>
+<ul>
+  <li><b>Problem:</b> pierwsza wersja miała tylko 250 klientów i rozkład Pareto, przez co jeden klient miał 24 zamówienia w 2 tygodnie. <b>Poprawka:</b> zwiększyliśmy bazę do 1200 klientów i zmieniliśmy rozkład aktywności na log-normalny, z wyższą aktywnością tylko dla firm.</li>
+  <li><b>Problem:</b> nazwa pliku faktury zawierała polski znak. <b>Poprawka:</b> zamiana na ASCII, bo polskie znaki w nazwach plików powodują problemy w n8n i na serwerach.</li>
+</ul>
+<div class="note"><b>RODO.</b> Dane są w pełni syntetyczne, więc nie podlegają RODO:
+<ul>
+  <li>e-maile w zarezerwowanej domenie <code>.test</code>,</li>
+  <li>adresy „ul. Testowa”,</li>
+  <li>NIP-y z prefiksem 999,</li>
+  <li>rachunki PL00…</li>
+</ul>
+Dzięki temu można je bez ryzyka wysyłać do zewnętrznych API modeli językowych w kolejnych etapach. Przy prawdziwych danych klientów taki transfer wymagałby podstawy prawnej, umowy powierzenia i minimalizacji danych, np. usunięcia nazwisk przed wysłaniem do modelu.</div>
+
+<h2 class="pb">6. Wskaźniki bazowe „przed wdrożeniem”</h2>
+<h3>6.1. Koszt roboczogodziny</h3>
+<p>Koszt pracodawcy liczymy jako pensja brutto × 1,2048 (składki ZUS, FP, FGŚP, PPK – przybliżenie) / 168 h. Czas właściciela wyceniamy na 80 zł/h.</p>
+<table style="width:60%"><tr><th>Rola</th><th class=r>Pensja brutto</th><th class=r>Koszt roboczogodziny</th></tr>{{RBH}}</table>
+
+<h3>6.2. Czas i koszt obsługi – stan AS-IS</h3>
+<p>Czasy kroków to szacunki z obserwacji procesu, zgodne z diagramami z rozdz. 3. Wolumeny wynikają z danych syntetycznych: {{ZAM_DZIEN}} zamówień/dzień × 30 dni, {{MAIL_DZIEN}} e-maili/dzień, {{FV_MIES}} faktur/mies.</p>
+<div class="two">
+<div>
+<p><b>Zamówienie</b> (ręczne kroki administracyjne, bez pakowania)</p>
+<table><tr><th>Krok</th><th>Rola</th><th class=r>min</th><th class=r>koszt</th></tr>{{ZAM_KROKI}}
+<tr class=sum><td colspan=2>Razem na zamówienie</td><td class=r>{{ZP_MIN}}</td><td class=r>{{ZP_JEDN}}</td></tr></table>
+</div>
+<div>
+<p><b>Zgłoszenie e-mail</b></p>
+<table><tr><th>Krok</th><th>Rola</th><th class=r>min</th><th class=r>koszt</th></tr>{{MAIL_KROKI}}
+<tr class=sum><td colspan=2>Razem na zgłoszenie</td><td class=r>{{MP_MIN}}</td><td class=r>{{MP_JEDN}}</td></tr></table>
+</div>
+</div>
+<p><b>Faktura kosztowa</b></p>
+<table style="width:60%"><tr><th>Krok</th><th>Rola</th><th class=r>min</th><th class=r>koszt</th></tr>{{FV_KROKI}}
+<tr class=sum><td colspan=2>Razem na fakturę</td><td class=r>{{FP_MIN}}</td><td class=r>{{FP_JEDN}}</td></tr></table>
+
+<h3>6.3. Błędy</h3>
+<div class="two">
+<div>
+<p>W danych syntetycznych {{BLEDY_N}} z {{ZAM_LICZBA}} zamówień, czyli <b>{{BLEDY_PROC}}%</b>, ma błąd przy ręcznej obsłudze. Przy obecnym wolumenie to ok. <b>{{BLEDY_MIES}} błędów miesięcznie</b>.</p>
+<p>Szacowany koszt jednego błędu to {{KOSZT_BLEDU}}: ponowna wysyłka, rabat lub towar i ok. 20 min pracy.</p>
+<p>Dodatkowe wskaźniki (szacunek):</p>
+<ul>
+  <li>ok. 7% e-maili wymaga ponownego kontaktu, bo pierwsza odpowiedź była niepełna,</li>
+  <li>ok. 15% faktur jest opłacanych po terminie,</li>
+  <li>1 na 6 faktur w próbce jest niezgodna z zamówieniem.</li>
+</ul>
+</div>
+<table><tr><th>Typ błędu (dane syntetyczne)</th><th class=r>Liczba</th></tr>{{BLEDY_TYPY}}</table>
+</div>
+
+<h3>6.4. Podsumowanie wskaźników bazowych</h3>
+<table>
+  <tr><th>Wskaźnik</th><th class=r>Wartość AS-IS</th><th>Źródło</th></tr>
+  <tr><td>Czas ręcznej obsługi zamówienia</td><td class=r>{{ZP_MIN}} min</td><td>szacunek kroków, tab. 6.2</td></tr>
+  <tr><td>Czas obsługi zgłoszenia e-mail</td><td class=r>{{MP_MIN}} min</td><td>szacunek kroków, tab. 6.2</td></tr>
+  <tr><td>Czas obsługi faktury kosztowej</td><td class=r>{{FP_MIN}} min</td><td>szacunek kroków, tab. 6.2</td></tr>
+  <tr><td>Czas do pierwszej odpowiedzi na e-mail</td><td class=r>ok. 6,5 h (w weekend do 60 h)</td><td>skrzynka przeglądana 2× dziennie</td></tr>
+  <tr><td>Odsetek zamówień z błędem</td><td class=r>{{BLEDY_PROC}}%</td><td>dane syntetyczne</td></tr>
+  <tr><td>Ręczna praca w 3 procesach / mies.</td><td class=r>{{RAZEM_H}} h (≈ {{ETATY}} etatu)</td><td>wolumen × czas</td></tr>
+  <tr><td>Zamówienia: {{ZAM_MIES}}/mies.</td><td class=r>{{ZP_H}} h · {{ZP_ZL}}</td><td></td></tr>
+  <tr><td>E-maile: {{MAIL_MIES}}/mies.</td><td class=r>{{MP_H}} h · {{MP_ZL}}</td><td></td></tr>
+  <tr><td>Faktury: {{FV_MIES}}/mies.</td><td class=r>{{FP_H}} h · {{FP_ZL}}</td><td></td></tr>
+  <tr><td>Koszt błędów / mies.</td><td class=r>{{KOSZT_BLEDOW}}</td><td>{{BLEDY_MIES}} × {{KOSZT_BLEDU}}</td></tr>
+  <tr class=sum><td>Łączny koszt ręcznej obsługi / mies.</td><td class=r>{{RAZEM_ZL}}</td><td>rocznie ok. {{RAZEM_ROK}}</td></tr>
+</table>
+<p>Te wartości są punktem odniesienia. Po wdrożeniu automatyzacji (etapy II–V) zmierzymy te same wskaźniki i policzymy zwrot z inwestycji (ROI).</p>
+
+<h2>7. Wnioski</h2>
+<ul>
+  <li>Ręczna obsługa trzech procesów zajmuje ok. {{RAZEM_H}} h miesięcznie (≈ {{ETATY}} etatu). Największy udział ma realizacja zamówień – przez wielokrotne przepisywanie tych samych danych między niepołączonymi systemami.</li>
+  <li>Najlepszymi kandydatami są kroki deterministyczne o wysokiej powtarzalności. Obsłuży je zwykły workflow (n8n) bez AI.</li>
+  <li>AI wnosi wartość tam, gdzie wejściem jest swobodny tekst lub dokument: klasyfikacja i priorytet e-maili, szkice odpowiedzi, odczyt faktur. Zawsze z człowiekiem zatwierdzającym albo z walidacją reguł.</li>
+  <li>Przygotowane dane z etykietami wzorcowymi pozwolą w kolejnych etapach zmierzyć jakość automatyzacji: trafność klasyfikacji e-maili i poprawność odczytu faktur.</li>
+</ul>
+
+<h2>8. Załączniki</h2>
+<table>
+  <tr><th>Załącznik</th><th>Plik</th></tr>
+  <tr><td>Diagramy BPMN AS-IS (edytowalne + PNG)</td><td><code>bpmn/*.drawio</code>, <code>bpmn/*.png</code></td></tr>
+  <tr><td>Arkusz danych syntetycznych</td><td><code>dane/KawaNaKlik_dane_syntetyczne.xlsx</code> + <code>dane/*.csv</code></td></tr>
+  <tr><td>Faktury PDF</td><td><code>dane/faktury/*.pdf</code></td></tr>
+  <tr><td>Generator danych, e-maile, generator diagramów, skrypt sprawozdania</td><td><code>kod/dane_gen.py</code>, <code>kod/emaile_llm.py</code>, <code>kod/bpmn_gen.py</code>, <code>kod/build_raport.py</code></td></tr>
+</table>
+
+</body>
+</html>

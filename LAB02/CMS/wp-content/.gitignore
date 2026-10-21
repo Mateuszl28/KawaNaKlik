@@ -1,0 +1,33 @@
+# Repozytorium zespołu = katalog wp-content.
+# Wersjonujemy tylko własny kod: motyw kawanaklik i (w przyszłości) własne wtyczki.
+
+# Wszystko w wp-content domyślnie ignorujemy...
+/*
+!.gitignore
+!README.md
+
+# ...poza własnym motywem
+!/themes/
+/themes/*
+!/themes/kawanaklik/
+
+# ...i własnymi wtyczkami (prefiks kawanaklik-)
+!/plugins/
+/plugins/*
+!/plugins/kawanaklik-*/
+
+# Media, cache, kopie, logi – nigdy do repozytorium
+/uploads/
+/upgrade/
+/cache/
+/backup*/
+/languages/
+debug.log
+*.log
+
+# Pliki systemowe i edytorów
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+node_modules/

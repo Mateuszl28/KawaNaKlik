@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1120" viewBox="0 0 1000 1120" font-family="Segoe UI, Arial, sans-serif"><rect x="0" y="0" width="1000" height="1120" rx="4" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+<text x="988" y="1110" font-size="11" font-weight="normal" text-anchor="end" fill="#999">Wireframe 3 – karta produktu</text>
+<rect x="0" y="0" width="1000" height="64" rx="0" fill="#f2f2f2" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="40" font-size="20" font-weight="700" text-anchor="start" fill="#333">KawaNaKlik</text>
+<text x="560" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Start</text>
+<text x="630" y="38" font-size="13" font-weight="700" text-anchor="start" fill="#333">Sklep</text>
+<text x="700" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Blog</text>
+<text x="770" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">O nas</text>
+<rect x="860" y="22" width="22" height="20" rx="4" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="890" y="37" font-size="12" font-weight="normal" text-anchor="start" fill="#333">Koszyk (2)</text>
+<text x="30" y="95" font-size="12" font-weight="normal" text-anchor="start" fill="#888">Start / Sklep / Kawa ziarnista / Etiopia Yirgacheffe</text>
+<rect x="30" y="115" width="440" height="380" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M30,115 L470,495 M470,115 L30,495" stroke="#c4c4c4"/>
+<text x="250.0" y="309.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">główne zdjęcie produktu</text>
+<rect x="30" y="505" width="95" height="75" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M30,505 L125,580 M125,505 L30,580" stroke="#c4c4c4"/>
+<text x="77.5" y="546.5" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">miniatura</text>
+<rect x="145" y="505" width="95" height="75" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M145,505 L240,580 M240,505 L145,580" stroke="#c4c4c4"/>
+<text x="192.5" y="546.5" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">miniatura</text>
+<rect x="260" y="505" width="95" height="75" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M260,505 L355,580 M355,505 L260,580" stroke="#c4c4c4"/>
+<text x="307.5" y="546.5" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">miniatura</text>
+<rect x="375" y="505" width="95" height="75" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M375,505 L470,580 M470,505 L375,580" stroke="#c4c4c4"/>
+<text x="422.5" y="546.5" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">miniatura</text>
+<text x="510" y="150" font-size="26" font-weight="700" text-anchor="start" fill="#333">Etiopia Yirgacheffe 250 g</text>
+<text x="510" y="178" font-size="13" font-weight="normal" text-anchor="start" fill="#888">★★★★☆  (24 opinie)</text>
+<text x="510" y="220" font-size="24" font-weight="700" text-anchor="start" fill="#333">49,90 zł</text>
+<rect x="510" y="240" width="440" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="510" y="254" width="440" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="510" y="268" width="264.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="510" y="305" font-size="13" font-weight="600" text-anchor="start" fill="#444">Profil smaku</text>
+<rect x="510" y="315" width="85" height="26" rx="13" fill="#f0f0f0" stroke="#bdbdbd" stroke-width="1"/>
+<text x="552" y="333" font-size="11" font-weight="normal" text-anchor="middle" fill="#444">cytrusy</text>
+<rect x="605" y="315" width="85" height="26" rx="13" fill="#f0f0f0" stroke="#bdbdbd" stroke-width="1"/>
+<text x="647" y="333" font-size="11" font-weight="normal" text-anchor="middle" fill="#444">jaśmin</text>
+<rect x="700" y="315" width="85" height="26" rx="13" fill="#f0f0f0" stroke="#bdbdbd" stroke-width="1"/>
+<text x="742" y="333" font-size="11" font-weight="normal" text-anchor="middle" fill="#444">herbata</text>
+<rect x="506" y="286" width="308" height="64" rx="6" fill="none" stroke="#e07b16" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="692.9" y="277" width="121.1" height="17" rx="8" fill="#e07b16" stroke="none" stroke-width="1"/>
+<text x="753.45" y="290" font-size="10.5" font-weight="700" text-anchor="middle" fill="#fff">ACF: nuty smakowe</text>
+<text x="510" y="375" font-size="13" font-weight="600" text-anchor="start" fill="#444">Forma</text>
+<rect x="510" y="385" width="200" height="32" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="522" y="406" font-size="12" font-weight="normal" text-anchor="start" fill="#444">Ziarnista ▾</text>
+<text x="730" y="375" font-size="13" font-weight="600" text-anchor="start" fill="#444">Waga</text>
+<rect x="730" y="385" width="200" height="32" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="742" y="406" font-size="12" font-weight="normal" text-anchor="start" fill="#444">250 g ▾</text>
+<rect x="510" y="440" width="90" height="44" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="555" y="467" font-size="13" font-weight="normal" text-anchor="middle" fill="#444">−  1  +</text>
+<rect x="615" y="440" width="315" height="44" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="772.5" y="467.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Dodaj do koszyka</text>
+<text x="510" y="515" font-size="12" font-weight="normal" text-anchor="start" fill="#666">✓ Wysyłka w 24 h   ✓ Darmowa dostawa od 199 zł</text>
+<text x="510" y="545" font-size="12" font-weight="normal" text-anchor="start" fill="#666">Data palenia, kraj, wysokość upraw, odmiana – tabela parametrów</text>
+<rect x="502" y="524" width="448" height="32" rx="6" fill="none" stroke="#e07b16" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="816.3" y="515" width="133.7" height="17" rx="8" fill="#e07b16" stroke="none" stroke-width="1"/>
+<text x="883.15" y="528" font-size="10.5" font-weight="700" text-anchor="middle" fill="#fff">ACF: parametry kawy</text>
+<rect x="30" y="610" width="940" height="220" rx="4" fill="#fafafa" stroke="#bdbdbd" stroke-width="1"/>
+<rect x="30" y="610" width="130" height="36" rx="0" fill="#fff" stroke="#bdbdbd" stroke-width="1"/>
+<text x="95" y="633" font-size="13" font-weight="600" text-anchor="middle" fill="#444">Opis</text>
+<rect x="160" y="610" width="130" height="36" rx="0" fill="#ececec" stroke="#bdbdbd" stroke-width="1"/>
+<text x="225" y="633" font-size="13" font-weight="normal" text-anchor="middle" fill="#444">Parametry</text>
+<rect x="290" y="610" width="130" height="36" rx="0" fill="#ececec" stroke="#bdbdbd" stroke-width="1"/>
+<text x="355" y="633" font-size="13" font-weight="normal" text-anchor="middle" fill="#444">Opinie (24)</text>
+<rect x="50" y="670" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="686" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="702" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="718" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="734" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="750" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="50" y="766" width="528.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="30" y="870" font-size="18" font-weight="700" text-anchor="start" fill="#333">Może Ci się spodobać (produkty powiązane – WooCommerce)</text>
+<rect x="30" y="885" width="220" height="110" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M30,885 L250,995 M250,885 L30,995" stroke="#c4c4c4"/>
+<text x="140.0" y="944.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="30" y="1005" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="270" y="885" width="220" height="110" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M270,885 L490,995 M490,885 L270,995" stroke="#c4c4c4"/>
+<text x="380.0" y="944.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="270" y="1005" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="510" y="885" width="220" height="110" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M510,885 L730,995 M730,885 L510,995" stroke="#c4c4c4"/>
+<text x="620.0" y="944.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="510" y="1005" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="750" y="885" width="220" height="110" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M750,885 L970,995 M970,885 L750,995" stroke="#c4c4c4"/>
+<text x="860.0" y="944.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="750" y="1005" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="0" y="1030" width="1000" height="90" rx="0" fill="#e6e6e6" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="1060" font-size="12" font-weight="normal" text-anchor="start" fill="#666">Stopka: widgety (o sklepie, najnowsze wpisy), menu w stopce, ©</text>
+<rect x="30" y="1076" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="1090" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="1104" width="156.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1076" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1090" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1104" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1076" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1090" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1104" width="132.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/></svg>

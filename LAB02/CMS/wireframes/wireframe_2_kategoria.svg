@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1060" viewBox="0 0 1000 1060" font-family="Segoe UI, Arial, sans-serif"><rect x="0" y="0" width="1000" height="1060" rx="4" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+<text x="988" y="1050" font-size="11" font-weight="normal" text-anchor="end" fill="#999">Wireframe 2 – kategoria produktów</text>
+<rect x="0" y="0" width="1000" height="64" rx="0" fill="#f2f2f2" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="40" font-size="20" font-weight="700" text-anchor="start" fill="#333">KawaNaKlik</text>
+<text x="560" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Start</text>
+<text x="630" y="38" font-size="13" font-weight="700" text-anchor="start" fill="#333">Sklep</text>
+<text x="700" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Blog</text>
+<text x="770" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">O nas</text>
+<rect x="860" y="22" width="22" height="20" rx="4" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="890" y="37" font-size="12" font-weight="normal" text-anchor="start" fill="#333">Koszyk (2)</text>
+<text x="30" y="95" font-size="12" font-weight="normal" text-anchor="start" fill="#888">Start / Sklep / Kawa ziarnista</text>
+<text x="30" y="135" font-size="26" font-weight="700" text-anchor="start" fill="#333">Kawa ziarnista</text>
+<rect x="30" y="150" width="600" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="164" width="360.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="22" y="108" width="648" height="58" rx="6" fill="none" stroke="#e07b16" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="485.9" y="99" width="184.1" height="17" rx="8" fill="#e07b16" stroke="none" stroke-width="1"/>
+<text x="577.95" y="112" font-size="10.5" font-weight="700" text-anchor="middle" fill="#fff">ACF: baner i opis kategorii</text>
+<rect x="30" y="190" width="220" height="560" rx="4" fill="#f4f4f4" stroke="#bdbdbd" stroke-width="1"/>
+<text x="45" y="215" font-size="15" font-weight="700" text-anchor="start" fill="#444">Filtry</text>
+<text x="45" y="240" font-size="12" font-weight="600" text-anchor="start" fill="#444">Kraj pochodzenia</text>
+<rect x="45" y="254" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="257" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="274" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="277" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="294" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="297" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="314" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="317" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="334" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="337" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="45" y="370" font-size="12" font-weight="600" text-anchor="start" fill="#444">Stopień palenia</text>
+<rect x="45" y="384" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="387" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="404" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="407" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="424" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="427" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="45" y="460" font-size="12" font-weight="600" text-anchor="start" fill="#444">Metoda parzenia</text>
+<rect x="45" y="474" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="477" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="494" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="497" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="514" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="517" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="534" width="12" height="12" rx="2" fill="#fff" stroke="#999" stroke-width="1"/>
+<rect x="64" y="537" width="72.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="45" y="570" font-size="12" font-weight="600" text-anchor="start" fill="#444">Cena</text>
+<rect x="45" y="588" width="190" height="6" rx="3" fill="#cfcfcf" stroke="none" stroke-width="1"/>
+<text x="280" y="210" font-size="12" font-weight="normal" text-anchor="start" fill="#666">Wyświetlanie 1–9 z 11</text>
+<rect x="800" y="194" width="170" height="26" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="812" y="212" font-size="12" font-weight="normal" text-anchor="start" fill="#444">Sortuj: popularność ▾</text>
+<rect x="280" y="240" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M280,240 L492,340 M492,240 L280,340" stroke="#c4c4c4"/>
+<text x="386.0" y="294.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="280" y="350" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="280" y="380" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="392" y="364" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="442.0" y="382.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="512" y="240" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M512,240 L724,340 M724,240 L512,340" stroke="#c4c4c4"/>
+<text x="618.0" y="294.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="512" y="350" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="512" y="380" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="624" y="364" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="674.0" y="382.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="744" y="240" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M744,240 L956,340 M956,240 L744,340" stroke="#c4c4c4"/>
+<text x="850.0" y="294.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="744" y="350" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="744" y="380" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="856" y="364" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="906.0" y="382.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="280" y="412" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M280,412 L492,512 M492,412 L280,512" stroke="#c4c4c4"/>
+<text x="386.0" y="466.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="280" y="522" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="280" y="552" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="392" y="536" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="442.0" y="554.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="512" y="412" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M512,412 L724,512 M724,412 L512,512" stroke="#c4c4c4"/>
+<text x="618.0" y="466.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="512" y="522" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="512" y="552" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="624" y="536" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="674.0" y="554.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="744" y="412" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M744,412 L956,512 M956,412 L744,512" stroke="#c4c4c4"/>
+<text x="850.0" y="466.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="744" y="522" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="744" y="552" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="856" y="536" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="906.0" y="554.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="280" y="584" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M280,584 L492,684 M492,584 L280,684" stroke="#c4c4c4"/>
+<text x="386.0" y="638.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="280" y="694" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="280" y="724" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="392" y="708" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="442.0" y="726.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="512" y="584" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M512,584 L724,684 M724,584 L512,684" stroke="#c4c4c4"/>
+<text x="618.0" y="638.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="512" y="694" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="512" y="724" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="624" y="708" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="674.0" y="726.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="744" y="584" width="212" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M744,584 L956,684 M956,584 L744,684" stroke="#c4c4c4"/>
+<text x="850.0" y="638.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="744" y="694" width="102.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="744" y="724" font-size="13" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="856" y="708" width="100" height="26" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="906.0" y="726.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Do koszyka</text>
+<rect x="500" y="770" width="32" height="30" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="516" y="790" font-size="12" font-weight="normal" text-anchor="middle" fill="#333">‹</text>
+<rect x="540" y="770" width="32" height="30" rx="4" fill="#555" stroke="#999" stroke-width="1"/>
+<text x="556" y="790" font-size="12" font-weight="normal" text-anchor="middle" fill="#fff">1</text>
+<rect x="580" y="770" width="32" height="30" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="596" y="790" font-size="12" font-weight="normal" text-anchor="middle" fill="#333">2</text>
+<rect x="620" y="770" width="32" height="30" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="636" y="790" font-size="12" font-weight="normal" text-anchor="middle" fill="#333">›</text>
+<rect x="30" y="830" width="940" height="120" rx="4" fill="#f4f4f4" stroke="#bdbdbd" stroke-width="1"/>
+<text x="45" y="855" font-size="14" font-weight="600" text-anchor="start" fill="#444">Poradnik do kategorii (np. jak wybrać kawę ziarnistą)</text>
+<rect x="45" y="870" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="884" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="898" width="880" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="45" y="912" width="528.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="26" y="826" width="948" height="128" rx="6" fill="none" stroke="#e07b16" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="808.8" y="817" width="165.2" height="17" rx="8" fill="#e07b16" stroke="none" stroke-width="1"/>
+<text x="891.4" y="830" font-size="10.5" font-weight="700" text-anchor="middle" fill="#fff">ACF: treść SEO pod listą</text>
+<rect x="0" y="970" width="1000" height="90" rx="0" fill="#e6e6e6" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="1000" font-size="12" font-weight="normal" text-anchor="start" fill="#666">Stopka: widgety (o sklepie, najnowsze wpisy), menu w stopce, ©</text>
+<rect x="30" y="1016" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="1030" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="1044" width="156.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1016" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1030" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="1044" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1016" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1030" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="1044" width="132.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/></svg>

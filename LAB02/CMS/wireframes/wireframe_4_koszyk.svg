@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="900" viewBox="0 0 1000 900" font-family="Segoe UI, Arial, sans-serif"><rect x="0" y="0" width="1000" height="900" rx="4" fill="#ffffff" stroke="#999" stroke-width="1.5"/>
+<text x="988" y="890" font-size="11" font-weight="normal" text-anchor="end" fill="#999">Wireframe 4 – koszyk</text>
+<rect x="0" y="0" width="1000" height="64" rx="0" fill="#f2f2f2" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="40" font-size="20" font-weight="700" text-anchor="start" fill="#333">KawaNaKlik</text>
+<text x="560" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Start</text>
+<text x="630" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Sklep</text>
+<text x="700" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">Blog</text>
+<text x="770" y="38" font-size="13" font-weight="normal" text-anchor="start" fill="#333">O nas</text>
+<rect x="860" y="22" width="22" height="20" rx="4" fill="#fff" stroke="#777" stroke-width="1"/>
+<text x="890" y="37" font-size="12" font-weight="normal" text-anchor="start" fill="#333">Koszyk (2)</text>
+<text x="30" y="115" font-size="26" font-weight="700" text-anchor="start" fill="#333">Koszyk</text>
+<rect x="30" y="135" width="940" height="34" rx="6" fill="#555" stroke="none" stroke-width="1"/>
+<text x="45" y="157" font-size="13" font-weight="600" text-anchor="start" fill="#fff">Brakuje 52,30 zł do darmowej dostawy</text>
+<rect x="560" y="147" width="390" height="10" rx="5" fill="#888" stroke="none" stroke-width="1"/>
+<rect x="560" y="147" width="290" height="10" rx="5" fill="#ddd" stroke="none" stroke-width="1"/>
+<rect x="26" y="131" width="948" height="42" rx="6" fill="none" stroke="#e07b16" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="827.7" y="122" width="146.29999999999998" height="17" rx="8" fill="#e07b16" stroke="none" stroke-width="1"/>
+<text x="900.85" y="135" font-size="10.5" font-weight="700" text-anchor="middle" fill="#fff">ACF: próg i komunikat</text>
+<rect x="30" y="190" width="600" height="36" rx="0" fill="#ececec" stroke="#bdbdbd" stroke-width="1"/>
+<text x="110" y="213" font-size="12" font-weight="600" text-anchor="start" fill="#444">Produkt</text>
+<text x="360" y="213" font-size="12" font-weight="600" text-anchor="start" fill="#444">Cena</text>
+<text x="440" y="213" font-size="12" font-weight="600" text-anchor="start" fill="#444">Ilość</text>
+<text x="540" y="213" font-size="12" font-weight="600" text-anchor="start" fill="#444">Suma</text>
+<rect x="30" y="226" width="600" height="90" rx="0" fill="#fff" stroke="#bdbdbd" stroke-width="1"/>
+<rect x="45" y="238" width="60" height="66" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M45,238 L105,304 M105,238 L45,304" stroke="#c4c4c4"/>
+<text x="75.0" y="275.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888"></text>
+<rect x="120" y="254" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="120" y="268" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="360" y="276" font-size="12" font-weight="normal" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="430" y="258" width="70" height="28" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="465" y="277" font-size="12" font-weight="normal" text-anchor="middle" fill="#444">− 1 +</text>
+<text x="540" y="276" font-size="12" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<text x="612" y="276" font-size="16" font-weight="normal" text-anchor="start" fill="#999">×</text>
+<rect x="30" y="316" width="600" height="90" rx="0" fill="#fff" stroke="#bdbdbd" stroke-width="1"/>
+<rect x="45" y="328" width="60" height="66" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M45,328 L105,394 M105,328 L45,394" stroke="#c4c4c4"/>
+<text x="75.0" y="365.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888"></text>
+<rect x="120" y="344" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="120" y="358" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="360" y="366" font-size="12" font-weight="normal" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="430" y="348" width="70" height="28" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="465" y="367" font-size="12" font-weight="normal" text-anchor="middle" fill="#444">− 1 +</text>
+<text x="540" y="366" font-size="12" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<text x="612" y="366" font-size="16" font-weight="normal" text-anchor="start" fill="#999">×</text>
+<rect x="30" y="406" width="600" height="90" rx="0" fill="#fff" stroke="#bdbdbd" stroke-width="1"/>
+<rect x="45" y="418" width="60" height="66" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M45,418 L105,484 M105,418 L45,484" stroke="#c4c4c4"/>
+<text x="75.0" y="455.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888"></text>
+<rect x="120" y="434" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="120" y="448" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<text x="360" y="456" font-size="12" font-weight="normal" text-anchor="start" fill="#444">49,90 zł</text>
+<rect x="430" y="438" width="70" height="28" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="465" y="457" font-size="12" font-weight="normal" text-anchor="middle" fill="#444">− 1 +</text>
+<text x="540" y="456" font-size="12" font-weight="700" text-anchor="start" fill="#444">49,90 zł</text>
+<text x="612" y="456" font-size="16" font-weight="normal" text-anchor="start" fill="#999">×</text>
+<rect x="30" y="506" width="300" height="36" rx="4" fill="#fff" stroke="#999" stroke-width="1"/>
+<text x="45" y="529" font-size="12" font-weight="normal" text-anchor="start" fill="#999">Kod rabatowy</text>
+<rect x="340" y="506" width="140" height="36" rx="6" fill="#fff" stroke="#555" stroke-width="1"/>
+<text x="410.0" y="529.0" font-size="12" font-weight="600" text-anchor="middle" fill="#333">Zastosuj</text>
+<rect x="660" y="190" width="310" height="300" rx="4" fill="#f4f4f4" stroke="#bdbdbd" stroke-width="1"/>
+<text x="680" y="220" font-size="16" font-weight="700" text-anchor="start" fill="#444">Podsumowanie</text>
+<text x="680" y="260" font-size="13" font-weight="normal" text-anchor="start" fill="#444">Wartość produktów</text>
+<text x="950" y="260" font-size="13" font-weight="normal" text-anchor="end" fill="#444">146,70 zł</text>
+<text x="680" y="290" font-size="13" font-weight="normal" text-anchor="start" fill="#444">Wysyłka</text>
+<text x="950" y="290" font-size="13" font-weight="normal" text-anchor="end" fill="#444">12,99 zł</text>
+<text x="680" y="320" font-size="13" font-weight="normal" text-anchor="start" fill="#444">Rabat</text>
+<text x="950" y="320" font-size="13" font-weight="normal" text-anchor="end" fill="#444">−0,00 zł</text>
+<rect x="680" y="345" width="270" height="1" rx="4" fill="#bbb" stroke="none" stroke-width="1"/>
+<text x="680" y="380" font-size="16" font-weight="700" text-anchor="start" fill="#444">Razem</text>
+<text x="950" y="380" font-size="16" font-weight="700" text-anchor="end" fill="#444">159,69 zł</text>
+<rect x="680" y="405" width="270" height="48" rx="6" fill="#555" stroke="#555" stroke-width="1"/>
+<text x="815.0" y="434.0" font-size="12" font-weight="600" text-anchor="middle" fill="#fff">Przejdź do kasy</text>
+<text x="815" y="475" font-size="11" font-weight="normal" text-anchor="middle" fill="#777">BLIK · karta · przelew · pobranie</text>
+<text x="30" y="590" font-size="18" font-weight="700" text-anchor="start" fill="#333">Dobierz do zamówienia (cross-sell WooCommerce)</text>
+<rect x="30" y="605" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M30,605 L250,705 M250,605 L30,705" stroke="#c4c4c4"/>
+<text x="140.0" y="659.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="30" y="715" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="270" y="605" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M270,605 L490,705 M490,605 L270,705" stroke="#c4c4c4"/>
+<text x="380.0" y="659.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="270" y="715" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="510" y="605" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M510,605 L730,705 M730,605 L510,705" stroke="#c4c4c4"/>
+<text x="620.0" y="659.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="510" y="715" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="750" y="605" width="220" height="100" rx="4" fill="#e3e3e3" stroke="#bdbdbd" stroke-width="1"/>
+<path d="M750,605 L970,705 M970,605 L750,705" stroke="#c4c4c4"/>
+<text x="860.0" y="659.0" font-size="11" font-weight="normal" text-anchor="middle" fill="#888">produkt</text>
+<rect x="750" y="715" width="96.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="0" y="760" width="1000" height="140" rx="0" fill="#e6e6e6" stroke="#bdbdbd" stroke-width="1"/>
+<text x="30" y="790" font-size="12" font-weight="normal" text-anchor="start" fill="#666">Stopka: widgety (o sklepie, najnowsze wpisy), menu w stopce, ©</text>
+<rect x="30" y="806" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="820" width="260" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="30" y="834" width="156.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="806" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="820" width="200" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="360" y="834" width="120.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="806" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="820" width="220" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/>
+<rect x="640" y="834" width="132.0" height="6" rx="3" fill="#d6d6d6" stroke="none" stroke-width="1"/></svg>
