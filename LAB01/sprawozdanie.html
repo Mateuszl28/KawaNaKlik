@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<title>Sprawozdanie APPDB – KawaNaKlik</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Calibri, Arial, sans-serif; font-size: 10.5pt; line-height: 1.45; color: #1d1d1f; margin: 0; }
+  h1 { font-size: 22pt; margin: 0 0 4mm; }
+  h2 { font-size: 15pt; margin: 9mm 0 3mm; padding-bottom: 1.5mm; border-bottom: 2px solid #6b3e26; color: #4a2a19; }
+  h3 { font-size: 12pt; margin: 6mm 0 2mm; color: #4a2a19; }
+  p { margin: 0 0 2.5mm; }
+  ul, ol { margin: 0 0 3mm; padding-left: 6mm; }
+  li { margin-bottom: 1mm; }
+  code { font-family: Consolas, monospace; font-size: 9pt; background: #f3eee9; padding: 0 1mm; border-radius: 2px; }
+  pre { font-family: Consolas, monospace; font-size: 8.5pt; background: #f6f3f0; border: 1px solid #e2d9d0; padding: 3mm; white-space: pre-wrap; margin: 0 0 3mm; }
+  table { border-collapse: collapse; width: 100%; margin: 2mm 0 4mm; font-size: 9.5pt; }
+  th, td { border: 1px solid #d6cbc0; padding: 1.5mm 2mm; text-align: left; vertical-align: top; }
+  th { background: #f3eee9; }
+  figure { margin: 3mm 0 5mm; page-break-inside: avoid; break-inside: avoid; }
+  figure img { width: 100%; border: 1px solid #cfc6bd; display: block; }
+  figure.half img { width: 70%; margin: 0 auto; }
+  figcaption { font-size: 9pt; color: #555; margin-top: 1.5mm; text-align: center; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; }
+  .grid figure { margin: 0; }
+  .cover { height: 250mm; display: flex; flex-direction: column; justify-content: center; page-break-after: always; }
+  .cover .sub { font-size: 13pt; color: #555; margin-bottom: 12mm; }
+  .cover table { width: 70%; font-size: 10.5pt; }
+  .note { background: #fff7e6; border-left: 4px solid #e0a030; padding: 2.5mm 3mm; margin: 3mm 0; font-size: 9.5pt; }
+  .todo { background: #f1f4f8; border-left: 4px solid #8296b0; padding: 2.5mm 3mm; margin: 3mm 0; font-size: 9.5pt; }
+  .pb { page-break-before: always; }
+  .status { display: inline-block; font-size: 8.5pt; padding: 0.5mm 2mm; border-radius: 2mm; background: #e3f1e5; color: #1f6b2c; font-weight: 600; }
+  .status.plan { background: #eef0f4; color: #4a5a70; }
+</style>
+</head>
+<body>
+
+<section class="cover">
+  <h1>Sprawozdanie – APPDB</h1>
+  <div class="sub">Automatyzacja procesów sklepu internetowego <b>KawaNaKlik</b><br>Etap I: instalacja i konfiguracja środowiska WordPress + WooCommerce w aplikacji Local</div>
+  <table>
+    <tr><th>Przedmiot</th><td>APPDB – laboratorium 1</td></tr>
+    <tr><th>Zespół (2 os.)</th><td>1. ……………………………<br>2. ……………………………</td></tr>
+    <tr><th>Scenariusz</th><td>Sklep internetowy (zamówienia, reklamacje, zwroty, pytania klientów)</td></tr>
+    <tr><th>Data</th><td>21.10.2026</td></tr>
+    <tr><th>Środowisko</th><td>Local 10.2 · WordPress 7.1.3 · WooCommerce 11.2.1 · PHP 8.2.29 · MySQL 8.4.0 · nginx 1.26.1</td></tr>
+  </table>
+</section>
+
+<h2>1. Opis firmy i scenariusza</h2>
+<p><b>KawaNaKlik</b> to fikcyjny, mały sklep internetowy ze świeżo paloną kawą i akcesoriami do parzenia. Firma zatrudnia 3 osoby: właściciela, osobę od obsługi klienta i magazyniera. Sprzedaje kawę ziarnistą i mieloną, akcesoria (drippery, młynki, filtry) oraz zestawy prezentowe. Wysyła towar kurierem na terenie Polski, a od 199 zł dostawa jest darmowa.</p>
+<p>Codzienna praca, którą chcemy usprawnić automatyzacją:</p>
+<ul>
+  <li><b>Zamówienia</b> – kilkanaście dziennie. Trzeba je ręcznie przepisywać do arkusza, pilnować płatności i statusów.</li>
+  <li><b>Reklamacje</b> – np. uszkodzona paczka, rozsypane ziarna. Zgłoszenia przychodzą mailem i giną w skrzynce.</li>
+  <li><b>Zwroty</b> – 14-dniowe prawo odstąpienia od umowy. Trzeba sprawdzić termin i stan produktu.</li>
+  <li><b>Pytania klientów</b> – np. „czy ta kawa nadaje się do ekspresu kolbowego?”, „gdzie jest moja paczka?”.</li>
+  <li><b>Stany magazynowe</b> – część produktów szybko się kończy (np. Espresso Blend, zestaw „Poranek”).</li>
+</ul>
+<p>Sklep działa na <b>WordPressie z wtyczką WooCommerce</b>, uruchomionym lokalnie w aplikacji <b>Local</b>. W kolejnych etapach zostanie połączony z n8n, Google Sheets, modelem językowym i dashboardem w Looker Studio.</p>
+<div class="note"><b>Zasada danych / RODO.</b> Wszystkie dane w sklepie są syntetyczne i wygenerowaliśmy je sami skryptem (załącznik B). Klienci mają fikcyjne imiona i nazwiska, adresy „ul. Testowa N” i e-maile w zarezerwowanej domenie <code>.test</code>, której nie da się zarejestrować. Nie użyliśmy żadnych prawdziwych danych osobowych. Dzięki temu dane testowe nie podlegają RODO, a cały sklep można bezpiecznie udostępniać prowadzącemu i narzędziom AI.</div>
+
+<h3>Plan etapów</h3>
+<table>
+  <tr><th>Etap</th><th>Zakres</th><th>Status</th></tr>
+  <tr><td>I</td><td>Instalacja i konfiguracja środowiska: Local, WordPress, WooCommerce, dane syntetyczne</td><td><span class="status">wykonany</span></td></tr>
+  <tr><td>II</td><td>n8n (Docker / chmura): eksport zamówień z WooCommerce do Google Sheets</td><td><span class="status plan">planowany</span></td></tr>
+  <tr><td>III</td><td>LLM (Gemini / Ollama): klasyfikacja wiadomości klientów (reklamacja / zwrot / pytanie) i szkic odpowiedzi</td><td><span class="status plan">planowany</span></td></tr>
+  <tr><td>IV</td><td>Automatyzacja zwrotów i alertów magazynowych (niski stan → powiadomienie)</td><td><span class="status plan">planowany</span></td></tr>
+  <tr><td>V</td><td>Dashboard w Looker Studio: sprzedaż, statusy zamówień, reklamacje</td><td><span class="status plan">planowany</span></td></tr>
+</table>
+
+<h2 class="pb">2. Etap I – Instalacja WordPressa w Local i konfiguracja sklepu</h2>
+
+<h3>2.1. Cel</h3>
+<p>Celem etapu było postawienie działającego, lokalnego sklepu internetowego, który będzie źródłem danych dla automatyzacji w etapach II–V. Sklep miał mieć:</p>
+<ul>
+  <li>polski interfejs i walutę PLN,</li>
+  <li>WooCommerce z metodami płatności i wysyłki,</li>
+  <li>katalog produktów, klientów i zamówienia w różnych statusach, w tym zamówienia z reklamacją, zwrotem i pytaniem klienta.</li>
+</ul>
+
+<h3>2.2. Wykonane prace</h3>
+<ol>
+  <li>Utworzenie nowej strony <b>KawaNaKlik</b> w aplikacji Local: domena <code>kawanaklik.local</code>, nginx, PHP 8.2.29, MySQL 8.4.0.</li>
+  <li>Pierwsze logowanie do panelu WordPress i zmiana języka witryny na polski, strefy czasowej na Europe/Warsaw oraz ustawienie sloganu.</li>
+  <li>Instalacja i włączenie wtyczki WooCommerce 11.2.1 z oficjalnego katalogu wtyczek.</li>
+  <li>Przejście kreatora konfiguracji WooCommerce: profil „dopiero zaczynam”, branża „Żywność i napoje”, lokalizacja Polska. Odznaczyliśmy przy tym zgodę na śledzenie użycia i pominęliśmy instalację dodatkowych wtyczek partnerów.</li>
+  <li>Wygenerowanie danych syntetycznych skryptem PHP uruchomionym przez WP-CLI:
+    <ul>
+      <li>4 kategorie i 11 produktów ze stanami magazynowymi,</li>
+      <li>8 klientów,</li>
+      <li>24 zamówienia w 6 statusach,</li>
+      <li>notatki z reklamacją, zwrotem, pytaniem i opóźnieniem,</li>
+      <li>płatności: przelew i za pobraniem,</li>
+      <li>strefa wysyłki „Polska”: kurier 14,99 zł, darmowa dostawa od 199 zł.</li>
+    </ul>
+  </li>
+  <li>Ustawienie bezpośrednich odnośników na <code>/%postname%/</code>, czyli przyjaznych adresów dla REST API WooCommerce, z którego skorzysta n8n.</li>
+</ol>
+
+<h3>2.3. Tworzenie strony w aplikacji Local</h3>
+<p>Local to darmowe narzędzie, które jednym kliknięciem stawia lokalny serwer WWW, PHP i bazę MySQL, a potem instaluje na nim WordPressa. Nie trzeba przy tym ręcznie konfigurować XAMPP-a ani Dockera. Na komputerze działała już wcześniej inna strona (CyberTarcza). Dla tego projektu dodaliśmy nową, osobną stronę.</p>
+<figure><img src="screeny/01_local_przed.png"><figcaption>Rys. 1. Aplikacja Local przed dodaniem nowej strony – na liście jest tylko wcześniejszy projekt.</figcaption></figure>
+<div class="grid">
+  <figure><img src="screeny/02_local_tworzenie.png"><figcaption>Rys. 2. Tworzenie strony KawaNaKlik – uruchamianie usług (nginx, PHP, MySQL).</figcaption></figure>
+  <figure><img src="screeny/03_local_dodawanie_wp.png"><figcaption>Rys. 3. Local pobiera i instaluje WordPressa („Adding WordPress…”).</figcaption></figure>
+</div>
+<figure><img src="screeny/04_local_strona_gotowa.png"><figcaption>Rys. 4. Strona KawaNaKlik działa (zielona kropka). Widać domenę kawanaklik.local, serwer nginx, PHP 8.2.29, MySQL 8.4.0 i WordPress 7.1.3.</figcaption></figure>
+
+<h3>2.4. Pierwsze uruchomienie WordPressa</h3>
+<div class="grid">
+  <figure><img src="screeny/05_strona_startowa.jpg"><figcaption>Rys. 5. Świeża instalacja – domyślny motyw Twenty Twenty-Five i wpis „Hello world!”.</figcaption></figure>
+  <figure><img src="screeny/06_logowanie.jpg"><figcaption>Rys. 6. Logowanie do panelu /wp-admin kontem administratora (hasło testowe).</figcaption></figure>
+</div>
+<figure><img src="screeny/08_ustawienia_ogolne.jpg"><figcaption>Rys. 7. Ustawienia → Ogólne po zmianie języka na polski. Ustawiono też nazwę, slogan i strefę czasową Europe/Warsaw.</figcaption></figure>
+
+<h3>2.5. Instalacja WooCommerce</h3>
+<div class="grid">
+  <figure><img src="screeny/09_wyszukiwanie_woocommerce.jpg"><figcaption>Rys. 8. Wtyczki → Dodaj wtyczkę → wyszukanie „WooCommerce”.</figcaption></figure>
+  <figure><img src="screeny/10_instalacja_w_toku.jpg"><figcaption>Rys. 9. Instalacja w toku („Instalowanie…”).</figcaption></figure>
+</div>
+<figure><img src="screeny/11_wtyczki_woocommerce.jpg"><figcaption>Rys. 10. WooCommerce 11.2.1 zainstalowane i włączone.</figcaption></figure>
+
+<h3>2.6. Kreator konfiguracji WooCommerce</h3>
+<div class="grid">
+  <figure><img src="screeny/12_woo_kreator_powitanie.jpg"><figcaption>Rys. 11. Ekran powitalny. Zgodę na śledzenie użycia odznaczyliśmy (zasada minimalizacji danych).</figcaption></figure>
+  <figure><img src="screeny/13_woo_kreator_profil.jpg"><figcaption>Rys. 12. Profil sprzedawcy: „Dopiero zaczynam swoją działalność”.</figcaption></figure>
+  <figure><img src="screeny/14_woo_kreator_dane_sklepu.jpg"><figcaption>Rys. 13. Dane sklepu: KawaNaKlik, „Żywność i napoje”, Polska. Zgoda marketingowa pozostała odznaczona.</figcaption></figure>
+  <figure><img src="screeny/15_woo_kreator_rozszerzenia.jpg"><figcaption>Rys. 14. Proponowane rozszerzenia (Jetpack, Klaviyo, Pinterest…) – krok pominięty.</figcaption></figure>
+</div>
+<figure class="half"><img src="screeny/16_woo_strona_glowna.jpg"><figcaption>Rys. 15. Panel WooCommerce po konfiguracji – kroki „Dodaj produkty” i „Skonfiguruj płatności” są odhaczone.</figcaption></figure>
+
+<h3>2.7. Dane syntetyczne w sklepie</h3>
+<figure><img src="screeny/17_produkty.jpg"><figcaption>Rys. 16. Katalog produktów: SKU, ceny w PLN, stany magazynowe i kategorie. Zestaw „Poranek” jest celowo niedostępny (do testu alertów w etapie IV).</figcaption></figure>
+<figure><img src="screeny/18_zamowienia.jpg"><figcaption>Rys. 17. 24 zamówienia w statusach: w trakcie realizacji, oczekujące na płatność, wstrzymane, zrealizowane, anulowane, zwrócone.</figcaption></figure>
+<figure><img src="screeny/19_zamowienie_reklamacja.jpg"><figcaption>Rys. 18. Zamówienie #24 z notatką o reklamacji („paczka dotarła uszkodzona”). Takie wpisy będą wejściem dla klasyfikatora LLM w etapie III.</figcaption></figure>
+<figure><img src="screeny/22_sklep_front.jpg"><figcaption>Rys. 19. Strona sklepu /sklep/ widziana przez klienta. Sklep jest w trybie „Wkrótce”, więc nie jest publicznie dostępny.</figcaption></figure>
+
+<h3>2.8. Prompty</h3>
+<p>W etapie I nie korzystaliśmy z modelu językowego w samym sklepie. Asystenta AI użyliśmy jako pomocy przy pracy. Przykładowe polecenia:</p>
+<pre>„Zrób nowy projekt – nową stronę w Local dla scenariusza sklep internetowy.”
+„Wygeneruj syntetyczne dane dla sklepu z kawą: 11 produktów, 8 klientów, 24 zamówienia
+ w różnych statusach, w tym notatki z reklamacją, zwrotem i pytaniem klienta.
+ Bez prawdziwych danych osobowych – e-maile w domenie .test.”</pre>
+
+<h3>2.9. Wyniki</h3>
+<table>
+  <tr><th>Element</th><th>Wynik</th></tr>
+  <tr><td>Strona w Local</td><td>http://kawanaklik.local – działa (nginx + PHP 8.2.29 + MySQL 8.4.0)</td></tr>
+  <tr><td>WordPress</td><td>7.1.3, język polski, przyjazne odnośniki</td></tr>
+  <tr><td>WooCommerce</td><td>11.2.1, waluta PLN, kraj PL, płatność przelewem i za pobraniem</td></tr>
+  <tr><td>Wysyłka</td><td>Strefa „Polska”: Kurier 14,99 zł, darmowa dostawa od 199 zł</td></tr>
+  <tr><td>Produkty</td><td>11 w 4 kategoriach (eksport: <code>dane_testowe/produkty.csv</code>)</td></tr>
+  <tr><td>Klienci</td><td>8 fikcyjnych (eksport: <code>dane_testowe/klienci.csv</code>)</td></tr>
+  <tr><td>Zamówienia</td><td>24 – zrealizowane 9, w realizacji 6, wstrzymane 3, oczekujące 2, anulowane 2, zwrócone 2 (<code>dane_testowe/zamowienia.csv</code>)</td></tr>
+  <tr><td>Zgłoszenia klientów</td><td>6 notatek: reklamacja, zwrot, pytanie, opóźnienie (meta <code>_knk_typ_zgloszenia</code>)</td></tr>
+</table>
+
+<h3>2.10. Problemy i ich rozwiązania</h3>
+<table>
+  <tr><th style="width:32%">Problem</th><th>Rozwiązanie</th></tr>
+  <tr><td>Kreator WooCommerce sam utworzył strefę „Polska” z <i>darmową wysyłką bez progu</i>. Nasza strefa (kurier + darmowa od 199 zł) się z nią dublowała, a WooCommerce bierze pierwszą pasującą strefę, więc każda wysyłka byłaby darmowa (rys. 20).</td><td>Usunęliśmy automatycznie dodaną strefę. Została jedna strefa „Polska” z poprawnymi metodami (rys. 21).</td></tr>
+  <tr><td>Po wygenerowaniu zamówień stany magazynowe części produktów spadły poniżej zera (np. −7 szt.). WooCommerce przy tworzeniu zamówień zdejmuje towar ze stanu, nawet gdy go brakuje.</td><td>Ręcznie skorygowaliśmy stany do realnych wartości (0–5 szt.). Wniosek na przyszłość: w etapie IV automatyzacja musi pilnować progu minimalnego.</td></tr>
+  <tr><td>WP-CLI uruchamiany z terminala zgłaszał błąd „missing the MySQL extension”.</td><td>Strona działa na PHP 8.2, a polecenie startowało z PHP 8.5. Użyliśmy pliku php.ini i portu MySQL (10012) tej konkretnej strony z katalogu Local.</td></tr>
+  <tr><td>Panel pokazuje ostrzeżenie „Używasz automatycznie wygenerowanego hasła”.</td><td>To tylko konto testowe. Dane dostępowe są w pliku <code>dane_testowe/dostep_testowy.txt</code> i nie trafiają do sprawozdania.</td></tr>
+</table>
+<div class="grid">
+  <figure><img src="screeny/20_strefy_duplikat.jpg"><figcaption>Rys. 20. Problem: dwie strefy „Polska”.</figcaption></figure>
+  <figure><img src="screeny/21_strefy_po_poprawce.jpg"><figcaption>Rys. 21. Po poprawce: jedna strefa – Kurier + Darmowa dostawa.</figcaption></figure>
+</div>
+
+<h3>2.11. Wnioski</h3>
+<ul>
+  <li>Local pozwala postawić kompletny WordPress (serwer, PHP, baza, SSL) w kilka minut bez konfigurowania serwera. To dobre rozwiązanie na środowisko testowe.</li>
+  <li>Kreatory konfiguracji mają domyślnie zaznaczone zgody na śledzenie i marketing oraz proponują dodatkowe wtyczki. Każdy krok trzeba świadomie przejrzeć – to praktyczny przykład zasady <i>privacy by default</i> z RODO.</li>
+  <li>Dane syntetyczne z gotowego skryptu można odtworzyć w każdej chwili, dzięki zapisanemu ziarnu losowania (seed 2026), co przyda się przy testach automatyzacji.</li>
+  <li>Sklep ma już wszystko, czego potrzebują następne etapy: REST API WooCommerce, zamówienia w różnych statusach i teksty zgłoszeń klientów do klasyfikacji przez AI.</li>
+</ul>
+
+<h2 class="pb">3. Etapy II–V</h2>
+<div class="todo">Etapy II–V nie zostały jeszcze wykonane. Poniżej jest tylko plan prac. Sekcje uzupełnimy (cel, prace, zrzuty, prompty, wyniki, problemy, wnioski) po realizacji kolejnych laboratoriów.</div>
+<table>
+  <tr><th>Etap</th><th>Planowany przepływ</th><th>Narzędzia</th></tr>
+  <tr><td>II</td><td>Webhook „nowe zamówienie” z WooCommerce → n8n → nowy wiersz w arkuszu „Zamówienia”</td><td>n8n, WooCommerce REST API, Google Sheets</td></tr>
+  <tr><td>III</td><td>Wiadomość klienta → LLM klasyfikuje (reklamacja / zwrot / pytanie / inne) i ocenia priorytet → szkic odpowiedzi do akceptacji przez człowieka</td><td>n8n, Gemini API (darmowy próg) lub Ollama</td></tr>
+  <tr><td>IV</td><td>Zwrot: sprawdzenie 14 dni od daty zamówienia → status + mail. Stan magazynowy &lt; progu → alert</td><td>n8n, Mailpit (lokalna skrzynka testowa w Local)</td></tr>
+  <tr><td>V</td><td>Dashboard: sprzedaż dzienna, statusy zamówień, liczba i typy zgłoszeń, czas reakcji</td><td>Looker Studio na danych z Google Sheets</td></tr>
+</table>
+
+<h2>4. Podsumowanie wdrożenia</h2>
+<div class="note">Liczby w tabelach są <b>szacunkami</b> dla fikcyjnej firmy. Zweryfikujemy je pomiarami po wdrożeniu etapów II–V.</div>
+<h3>4.1. Przed / po (szacunek)</h3>
+<table>
+  <tr><th>Proces</th><th>Przed (ręcznie)</th><th>Po automatyzacji (cel)</th></tr>
+  <tr><td>Przepisanie zamówienia do arkusza</td><td>ok. 3 min / zamówienie</td><td>0 min (automatycznie)</td></tr>
+  <tr><td>Przeczytanie i przypisanie wiadomości klienta</td><td>ok. 4 min / wiadomość</td><td>ok. 1 min (weryfikacja klasyfikacji AI)</td></tr>
+  <tr><td>Odpowiedź na typowe pytanie</td><td>ok. 6 min</td><td>ok. 2 min (poprawka szkicu AI)</td></tr>
+  <tr><td>Kontrola stanów magazynowych</td><td>raz w tygodniu, ręcznie</td><td>na bieżąco, alert przy niskim stanie</td></tr>
+  <tr><td>Raport sprzedaży</td><td>ok. 1 h / tydzień w arkuszu</td><td>dashboard aktualizowany automatycznie</td></tr>
+</table>
+<h3>4.2. ROI (szacunek)</h3>
+<p>Założenia:</p>
+<ul>
+  <li>15 zamówień i 10 wiadomości dziennie, 22 dni robocze w miesiącu,</li>
+  <li>koszt pracy 40 zł/h,</li>
+  <li>narzędzia w darmowych progach (n8n self-hosted, Gemini free tier, Looker Studio).</li>
+</ul>
+<p>Rachunek:</p>
+<ul>
+  <li>Oszczędność czasu: (15 × 3 min + 10 × 3 min + 10 × 4 min) × 22 ≈ 42 h/mies., czyli ok. <b>1 690 zł/mies.</b></li>
+  <li>Koszt jednorazowy: ok. 40 h wdrożenia, czyli 1 600 zł.</li>
+  <li>Koszt bieżący: utrzymanie ok. 2 h/mies., czyli 80 zł.</li>
+</ul>
+<p>Zwrot z inwestycji następuje po ok. 1 miesiącu.</p>
+<h3>4.3. Ryzyka</h3>
+<ul>
+  <li>Awaria lub zmiana API (WooCommerce, Google, Gemini) zatrzymuje przepływy. Potrzebny jest monitoring błędów w n8n i ręczna procedura awaryjna.</li>
+  <li>Przetwarzanie danych osobowych prawdziwych klientów przez zewnętrzne API LLM wymaga podstawy prawnej i umowy powierzenia (RODO). Alternatywą jest lokalny model (Ollama).</li>
+  <li>Klucze API trzeba trzymać w menedżerze poświadczeń n8n, a nie w treści przepływów ani w eksportach JSON.</li>
+  <li>Darmowe progi mają limity zapytań, więc przy wzroście ruchu pojawią się koszty.</li>
+</ul>
+<h3>4.4. Ograniczenia AI</h3>
+<ul>
+  <li>Model może źle sklasyfikować wiadomość (np. ironię albo kilka spraw w jednym mailu), dlatego człowiek zatwierdza każdą odpowiedź.</li>
+  <li>Model może zmyślać, np. podać nieistniejący termin dostawy. Odpowiedzi trzeba opierać na danych z zamówienia, a nie na wiedzy modelu.</li>
+  <li>Decyzje prawne (uznanie reklamacji, zwrot pieniędzy) zostają po stronie człowieka.</li>
+</ul>
+
+<h2 class="pb">5. Załączniki</h2>
+<table>
+  <tr><th>Załącznik</th><th>Plik / lokalizacja</th></tr>
+  <tr><td>A. Zrzuty ekranu (22 szt.)</td><td><code>screeny/</code></td></tr>
+  <tr><td>B. Skrypt danych syntetycznych (PHP, WP-CLI)</td><td><code>kod/seed_kawanaklik.php</code></td></tr>
+  <tr><td>C. Skrypt tworzenia strony w Local (API GraphQL)</td><td><code>kod/utworz_strone_local.sh</code></td></tr>
+  <tr><td>D. Dane testowe (CSV)</td><td><code>dane_testowe/produkty.csv</code>, <code>klienci.csv</code>, <code>zamowienia.csv</code></td></tr>
+  <tr><td>E. Eksporty przepływów n8n (JSON)</td><td>do uzupełnienia w etapach II–IV</td></tr>
+  <tr><td>F. Link do dashboardu</td><td>do uzupełnienia w etapie V</td></tr>
+</table>
+
+<h3>Załącznik B – fragment skryptu danych syntetycznych</h3>
+<pre>mt_srand( 2026 ); // Powtarzalne dane przy każdym uruchomieniu.
+
+$products = array(
+  // nazwa, kategoria, cena, stan, SKU
+  array( 'Etiopia Yirgacheffe 250 g', 'Kawa ziarnista', 49.90, 42, 'KNK-ETI-250' ),
+  array( 'Espresso Blend 1 kg',       'Kawa ziarnista', 99.00,  7, 'KNK-ESP-1000' ),
+  ...
+);
+
+$notes = array(
+  'reklamacja' =&gt; 'Klient zgłasza reklamację: paczka dotarła uszkodzona, rozsypane ziarna.',
+  'zwrot'      =&gt; 'Klient prosi o zwrot w terminie 14 dni – produkt nieotwarty.',
+  'pytanie'    =&gt; 'Pytanie klienta: czy kawa jest odpowiednia do ekspresu kolbowego?',
+  'opoznienie' =&gt; 'Klient pyta o status przesyłki – brak aktualizacji od 3 dni.',
+);
+// Uruchomienie: wp eval-file seed_kawanaklik.php</pre>
+
+</body>
+</html>
