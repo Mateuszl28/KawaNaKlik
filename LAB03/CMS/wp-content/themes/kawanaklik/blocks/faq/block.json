@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "acf/faq",
+  "title": "FAQ",
+  "description": "Najczęstsze pytania z typu treści FAQ + dane strukturalne FAQPage",
+  "category": "kawanaklik",
+  "icon": "editor-help",
+  "keywords": [
+    "pytania",
+    "faq"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "anchor": true,
+    "align": false,
+    "html": false
+  },
+  "style": "file:./style.css"
+}

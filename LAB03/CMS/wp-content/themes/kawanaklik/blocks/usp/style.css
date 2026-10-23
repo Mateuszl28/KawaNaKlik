@@ -1,0 +1,37 @@
+/* Blok Przewagi (USP) */
+.usp {
+	margin-bottom: 48px;
+}
+
+.usp__grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+	gap: 20px;
+}
+
+.usp__item {
+	background: #fff;
+	border: 1px solid var(--ramka, #e4d9cd);
+	border-radius: var(--radius, 10px);
+	padding: 24px 20px;
+	text-align: center;
+}
+
+.usp__icon {
+	display: block;
+	font-size: 2rem;
+	line-height: 1;
+	margin-bottom: 10px;
+}
+
+.usp__title {
+	margin: 0 0 6px;
+	font-size: 1.05rem;
+	color: var(--kawa, #4a2a19);
+}
+
+.usp__text {
+	margin: 0;
+	color: var(--szary, #6d655f);
+	font-size: 0.92rem;
+}

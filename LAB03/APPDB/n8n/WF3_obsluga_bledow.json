@@ -1,0 +1,204 @@
+{
+  "id": "KNKobslugaBledow",
+  "name": "WF3 – Obsługa błędów (Error Trigger)",
+  "nodes": [
+    {
+      "parameters": {},
+      "id": "KNKobslugaBledow-00",
+      "name": "Błąd w przepływie",
+      "type": "n8n-nodes-base.errorTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz logu błędu-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu błędu-1",
+              "name": "zrodlo",
+              "value": "={{ $json.workflow.name }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu błędu-2",
+              "name": "opis",
+              "value": "={{ $json.execution.error.message }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu błędu-3",
+              "name": "szczegoly",
+              "value": "={{ 'węzeł: ' + ($json.execution.lastNodeExecuted || '-') + ', wykonanie #' + ($json.execution.id || '-') }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKobslugaBledow-01",
+      "name": "Wiersz logu błędu",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        240,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKobslugaBledow-02",
+      "name": "Log błędów: do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        480,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/log_bledow.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKobslugaBledow-03",
+      "name": "Log błędów: dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        700,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL || 'http://localhost:5690/webhook/discord-mock' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ username: 'KawaNaKlik – automaty', content: `🛑 Błąd w przepływie „${$('Wiersz logu błędu').first().json.zrodlo}”: ${$('Wiersz logu błędu').first().json.opis}` }) }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "KNKobslugaBledow-04",
+      "name": "Discord: błąd przepływu",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        920,
+        100
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "fromEmail": "KawaNaKlik <sklep@kawanaklik.test>",
+        "toEmail": "admin@kawanaklik.test",
+        "subject": "=🛑 Błąd przepływu n8n: {{ $('Wiersz logu błędu').first().json.zrodlo }}",
+        "emailFormat": "html",
+        "html": "=<p><b>{{ $('Wiersz logu błędu').first().json.opis }}</b></p><p>{{ $('Wiersz logu błędu').first().json.szczegoly }}</p><p>Czas: {{ $('Wiersz logu błędu').first().json.czas }}</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "KNKobslugaBledow-05",
+      "name": "E-mail: błąd do administratora",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        1140,
+        100
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "KNKsmtpMailpit01",
+          "name": "Mailpit (lokalny SMTP)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "connections": {
+    "Log błędów: do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log błędów: dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Błąd w przepływie": {
+      "main": [
+        [
+          {
+            "node": "Wiersz logu błędu",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz logu błędu": {
+      "main": [
+        [
+          {
+            "node": "Log błędów: do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów: dopisz do pliku": {
+      "main": [
+        [
+          {
+            "node": "Discord: błąd przepływu",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Discord: błąd przepływu": {
+      "main": [
+        [
+          {
+            "node": "E-mail: błąd do administratora",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "executionTimeout": 120
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

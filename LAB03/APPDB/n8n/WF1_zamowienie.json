@@ -1,0 +1,798 @@
+{
+  "id": "KNKzamowienie001",
+  "name": "WF1 – Zamówienie → arkusz → e-mail → Discord",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "zamowienie",
+        "responseMode": "responseNode",
+        "options": {
+          "rawBody": true
+        }
+      },
+      "id": "KNKzamowienie001-00",
+      "name": "Webhook: nowe zamówienie (WooCommerce)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        200
+      ],
+      "webhookId": "knk-zamowienie"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Weryfikacja podpisu WooCommerce (HMAC-SHA256, base64) i normalizacja danych zamówienia.\nconst crypto = require('crypto');\nconst SECRET = $env.WC_WEBHOOK_SECRET || '';\nconst item = $input.first();\nconst headers = item.json.headers || {};\nconst body = item.json.body || {};\n\n// WooCommerce wysyła „ping” (webhook_id=…) przy zapisie webhooka.\nif (body.webhook_id && !body.id) {\n  return [{ json: { status: 'ping', webhook_id: body.webhook_id } }];\n}\n\nconst signature = headers['x-wc-webhook-signature'] || '';\nconst raw = item.binary && item.binary.data\n  ? (await this.helpers.getBinaryDataBuffer(0, 'data')).toString('utf8')\n  : JSON.stringify(body);\nconst expected = crypto.createHmac('sha256', SECRET).update(raw).digest('base64');\nconst valid = SECRET !== '' && signature.length === expected.length &&\n  crypto.timingSafeEqual(Buffer.from(signature), Buffer.from(expected));\nif (!valid) {\n  return [{ json: { status: 'bad_signature', powod: signature ? 'nieprawidłowy podpis' : 'brak podpisu',\n    topic: headers['x-wc-webhook-topic'] || '-', zamowienie: String(body.number || body.id || '-') } }];\n}\n\n// Test obsługi błędów: notatka „#TEST-BLAD” wywołuje wyjątek → przepływ WF3.\nif ((body.customer_note || '').includes('#TEST-BLAD')) {\n  throw new Error(`Symulowany błąd przetwarzania zamówienia ${body.number} (test WF3)`);\n}\n\nconst b = body.billing || {};\nconst order = {\n  numer: String(body.number || body.id || ''),\n  data: body.date_created || '',\n  klient: `${b.first_name || ''} ${b.last_name || ''}`.trim(),\n  email: (b.email || '').trim(),\n  telefon: b.phone || '',\n  adres: [b.address_1, b.postcode, b.city].filter(Boolean).join(', '),\n  pozycje: (body.line_items || []).map(li => `${li.quantity}× ${li.name}`).join('; '),\n  liczba_pozycji: (body.line_items || []).length,\n  razem: Number(body.total || 0),\n  waluta: body.currency || 'PLN',\n  platnosc: body.payment_method_title || '',\n  status: body.status || '',\n};\n\nconst problemy = [];\nif (!order.email) problemy.push('brak adresu e-mail');\nelse if (!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(order.email)) problemy.push('niepoprawny adres e-mail');\nif (!order.klient) problemy.push('brak imienia i nazwiska');\nif (!b.address_1 || !b.city || !b.postcode) problemy.push('niepełny adres');\nif (order.liczba_pozycji === 0) problemy.push('brak pozycji w zamówieniu');\nif (!(order.razem > 0)) problemy.push('kwota zamówienia ≤ 0');\n\nreturn [{ json: { status: 'ok', order, problemy, poprawne: problemy.length === 0 } }];"
+      },
+      "id": "KNKzamowienie001-01",
+      "name": "Weryfikacja i normalizacja",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        240,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Ping?-c",
+              "leftValue": "={{ $json.status }}",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              },
+              "rightValue": "ping"
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-02",
+      "name": "Ping?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        480,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { ok: true, ping: true } }}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "id": "KNKzamowienie001-03",
+      "name": "Odpowiedź: pong",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        720,
+        40
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Podpis poprawny?-c",
+              "leftValue": "={{ $json.status }}",
+              "operator": {
+                "type": "string",
+                "operation": "equals"
+              },
+              "rightValue": "ok"
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-04",
+      "name": "Podpis poprawny?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        720,
+        260
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Dane kompletne?-c",
+              "leftValue": "={{ $json.poprawne }}",
+              "operator": {
+                "type": "boolean",
+                "operation": "true",
+                "singleValue": true
+              }
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-05",
+      "name": "Dane kompletne?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        960,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz arkusza-0",
+              "name": "zapisano",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-1",
+              "name": "numer",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.numer }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-2",
+              "name": "data_zamowienia",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.data }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-3",
+              "name": "klient",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.klient }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-4",
+              "name": "email",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.email }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-5",
+              "name": "telefon",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.telefon }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-6",
+              "name": "adres",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.adres }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-7",
+              "name": "pozycje",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.pozycje }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-8",
+              "name": "razem",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.razem.toFixed(2) }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-9",
+              "name": "waluta",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.waluta }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-10",
+              "name": "platnosc",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.platnosc }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz arkusza-11",
+              "name": "status",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.status }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-06",
+      "name": "Wiersz arkusza",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1200,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKzamowienie001-07",
+      "name": "Arkusz zamówień: do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1420,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/arkusz_zamowien.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKzamowienie001-08",
+      "name": "Arkusz zamówień: dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1640,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "KawaNaKlik <sklep@kawanaklik.test>",
+        "toEmail": "={{ $('Weryfikacja i normalizacja').first().json.order.email }}",
+        "subject": "=Potwierdzenie zamówienia nr {{ $('Weryfikacja i normalizacja').first().json.order.numer }} – KawaNaKlik",
+        "emailFormat": "html",
+        "html": "=<h2>Dziękujemy za zamówienie!</h2><p>Dzień dobry {{ $('Weryfikacja i normalizacja').first().json.order.klient }},</p><p>przyjęliśmy zamówienie <b>nr {{ $('Weryfikacja i normalizacja').first().json.order.numer }}</b> na kwotę <b>{{ $('Weryfikacja i normalizacja').first().json.order.razem.toFixed(2) }} {{ $('Weryfikacja i normalizacja').first().json.order.waluta }}</b>.</p><p>Produkty: {{ $('Weryfikacja i normalizacja').first().json.order.pozycje }}<br>Adres dostawy: {{ $('Weryfikacja i normalizacja').first().json.order.adres }}<br>Płatność: {{ $('Weryfikacja i normalizacja').first().json.order.platnosc }}</p><p>Zamówienia złożone do 13:00 wysyłamy tego samego dnia.</p><p>Zespół KawaNaKlik</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "KNKzamowienie001-09",
+      "name": "E-mail: potwierdzenie do klienta",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        2080,
+        0
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "KNKsmtpMailpit01",
+          "name": "Mailpit (lokalny SMTP)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL || 'http://localhost:5690/webhook/discord-mock' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ username: 'KawaNaKlik – automaty', content: `🛒 Nowe zamówienie nr ${$('Weryfikacja i normalizacja').first().json.order.numer} – ${$('Weryfikacja i normalizacja').first().json.order.klient}, ${$('Weryfikacja i normalizacja').first().json.order.razem.toFixed(2)} zł (${$('Weryfikacja i normalizacja').first().json.order.platnosc})` }) }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "KNKzamowienie001-10",
+      "name": "Discord: nowe zamówienie",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2300,
+        0
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { ok: true, zamowienie: $('Weryfikacja i normalizacja').first().json.order.numer } }}",
+        "options": {
+          "responseCode": 200
+        }
+      },
+      "id": "KNKzamowienie001-11",
+      "name": "Odpowiedź: 200 OK",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1860,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz logu: walidacja-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: walidacja-1",
+              "name": "zrodlo",
+              "value": "WF1 – walidacja zamówienia",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: walidacja-2",
+              "name": "opis",
+              "value": "={{ 'Zamówienie ' + $('Weryfikacja i normalizacja').first().json.order.numer + ': ' + $('Weryfikacja i normalizacja').first().json.problemy.join(', ') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: walidacja-3",
+              "name": "szczegoly",
+              "value": "={{ $('Weryfikacja i normalizacja').first().json.order.klient + ' <' + $('Weryfikacja i normalizacja').first().json.order.email + '>' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-12",
+      "name": "Wiersz logu: walidacja",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1200,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKzamowienie001-13",
+      "name": "Log błędów (walidacja): do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1420,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/log_bledow.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKzamowienie001-14",
+      "name": "Log błędów (walidacja): dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1640,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "KawaNaKlik <sklep@kawanaklik.test>",
+        "toEmail": "obsluga@kawanaklik.test",
+        "subject": "=⚠ Zamówienie {{ $('Weryfikacja i normalizacja').first().json.order.numer }} wymaga uzupełnienia danych",
+        "emailFormat": "html",
+        "html": "=<p>Zamówienie <b>{{ $('Weryfikacja i normalizacja').first().json.order.numer }}</b> nie przeszło walidacji:</p><ul><li>{{ $('Weryfikacja i normalizacja').first().json.problemy.join('</li><li>') }}</li></ul><p>Klient: {{ $('Weryfikacja i normalizacja').first().json.order.klient || '(brak)' }}, e-mail: {{ $('Weryfikacja i normalizacja').first().json.order.email || '(brak)' }}, tel.: {{ $('Weryfikacja i normalizacja').first().json.order.telefon || '(brak)' }}</p><p>Skontaktuj się z klientem przed wysyłką.</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "KNKzamowienie001-15",
+      "name": "E-mail: alert do obsługi",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        2080,
+        300
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "KNKsmtpMailpit01",
+          "name": "Mailpit (lokalny SMTP)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL || 'http://localhost:5690/webhook/discord-mock' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ username: 'KawaNaKlik – automaty', content: `⚠️ Zamówienie ${$('Weryfikacja i normalizacja').first().json.order.numer} nie przeszło walidacji: ${$('Weryfikacja i normalizacja').first().json.problemy.join(', ')}` }) }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "KNKzamowienie001-16",
+      "name": "Discord: zamówienie do uzupełnienia",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        2300,
+        300
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { ok: false, problemy: $('Weryfikacja i normalizacja').first().json.problemy } }}",
+        "options": {
+          "responseCode": 422
+        }
+      },
+      "id": "KNKzamowienie001-17",
+      "name": "Odpowiedź: 422",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1860,
+        300
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz logu: podpis-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: podpis-1",
+              "name": "zrodlo",
+              "value": "WF1 – webhook zamówień",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: podpis-2",
+              "name": "opis",
+              "value": "={{ 'Odrzucono webhook: ' + $json.powod }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: podpis-3",
+              "name": "szczegoly",
+              "value": "={{ 'topic: ' + $json.topic + ', zamówienie: ' + $json.zamowienie }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKzamowienie001-18",
+      "name": "Wiersz logu: podpis",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        960,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKzamowienie001-19",
+      "name": "Log błędów (podpis): do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1200,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/log_bledow.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKzamowienie001-20",
+      "name": "Log błędów (podpis): dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1420,
+        480
+      ]
+    },
+    {
+      "parameters": {
+        "respondWith": "json",
+        "responseBody": "={{ { ok: false, blad: 'nieprawidłowy podpis webhooka' } }}",
+        "options": {
+          "responseCode": 401
+        }
+      },
+      "id": "KNKzamowienie001-21",
+      "name": "Odpowiedź: 401",
+      "type": "n8n-nodes-base.respondToWebhook",
+      "typeVersion": 1.1,
+      "position": [
+        1640,
+        480
+      ]
+    }
+  ],
+  "connections": {
+    "Arkusz zamówień: do CSV": {
+      "main": [
+        [
+          {
+            "node": "Arkusz zamówień: dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (walidacja): do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (walidacja): dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (podpis): do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (podpis): dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook: nowe zamówienie (WooCommerce)": {
+      "main": [
+        [
+          {
+            "node": "Weryfikacja i normalizacja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Weryfikacja i normalizacja": {
+      "main": [
+        [
+          {
+            "node": "Ping?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Ping?": {
+      "main": [
+        [
+          {
+            "node": "Odpowiedź: pong",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Podpis poprawny?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Podpis poprawny?": {
+      "main": [
+        [
+          {
+            "node": "Dane kompletne?",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wiersz logu: podpis",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Dane kompletne?": {
+      "main": [
+        [
+          {
+            "node": "Wiersz arkusza",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wiersz logu: walidacja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz arkusza": {
+      "main": [
+        [
+          {
+            "node": "Arkusz zamówień: do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Arkusz zamówień: dopisz do pliku": {
+      "main": [
+        [
+          {
+            "node": "Odpowiedź: 200 OK",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Odpowiedź: 200 OK": {
+      "main": [
+        [
+          {
+            "node": "E-mail: potwierdzenie do klienta",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "E-mail: potwierdzenie do klienta": {
+      "main": [
+        [
+          {
+            "node": "Discord: nowe zamówienie",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz logu: walidacja": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (walidacja): do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (walidacja): dopisz do pliku": {
+      "main": [
+        [
+          {
+            "node": "Odpowiedź: 422",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Odpowiedź: 422": {
+      "main": [
+        [
+          {
+            "node": "E-mail: alert do obsługi",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "E-mail: alert do obsługi": {
+      "main": [
+        [
+          {
+            "node": "Discord: zamówienie do uzupełnienia",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz logu: podpis": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (podpis): do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (podpis): dopisz do pliku": {
+      "main": [
+        [
+          {
+            "node": "Odpowiedź: 401",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "executionTimeout": 120,
+    "errorWorkflow": "KNKobslugaBledow"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

@@ -1,0 +1,13 @@
+/*
+Theme Name: KawaNaKlik
+Theme URI: https://github.com/Mateuszl28/KawaNaKlik
+Author: Zespół KawaNaKlik
+Description: Autorski motyw sklepu KawaNaKlik – bloki ACF, własne typy treści (opinie, FAQ), dane globalne w Customizerze.
+Version: 0.2.0
+Requires at least: 6.5
+Requires PHP: 8.2
+License: GPL-2.0-or-later
+Text Domain: kawanaklik
+*/
+
+/* Style motywu są w assets/css/main.css (ładowane przez wp_enqueue_style). */

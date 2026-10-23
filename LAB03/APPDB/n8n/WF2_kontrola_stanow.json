@@ -1,0 +1,589 @@
+{
+  "id": "KNKstanyMagazyn1",
+  "name": "WF2 – Kontrola stanów magazynowych (cron)",
+  "nodes": [
+    {
+      "parameters": {
+        "rule": {
+          "interval": [
+            {
+              "field": "cronExpression",
+              "expression": "0 7 * * *"
+            }
+          ]
+        }
+      },
+      "id": "KNKstanyMagazyn1-00",
+      "name": "Codziennie 07:00",
+      "type": "n8n-nodes-base.scheduleTrigger",
+      "typeVersion": 1.2,
+      "position": [
+        0,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "httpMethod": "GET",
+        "path": "kontrola-stanow",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "KNKstanyMagazyn1-01",
+      "name": "Uruchom na żądanie (GET)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        300
+      ],
+      "webhookId": "knk-kontrola-stanow"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Konfiguracja-0",
+              "name": "prog",
+              "value": "5",
+              "type": "number"
+            },
+            {
+              "id": "Konfiguracja-1",
+              "name": "api",
+              "value": "https://kawanaklik.local/wp-json/wc/v3/products",
+              "type": "string"
+            },
+            {
+              "id": "Konfiguracja-2",
+              "name": "magazyn",
+              "value": "magazyn@kawanaklik.test",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKstanyMagazyn1-02",
+      "name": "Konfiguracja",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        240,
+        200
+      ]
+    },
+    {
+      "parameters": {
+        "url": "={{ $json.api }}",
+        "authentication": "predefinedCredentialType",
+        "nodeCredentialType": "wooCommerceApi",
+        "sendQuery": true,
+        "queryParameters": {
+          "parameters": [
+            {
+              "name": "per_page",
+              "value": "100"
+            },
+            {
+              "name": "status",
+              "value": "publish"
+            }
+          ]
+        },
+        "options": {
+          "allowUnauthorizedCerts": true,
+          "timeout": 10000
+        }
+      },
+      "id": "KNKstanyMagazyn1-03",
+      "name": "API WooCommerce: produkty",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        480,
+        200
+      ],
+      "credentials": {
+        "wooCommerceApi": {
+          "id": "KNKwooCommerce01",
+          "name": "WooCommerce KawaNaKlik (test)"
+        }
+      },
+      "retryOnFail": true,
+      "maxTries": 3,
+      "waitBetweenTries": 3000,
+      "onError": "continueErrorOutput"
+    },
+    {
+      "parameters": {
+        "jsCode": "// Produkty z włączonym stanem magazynowym i stanem ≤ progu.\nconst cfg = $('Konfiguracja').first().json;\nconst all = $input.all().map(i => i.json);\nconst low = all\n  .filter(p => p.manage_stock && Number(p.stock_quantity) <= cfg.prog)\n  .sort((a, b) => a.stock_quantity - b.stock_quantity)\n  .map(p => ({ nazwa: p.name, sku: p.sku, stan: Number(p.stock_quantity) }));\nconst rows = low.map(p => `<tr><td>${p.nazwa}</td><td>${p.sku}</td><td align=\"right\"><b>${p.stan}</b></td></tr>`).join('');\nreturn [{ json: {\n  sprawdzono: all.length, prog: cfg.prog, liczba: low.length, produkty: low,\n  tekst: low.map(p => `• ${p.nazwa} (${p.sku}): ${p.stan} szt.`).join('\\n'),\n  html: `<p>Kontrola z ${$now.toFormat('dd.LL.yyyy HH:mm')}: ${low.length} z ${all.length} produktów ma stan ≤ ${cfg.prog} szt.</p>` +\n        `<table border=\"1\" cellpadding=\"6\" style=\"border-collapse:collapse\"><tr><th>Produkt</th><th>SKU</th><th>Stan</th></tr>${rows}</table>`,\n} }];"
+      },
+      "id": "KNKstanyMagazyn1-04",
+      "name": "Niskie stany",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        720,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "conditions": {
+          "options": {
+            "caseSensitive": true,
+            "leftValue": "",
+            "typeValidation": "loose",
+            "version": 2
+          },
+          "conditions": [
+            {
+              "id": "Są niskie stany?-c",
+              "leftValue": "={{ $json.liczba }}",
+              "operator": {
+                "type": "number",
+                "operation": "gt"
+              },
+              "rightValue": 0
+            }
+          ],
+          "combinator": "and"
+        },
+        "options": {}
+      },
+      "id": "KNKstanyMagazyn1-05",
+      "name": "Są niskie stany?",
+      "type": "n8n-nodes-base.if",
+      "typeVersion": 2.2,
+      "position": [
+        960,
+        100
+      ]
+    },
+    {
+      "parameters": {
+        "fromEmail": "KawaNaKlik <sklep@kawanaklik.test>",
+        "toEmail": "={{ $('Konfiguracja').first().json.magazyn }}",
+        "subject": "=📦 Niskie stany magazynowe: {{ $('Niskie stany').first().json.liczba }} produkty",
+        "emailFormat": "html",
+        "html": "={{ $('Niskie stany').first().json.html }}<p>Zamów towar u dostawcy. Raport wysłał automat n8n.</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "KNKstanyMagazyn1-06",
+      "name": "E-mail: raport do magazynu",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        1200,
+        0
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "KNKsmtpMailpit01",
+          "name": "Mailpit (lokalny SMTP)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL || 'http://localhost:5690/webhook/discord-mock' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ username: 'KawaNaKlik – automaty', content: `📦 Niskie stany (≤ ${$('Niskie stany').first().json.prog} szt.):\\n${$('Niskie stany').first().json.tekst}` }) }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "KNKstanyMagazyn1-07",
+      "name": "Discord: alert stanów",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1420,
+        0
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz logu kontroli-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu kontroli-1",
+              "name": "sprawdzono",
+              "value": "={{ $('Niskie stany').first().json.sprawdzono }}",
+              "type": "number"
+            },
+            {
+              "id": "Wiersz logu kontroli-2",
+              "name": "niskie",
+              "value": "={{ $('Niskie stany').first().json.liczba }}",
+              "type": "number"
+            },
+            {
+              "id": "Wiersz logu kontroli-3",
+              "name": "produkty",
+              "value": "={{ $('Niskie stany').first().json.produkty.map(p => p.sku + '=' + p.stan).join(', ') || 'wszystko OK' }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKstanyMagazyn1-08",
+      "name": "Wiersz logu kontroli",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        1660,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKstanyMagazyn1-09",
+      "name": "Log kontroli: do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        1880,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/log_kontroli_stanow.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKstanyMagazyn1-10",
+      "name": "Log kontroli: dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        2100,
+        160
+      ]
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiersz logu: awaria API-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: awaria API-1",
+              "name": "zrodlo",
+              "value": "WF2 – API WooCommerce",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: awaria API-2",
+              "name": "opis",
+              "value": "API WooCommerce nie odpowiada (3 próby, co 3 s)",
+              "type": "string"
+            },
+            {
+              "id": "Wiersz logu: awaria API-3",
+              "name": "szczegoly",
+              "value": "={{ $json.error?.message || $json.message || JSON.stringify($json).slice(0, 200) }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKstanyMagazyn1-11",
+      "name": "Wiersz logu: awaria API",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        720,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKstanyMagazyn1-12",
+      "name": "Log błędów (API): do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        960,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/log_bledow.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKstanyMagazyn1-13",
+      "name": "Log błędów (API): dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        1180,
+        380
+      ]
+    },
+    {
+      "parameters": {
+        "method": "POST",
+        "url": "={{ $env.DISCORD_WEBHOOK_URL || 'http://localhost:5690/webhook/discord-mock' }}",
+        "sendBody": true,
+        "specifyBody": "json",
+        "jsonBody": "={{ JSON.stringify({ username: 'KawaNaKlik – automaty', content: `🔴 Kontrola stanów nie powiodła się – API WooCommerce nie odpowiada. Sprawdź serwer sklepu.` }) }}",
+        "options": {
+          "timeout": 5000
+        }
+      },
+      "id": "KNKstanyMagazyn1-14",
+      "name": "Discord: awaria API",
+      "type": "n8n-nodes-base.httpRequest",
+      "typeVersion": 4.2,
+      "position": [
+        1400,
+        380
+      ],
+      "retryOnFail": true,
+      "maxTries": 2,
+      "waitBetweenTries": 1000,
+      "onError": "continueRegularOutput"
+    },
+    {
+      "parameters": {
+        "fromEmail": "KawaNaKlik <sklep@kawanaklik.test>",
+        "toEmail": "kierownik@kawanaklik.test",
+        "subject": "=🔴 Awaria API WooCommerce – kontrola stanów nie wykonana",
+        "emailFormat": "html",
+        "html": "=<p>Automat n8n nie mógł pobrać produktów z API sklepu ({{ $now.toFormat('dd.LL.yyyy HH:mm') }}).</p><p>Szczegóły: {{ $('Wiersz logu: awaria API').first().json.szczegoly }}</p><p>Kontrola zostanie powtórzona jutro o 07:00 – można ją też uruchomić ręcznie.</p>",
+        "options": {
+          "appendAttribution": false
+        }
+      },
+      "id": "KNKstanyMagazyn1-15",
+      "name": "E-mail: awaria do kierownika",
+      "type": "n8n-nodes-base.emailSend",
+      "typeVersion": 2.1,
+      "position": [
+        1620,
+        380
+      ],
+      "credentials": {
+        "smtp": {
+          "id": "KNKsmtpMailpit01",
+          "name": "Mailpit (lokalny SMTP)"
+        }
+      },
+      "onError": "continueRegularOutput"
+    }
+  ],
+  "connections": {
+    "Log kontroli: do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log kontroli: dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (API): do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (API): dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Codziennie 07:00": {
+      "main": [
+        [
+          {
+            "node": "Konfiguracja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Uruchom na żądanie (GET)": {
+      "main": [
+        [
+          {
+            "node": "Konfiguracja",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Konfiguracja": {
+      "main": [
+        [
+          {
+            "node": "API WooCommerce: produkty",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "API WooCommerce: produkty": {
+      "main": [
+        [
+          {
+            "node": "Niskie stany",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wiersz logu: awaria API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Niskie stany": {
+      "main": [
+        [
+          {
+            "node": "Są niskie stany?",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Są niskie stany?": {
+      "main": [
+        [
+          {
+            "node": "E-mail: raport do magazynu",
+            "type": "main",
+            "index": 0
+          }
+        ],
+        [
+          {
+            "node": "Wiersz logu kontroli",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "E-mail: raport do magazynu": {
+      "main": [
+        [
+          {
+            "node": "Discord: alert stanów",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Discord: alert stanów": {
+      "main": [
+        [
+          {
+            "node": "Wiersz logu kontroli",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz logu kontroli": {
+      "main": [
+        [
+          {
+            "node": "Log kontroli: do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiersz logu: awaria API": {
+      "main": [
+        [
+          {
+            "node": "Log błędów (API): do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Log błędów (API): dopisz do pliku": {
+      "main": [
+        [
+          {
+            "node": "Discord: awaria API",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Discord: awaria API": {
+      "main": [
+        [
+          {
+            "node": "E-mail: awaria do kierownika",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "executionTimeout": 120,
+    "errorWorkflow": "KNKobslugaBledow"
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}

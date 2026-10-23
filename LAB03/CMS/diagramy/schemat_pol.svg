@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="992" height="708" viewBox="0 0 992 708" font-family="Segoe UI, Arial, sans-serif"><rect width="992" height="708" fill="#fff"/>
+<text x="24" y="30" font-size="17" font-weight="700" fill="#4a2a19">Grupy pól ACF – motyw KawaNaKlik (źródło: acf-json/)</text>
+<rect x="24" y="50" width="460" height="158" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="24" y="50" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="24" y="70" width="460" height="10" fill="#6b3e26"/>
+<text x="36" y="70" font-size="13.5" font-weight="700" fill="#fff">Blok: Hero</text>
+<text x="472" y="70" font-size="11" fill="#f3e6d8" text-anchor="end">Blok = acf/hero</text>
+<text x="36" y="96" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="199" y="96" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="294" y="96" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="25" y="104" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="118" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">title</text>
+<text x="199" y="118" font-size="11.5" fill="#1f1a17">text</text>
+<text x="294" y="118" font-size="11" fill="#555">tekst</text>
+<text x="36" y="139" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">text</text>
+<text x="199" y="139" font-size="11.5" fill="#1f1a17">textarea</text>
+<text x="294" y="139" font-size="11" fill="#555">tekst</text>
+<rect x="25" y="146" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="160" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">image</text>
+<text x="199" y="160" font-size="11.5" fill="#1f1a17">image</text>
+<text x="294" y="160" font-size="11" fill="#555">zwraca: id</text>
+<text x="36" y="181" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">button</text>
+<text x="199" y="181" font-size="11.5" fill="#1f1a17">link</text>
+<text x="294" y="181" font-size="11" fill="#555">zwraca: array</text>
+<rect x="24" y="232" width="460" height="137" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="24" y="232" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="24" y="252" width="460" height="10" fill="#6b3e26"/>
+<text x="36" y="252" font-size="13.5" font-weight="700" fill="#fff">Blok: Opinie klientów</text>
+<text x="472" y="252" font-size="11" fill="#f3e6d8" text-anchor="end">Blok = acf/opinie</text>
+<text x="36" y="278" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="199" y="278" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="294" y="278" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="25" y="286" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="300" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">title</text>
+<text x="199" y="300" font-size="11.5" fill="#1f1a17">text</text>
+<text x="294" y="300" font-size="11" fill="#555">tekst</text>
+<text x="36" y="321" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">count</text>
+<text x="199" y="321" font-size="11.5" fill="#1f1a17">number</text>
+<text x="294" y="321" font-size="11" fill="#555">liczba 1–12</text>
+<rect x="25" y="328" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="342" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">min_rating</text>
+<text x="199" y="342" font-size="11.5" fill="#1f1a17">select</text>
+<text x="294" y="342" font-size="11" fill="#555">zwraca: value</text>
+<rect x="24" y="393" width="460" height="116" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="24" y="393" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="24" y="413" width="460" height="10" fill="#6b3e26"/>
+<text x="36" y="413" font-size="13.5" font-weight="700" fill="#fff">Blok: FAQ</text>
+<text x="472" y="413" font-size="11" fill="#f3e6d8" text-anchor="end">Blok = acf/faq</text>
+<text x="36" y="439" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="199" y="439" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="294" y="439" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="25" y="447" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="461" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">title</text>
+<text x="199" y="461" font-size="11.5" fill="#1f1a17">text</text>
+<text x="294" y="461" font-size="11" fill="#555">tekst</text>
+<text x="36" y="482" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">count</text>
+<text x="199" y="482" font-size="11.5" fill="#1f1a17">number</text>
+<text x="294" y="482" font-size="11" fill="#555">liczba 1–20</text>
+<rect x="24" y="533" width="460" height="137" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="24" y="533" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="24" y="553" width="460" height="10" fill="#6b3e26"/>
+<text x="36" y="553" font-size="13.5" font-weight="700" fill="#fff">Opinia – szczegóły</text>
+<text x="472" y="553" font-size="11" fill="#f3e6d8" text-anchor="end">Typ treści = opinia</text>
+<text x="36" y="579" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="199" y="579" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="294" y="579" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="25" y="587" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="601" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">ocena</text>
+<text x="199" y="601" font-size="11.5" fill="#1f1a17">select</text>
+<text x="294" y="601" font-size="11" fill="#555">zwraca: value</text>
+<text x="36" y="622" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">miasto</text>
+<text x="199" y="622" font-size="11.5" fill="#1f1a17">text</text>
+<text x="294" y="622" font-size="11" fill="#555">tekst</text>
+<rect x="25" y="629" width="458" height="21" fill="#f1ebe4"/>
+<text x="36" y="643" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">produkt</text>
+<text x="199" y="643" font-size="11.5" fill="#1f1a17">post_object</text>
+<text x="294" y="643" font-size="11" fill="#555">zwraca: id (product)</text>
+<rect x="508" y="50" width="460" height="431" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="508" y="50" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="508" y="70" width="460" height="10" fill="#6b3e26"/>
+<text x="520" y="70" font-size="13.5" font-weight="700" fill="#fff">Blok: Przewagi (USP)</text>
+<text x="956" y="70" font-size="11" fill="#f3e6d8" text-anchor="end">Blok = acf/usp</text>
+<text x="520" y="96" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="683" y="96" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="778" y="96" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="509" y="104" width="458" height="21" fill="#f1ebe4"/>
+<text x="520" y="118" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">title</text>
+<text x="683" y="118" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="118" font-size="11" fill="#555">tekst</text>
+<text x="520" y="139" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">usp_1</text>
+<text x="683" y="139" font-size="11.5" fill="#1f1a17">group</text>
+<text x="778" y="139" font-size="11" fill="#555">tablica pól</text>
+<rect x="509" y="146" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="160" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ icon</text>
+<text x="683" y="160" font-size="11.5" fill="#1f1a17">select</text>
+<text x="778" y="160" font-size="11" fill="#555">zwraca: value</text>
+<text x="536" y="181" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ title</text>
+<text x="683" y="181" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="181" font-size="11" fill="#555">tekst</text>
+<rect x="509" y="188" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="202" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ text</text>
+<text x="683" y="202" font-size="11.5" fill="#1f1a17">textarea</text>
+<text x="778" y="202" font-size="11" fill="#555">tekst</text>
+<text x="520" y="223" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">usp_2</text>
+<text x="683" y="223" font-size="11.5" fill="#1f1a17">group</text>
+<text x="778" y="223" font-size="11" fill="#555">tablica pól</text>
+<rect x="509" y="230" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="244" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ icon</text>
+<text x="683" y="244" font-size="11.5" fill="#1f1a17">select</text>
+<text x="778" y="244" font-size="11" fill="#555">zwraca: value</text>
+<text x="536" y="265" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ title</text>
+<text x="683" y="265" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="265" font-size="11" fill="#555">tekst</text>
+<rect x="509" y="272" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="286" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ text</text>
+<text x="683" y="286" font-size="11.5" fill="#1f1a17">textarea</text>
+<text x="778" y="286" font-size="11" fill="#555">tekst</text>
+<text x="520" y="307" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">usp_3</text>
+<text x="683" y="307" font-size="11.5" fill="#1f1a17">group</text>
+<text x="778" y="307" font-size="11" fill="#555">tablica pól</text>
+<rect x="509" y="314" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="328" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ icon</text>
+<text x="683" y="328" font-size="11.5" fill="#1f1a17">select</text>
+<text x="778" y="328" font-size="11" fill="#555">zwraca: value</text>
+<text x="536" y="349" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ title</text>
+<text x="683" y="349" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="349" font-size="11" fill="#555">tekst</text>
+<rect x="509" y="356" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="370" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ text</text>
+<text x="683" y="370" font-size="11.5" fill="#1f1a17">textarea</text>
+<text x="778" y="370" font-size="11" fill="#555">tekst</text>
+<text x="520" y="391" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">usp_4</text>
+<text x="683" y="391" font-size="11.5" fill="#1f1a17">group</text>
+<text x="778" y="391" font-size="11" fill="#555">tablica pól</text>
+<rect x="509" y="398" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="412" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ icon</text>
+<text x="683" y="412" font-size="11.5" fill="#1f1a17">select</text>
+<text x="778" y="412" font-size="11" fill="#555">zwraca: value</text>
+<text x="536" y="433" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ title</text>
+<text x="683" y="433" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="433" font-size="11" fill="#555">tekst</text>
+<rect x="509" y="440" width="458" height="21" fill="#f1ebe4"/>
+<text x="536" y="454" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">└ text</text>
+<text x="683" y="454" font-size="11.5" fill="#1f1a17">textarea</text>
+<text x="778" y="454" font-size="11" fill="#555">tekst</text>
+<rect x="508" y="505" width="460" height="116" rx="8" fill="#faf7f4" stroke="#6b3e26"/>
+<rect x="508" y="505" width="460" height="30" rx="8" fill="#6b3e26"/>
+<rect x="508" y="525" width="460" height="10" fill="#6b3e26"/>
+<text x="520" y="525" font-size="13.5" font-weight="700" fill="#fff">Blok: Z bloga</text>
+<text x="956" y="525" font-size="11" fill="#f3e6d8" text-anchor="end">Blok = acf/blog</text>
+<text x="520" y="551" font-size="10.5" font-weight="700" fill="#555">nazwa pola</text><text x="683" y="551" font-size="10.5" font-weight="700" fill="#555">typ</text><text x="778" y="551" font-size="10.5" font-weight="700" fill="#555">format / wartość w PHP</text>
+<rect x="509" y="559" width="458" height="21" fill="#f1ebe4"/>
+<text x="520" y="573" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">title</text>
+<text x="683" y="573" font-size="11.5" fill="#1f1a17">text</text>
+<text x="778" y="573" font-size="11" fill="#555">tekst</text>
+<text x="520" y="594" font-size="11.5" font-family="Consolas, monospace" fill="#1f1a17">count</text>
+<text x="683" y="594" font-size="11.5" fill="#1f1a17">number</text>
+<text x="778" y="594" font-size="11" fill="#555">liczba 1–9</text>
+</svg>

@@ -1,0 +1,104 @@
+{
+    "key": "group_knk_opinia",
+    "title": "Opinia – szczegóły",
+    "fields": [
+        {
+            "key": "field_knk_opinia_ocena",
+            "label": "Ocena",
+            "name": "ocena",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "30",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "5": "★★★★★",
+                "4": "★★★★",
+                "3": "★★★",
+                "2": "★★",
+                "1": "★"
+            },
+            "default_value": 5,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 0,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "create_options": 0,
+            "save_options": 0
+        },
+        {
+            "key": "field_knk_opinia_miasto",
+            "label": "Miasto klienta",
+            "name": "miasto",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "35",
+                "class": "",
+                "id": ""
+            },
+            "maxlength": 60,
+            "default_value": "",
+            "placeholder": "np. Kraków",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_knk_opinia_produkt",
+            "label": "Produkt",
+            "name": "produkt",
+            "aria-label": "",
+            "type": "post_object",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "35",
+                "class": "",
+                "id": ""
+            },
+            "post_type": [
+                "product"
+            ],
+            "taxonomy": "",
+            "return_format": "id",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 1,
+            "bidirectional": 0,
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "opinia"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Ocena, miasto i produkt w opinii klienta",
+    "show_in_rest": 0,
+    "display_title": "",
+    "allow_ai_access": false,
+    "ai_description": "",
+    "modified": 1792620420
+}

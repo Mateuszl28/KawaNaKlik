@@ -1,0 +1,5 @@
+{"id": 9001, "number": "9001", "status": "processing", "currency": "PLN", "total": "64.50",
+ "date_created": "2026-10-23T20:30:00", "payment_method_title": "Przelew bankowy", "customer_note": "T2b - niepoprawny e-mail",
+ "billing": {"first_name": "Jan", "last_name": "Kowalski", "address_1": "ul. Robusta 3", "city": "Poznań",
+             "postcode": "60-001", "country": "PL", "email": "jan.kowalski@poczta", "phone": "+48 700 300 400"},
+ "line_items": [{"name": "Brazylia Santos 500 g", "quantity": 1, "total": "64.50"}]}

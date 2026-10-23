@@ -1,0 +1,7 @@
+﻿czas;zrodlo;opis;szczegoly
+2026-10-23 20:18:22;WF2 – API WooCommerce;API WooCommerce nie odpowiada (3 próby, co 3 s);Bad gateway - the service failed to handle your request
+2026-10-23 20:19:21;WF1 – walidacja zamówienia;Zamówienie 157: brak adresu e-mail, niepełny adres;Ewa Niepełna <>
+2026-10-23 20:19:33;WF1 – walidacja zamówienia;Zamówienie 9001: niepoprawny adres e-mail;Jan Kowalski <jan.kowalski@poczta>
+2026-10-23 20:19:37;WF1 – webhook zamówień;Odrzucono webhook: nieprawidłowy podpis;topic: order.created, zamówienie: 999
+2026-10-23 20:19:39;WF1 – webhook zamówień;Odrzucono webhook: brak podpisu;topic: -, zamówienie: 998
+2026-10-23 20:19:43;WF1 – Zamówienie → arkusz → e-mail → Discord;Symulowany błąd przetwarzania zamówienia 158 (test WF3) [line 27];węzeł: Weryfikacja i normalizacja, wykonanie #55

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "acf/opinie",
+  "title": "Opinie klientów",
+  "description": "Opinie pobierane z typu treści Opinia",
+  "category": "kawanaklik",
+  "icon": "format-quote",
+  "keywords": [
+    "opinie",
+    "recenzje"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "anchor": true,
+    "align": false,
+    "html": false
+  },
+  "style": "file:./style.css"
+}

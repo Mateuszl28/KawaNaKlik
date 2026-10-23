@@ -1,0 +1,99 @@
+
+=================== T7 – awaria API: zatrzymana strona sklepu (Local) → 3 próby → log + alert
+czas: 2026-10-23 20:17:59
+{"data":{"stopSite":{"id":"bqJE9fRP1q","status":"halted"}}}
+
+{"message":"Workflow was started"}  [HTTP 200]
+--- log_bledow.csv (ostatnie 1):
+2026-10-23 20:18:22;WF2 – API WooCommerce;API WooCommerce nie odpowiada (3 próby, co 3 s);Bad gateway - the service failed to handle your request
+--- discord_mock.csv (ostatnie 1):
+2026-10-23 20:18:22;KawaNaKlik – automaty;🔴 Kontrola stanów nie powiodła się – API WooCommerce nie odpowiada. Sprawdź serwer sklepu.
+{"data":{"startSite":{"id":"bqJE9fRP1q","status":"running"}}}
+
+sklep znowu odpowiada
+
+=================== T1 – poprawne zamówienie (WooCommerce → webhook → arkusz → e-mail → Discord)
+czas: 2026-10-23 20:18:56
+WooCommerce: utworzono zamówienie 156 kwota 119.70
+--- arkusz_zamowien.csv (ostatnie 1):
+2026-10-23 20:19:06;156;2026-10-23T20:19:05;Anna Testowa;anna.testowa@example.com;+48 500 100 200;ul. Kawowa 12, 30-001, Kraków;"2× Etiopia Yirgacheffe 250 g; 1× Filtry papierowe 100 szt.";119.70;PLN;Przelew bankowy;processing
+--- discord_mock.csv (ostatnie 1):
+2026-10-23 20:19:06;KawaNaKlik – automaty;🛒 Nowe zamówienie nr 156 – Anna Testowa, 119.70 zł (Przelew bankowy)
+--- Mailpit (ostatnie 3):
+  20:19:06 anna.testowa@example.com | Potwierdzenie zamówienia nr 156 – KawaNaKlik
+  20:19:06 anna.testowa@example.com | [KawaNaKlik] Otrzymaliśmy twoje zamówienie!
+  20:19:06 admin@kawanaklik.local | [KawaNaKlik]: Masz nowe zamówienie: #156
+
+=================== T2 – zamówienie bez e-maila i adresu (dane niekompletne)
+czas: 2026-10-23 20:19:15
+WooCommerce: utworzono zamówienie 157 kwota 44.90
+--- log_bledow.csv (ostatnie 1):
+2026-10-23 20:19:21;WF1 – walidacja zamówienia;Zamówienie 157: brak adresu e-mail, niepełny adres;Ewa Niepełna <>
+--- discord_mock.csv (ostatnie 1):
+2026-10-23 20:19:22;KawaNaKlik – automaty;⚠️ Zamówienie 157 nie przeszło walidacji: brak adresu e-mail, niepełny adres
+--- Mailpit (ostatnie 1):
+  20:19:21 obsluga@kawanaklik.test | ⚠ Zamówienie 157 wymaga uzupełnienia danych
+
+=================== T2b – niepoprawny adres e-mail (podpisany webhook wysłany bezpośrednio)
+czas: 2026-10-23 20:19:29
+422 {"ok":false,"problemy":["niepoprawny adres e-mail"]} 0.4s
+--- log_bledow.csv (ostatnie 1):
+2026-10-23 20:19:33;WF1 – walidacja zamówienia;Zamówienie 9001: niepoprawny adres e-mail;Jan Kowalski <jan.kowalski@poczta>
+
+=================== T3 – fałszywy podpis HMAC
+czas: 2026-10-23 20:19:37
+{"ok":false,"blad":"nieprawidłowy podpis webhooka"}  [HTTP 401]
+
+=================== T3b – brak podpisu
+czas: 2026-10-23 20:19:38
+{"ok":false,"blad":"nieprawidłowy podpis webhooka"}  [HTTP 401]
+--- log_bledow.csv (ostatnie 2):
+2026-10-23 20:19:37;WF1 – webhook zamówień;Odrzucono webhook: nieprawidłowy podpis;topic: order.created, zamówienie: 999
+2026-10-23 20:19:39;WF1 – webhook zamówień;Odrzucono webhook: brak podpisu;topic: -, zamówienie: 998
+
+=================== T4 – ping WooCommerce przy zapisie webhooka
+czas: 2026-10-23 20:19:41
+{"ok":true,"ping":true}  [HTTP 200]
+
+=================== T5 – nieobsłużony wyjątek w WF1 (notatka #TEST-BLAD) → WF3 Error Trigger
+czas: 2026-10-23 20:19:42
+WooCommerce: utworzono zamówienie 158 kwota 64.50
+--- log_bledow.csv (ostatnie 1):
+2026-10-23 20:19:43;WF1 – Zamówienie → arkusz → e-mail → Discord;Symulowany błąd przetwarzania zamówienia 158 (test WF3) [line 27];węzeł: Weryfikacja i normalizacja, wykonanie #55
+--- discord_mock.csv (ostatnie 1):
+2026-10-23 20:19:43;KawaNaKlik – automaty;🛑 Błąd w przepływie „WF1 – Zamówienie → arkusz → e-mail → Discord”: Symulowany błąd przetwarzania zamówienia 158 (test WF3) [line 27]
+--- Mailpit (ostatnie 1):
+  20:19:43 admin@kawanaklik.test | 🛑 Błąd przepływu n8n: WF1 – Zamówienie → arkusz → e-mail → Discord
+
+=================== T6 – kontrola stanów magazynowych (to samo co cron 07:00, uruchomione przez GET)
+czas: 2026-10-23 20:19:52
+{"message":"Workflow was started"}  [HTTP 200]
+--- log_kontroli_stanow.csv (ostatnie 1):
+2026-10-23 20:19:54;11;4;KNK-POR=0, KNK-ESP-1000=0, KNK-MEX-250M=1, KNK-MLY=5
+--- discord_mock.csv (ostatnie 5):
+2026-10-23 20:19:54;KawaNaKlik – automaty;"📦 Niskie stany (≤ 5 szt.):
+ • Zestaw „Poranek” (kawa + kubek) (KNK-POR): 0 szt.
+• Espresso Blend 1 kg (KNK-ESP-1000): 0 szt.
+• Bezkofeinowa Meksyk mielona 250 g (KNK-MEX-250M): 1 szt.
+• Młynek ręczny stalowy (KNK-MLY): 5 szt."
+--- Mailpit (ostatnie 1):
+  20:19:54 magazyn@kawanaklik.test | 📦 Niskie stany magazynowe: 4 produkty
+
+=================== Podsumowanie wykonań w n8n
+czas: 2026-10-23 20:20:05
+ #59 KNKmockDiscord01  success  18:19:54
+ #58 KNKstanyMagazyn1  success  18:19:53
+ #57 KNKmockDiscord01  success  18:19:43
+ #56 KNKobslugaBledow  success  18:19:43
+ #55 KNKzamowienie001  error    18:19:43
+ #54 KNKzamowienie001  success  18:19:41
+ #53 KNKzamowienie001  success  18:19:39
+ #52 KNKzamowienie001  success  18:19:37
+ #51 KNKmockDiscord01  success  18:19:33
+ #50 KNKzamowienie001  success  18:19:33
+ #49 KNKmockDiscord01  success  18:19:22
+ #48 KNKzamowienie001  success  18:19:21
+ #47 KNKmockDiscord01  success  18:19:06
+ #46 KNKzamowienie001  success  18:19:06
+ #45 KNKmockDiscord01  success  18:18:22
+ #44 KNKstanyMagazyn1  success  18:18:10

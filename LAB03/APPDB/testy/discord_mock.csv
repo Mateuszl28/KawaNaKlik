@@ -1,0 +1,11 @@
+﻿czas;nadawca;tresc
+2026-10-23 20:18:22;KawaNaKlik – automaty;🔴 Kontrola stanów nie powiodła się – API WooCommerce nie odpowiada. Sprawdź serwer sklepu.
+2026-10-23 20:19:06;KawaNaKlik – automaty;🛒 Nowe zamówienie nr 156 – Anna Testowa, 119.70 zł (Przelew bankowy)
+2026-10-23 20:19:22;KawaNaKlik – automaty;⚠️ Zamówienie 157 nie przeszło walidacji: brak adresu e-mail, niepełny adres
+2026-10-23 20:19:33;KawaNaKlik – automaty;⚠️ Zamówienie 9001 nie przeszło walidacji: niepoprawny adres e-mail
+2026-10-23 20:19:43;KawaNaKlik – automaty;🛑 Błąd w przepływie „WF1 – Zamówienie → arkusz → e-mail → Discord”: Symulowany błąd przetwarzania zamówienia 158 (test WF3) [line 27]
+2026-10-23 20:19:54;KawaNaKlik – automaty;"📦 Niskie stany (≤ 5 szt.):
+ • Zestaw „Poranek” (kawa + kubek) (KNK-POR): 0 szt.
+• Espresso Blend 1 kg (KNK-ESP-1000): 0 szt.
+• Bezkofeinowa Meksyk mielona 250 g (KNK-MEX-250M): 1 szt.
+• Młynek ręczny stalowy (KNK-MLY): 5 szt."

@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "acf/hero",
+  "title": "Hero",
+  "description": "Duży baner z tytułem, opisem, zdjęciem i przyciskiem",
+  "category": "kawanaklik",
+  "icon": "cover-image",
+  "keywords": [
+    "baner",
+    "nagłówek"
+  ],
+  "acf": {
+    "mode": "preview",
+    "renderTemplate": "render.php"
+  },
+  "supports": {
+    "anchor": true,
+    "align": false,
+    "html": false
+  },
+  "style": "file:./style.css"
+}

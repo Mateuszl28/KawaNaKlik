@@ -1,0 +1,131 @@
+{
+  "id": "KNKmockDiscord01",
+  "name": "WF0 – Mock Discord (test)",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "discord-mock",
+        "responseMode": "onReceived",
+        "options": {}
+      },
+      "id": "KNKmockDiscord01-00",
+      "name": "Webhook Discord (mock)",
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2,
+      "position": [
+        0,
+        0
+      ],
+      "webhookId": "knk-discord-mock"
+    },
+    {
+      "parameters": {
+        "assignments": {
+          "assignments": [
+            {
+              "id": "Wiadomość-0",
+              "name": "czas",
+              "value": "={{ $now.toFormat('yyyy-LL-dd HH:mm:ss') }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiadomość-1",
+              "name": "nadawca",
+              "value": "={{ $json.body.username }}",
+              "type": "string"
+            },
+            {
+              "id": "Wiadomość-2",
+              "name": "tresc",
+              "value": "={{ $json.body.content }}",
+              "type": "string"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "KNKmockDiscord01-01",
+      "name": "Wiadomość",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 3.4,
+      "position": [
+        220,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "jsCode": "// Jeden wiersz CSV (separator ;) na element – bez BOM i z końcem linii, żeby dopisywanie nie sklejało wierszy.\nconst esc = v => {\n  const s = v === null || v === undefined ? '' : String(v);\n  return /[\";\\r\\n]/.test(s) ? '\"' + s.replace(/\"/g, '\"\"') + '\"' : s;\n};\nreturn $input.all().map(item => ({\n  json: item.json,\n  binary: { data: {\n    data: Buffer.from(Object.values(item.json).map(esc).join(';') + '\\r\\n', 'utf8').toString('base64'),\n    mimeType: 'text/csv', fileName: 'wiersz.csv' } },\n}));"
+      },
+      "id": "KNKmockDiscord01-02",
+      "name": "Log Discord: do CSV",
+      "type": "n8n-nodes-base.code",
+      "typeVersion": 2,
+      "position": [
+        440,
+        0
+      ]
+    },
+    {
+      "parameters": {
+        "operation": "write",
+        "fileName": "C:/Users/lagoc/.n8n-kawanaklik/pliki/discord_mock.csv",
+        "options": {
+          "append": true
+        }
+      },
+      "id": "KNKmockDiscord01-03",
+      "name": "Log Discord: dopisz do pliku",
+      "type": "n8n-nodes-base.readWriteFile",
+      "typeVersion": 1,
+      "position": [
+        660,
+        0
+      ]
+    }
+  ],
+  "connections": {
+    "Log Discord: do CSV": {
+      "main": [
+        [
+          {
+            "node": "Log Discord: dopisz do pliku",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Webhook Discord (mock)": {
+      "main": [
+        [
+          {
+            "node": "Wiadomość",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Wiadomość": {
+      "main": [
+        [
+          {
+            "node": "Log Discord: do CSV",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "settings": {
+    "executionOrder": "v1",
+    "saveManualExecutions": true,
+    "executionTimeout": 120
+  },
+  "active": false,
+  "pinData": {},
+  "tags": []
+}
